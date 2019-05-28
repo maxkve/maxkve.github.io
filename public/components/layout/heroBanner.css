@@ -1,0 +1,170 @@
+.hero-banner {
+  width: 100%;
+  position: relative;
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-banner__header {
+  z-index: 1;
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__background {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+  filter: blur(5px);
+}
+
+.hero-banner__header:before,
+.hero-banner__header:after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(50, 50, 50, 1) 50%, rgba(0, 0, 0, 0) 100%);
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.header__guild-info {
+  z-index: 1;
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.header__name {
+  color: rgba(255, 255, 255, 0.87);
+  /* color: #FB8C00; */
+  text-transform: uppercase;
+  font-size: 2.4vh;
+  font-weight: 900;
+}
+
+.header__server {
+  color: rgba(255, 255, 255, 0.26);
+  font-size: 1.6vh;
+  font-weight: 600;
+}
+
+.header__apply {
+  z-index: 1;
+  margin-right: 5vw;
+  height: 48px;
+  width: 128px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__apply button {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.hero-banner__text {
+  padding-top: 5vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-banner__more {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-banner__more button {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-bottom: -28px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile */
+  .hero-banner {
+    height: 50vh;
+  }
+  .graphic__img {
+    height: 100%;
+  }
+  .header__apply {
+    display: none;
+  }
+  .hero-banner__text {
+    font-size: 4vh;
+    height: 30vh;
+  }
+  .hero-banner__more {
+    height: 10vh;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /* Web */
+  .hero-banner {
+    height: 80vh;
+    font-size: 8vh;
+  }
+  .graphic__img {
+    width: 100%;
+  }
+  .hero-banner__text {
+    font-size: 8vh;
+    height: 60vh;
+  }
+  .hero-banner__more {
+    height: 10vh;
+  }
+}
+
+/* Graphic */
+.hero-banner__graphic {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.graphic__img {
+  opacity: 1;
+  z-index: 0;
+}
+
+.graphic__overlay {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+  background: radial-gradient(circle at 50%, transparent 25%, #000 50%, #000 100%);
+}
