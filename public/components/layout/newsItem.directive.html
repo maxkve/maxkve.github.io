@@ -1,7 +1,12 @@
 <div class="news-item">
-  <img class="news-item__img" ng-src="{{ newsItem.img }}" />
-  <div class="news-item__text">
-    <div class="text-title">{{ newsItem.title }}</div>
-    <div class="text-content">{{ newsItem.content }}</div>
-  </div>
+  <md-button>
+    <div class="news-item__img">
+      <img ng-src="{{ newsItem.img }}" />
+    </div>
+    <div class="news-item__text">
+      <div class="text__title">{{ newsItem.title }}</div>
+      <div class="text__date">{{ newsItem.date }}</div>
+      <div class="text__summary">{{ newsItem.summary }}</div>
+    </div>
+  </md-button>
 </div>

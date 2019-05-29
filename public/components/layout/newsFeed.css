@@ -9,9 +9,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* Mobile */
+	/* Mobile */
+	.news-feed {
+		margin-top: 30px;
+	}
 }
 
 @media only screen and (min-width: 601px) {
-  /* Web */
-}
+	/* Web */
+	.news-feed {
+		margin-top: 50px;
+	}

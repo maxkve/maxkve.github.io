@@ -1,15 +1,14 @@
 .hero-banner {
   width: 100%;
   position: relative;
-  font-family: "Titillium Web", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .hero-banner__header {
   z-index: 1;
-  height: 10vh;
   width: 100%;
   position: relative;
   display: flex;
@@ -58,8 +57,49 @@
 
 .header__server {
   color: rgba(255, 255, 255, 0.26);
-  font-size: 1.6vh;
   font-weight: 600;
+}
+
+.header__web-menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__web-menu .md-button[disabled] {
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.header__mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__mobile-menu md-menu {
+  height: 100%;
+}
+
+.header__mobile-menu md-menu .md-icon-button {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__menu-item .md-button {
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header__apply {
@@ -73,6 +113,14 @@
   align-items: center;
 }
 
+.header__apply a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header__apply button {
   height: 100%;
   width: 100%;
@@ -80,13 +128,13 @@
 }
 
 .hero-banner__text {
-  padding-top: 5vh;
   z-index: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .hero-banner__more {
@@ -107,6 +155,15 @@
   .hero-banner {
     height: 50vh;
   }
+  .hero-banner__header {
+    height: 12vh;
+  }
+  .header__server {
+    font-size: 2vh;
+  }
+  .header__web-menu {
+    display: none;
+  }
   .graphic__img {
     height: 100%;
   }
@@ -115,7 +172,10 @@
   }
   .hero-banner__text {
     font-size: 4vh;
-    height: 30vh;
+    height: 38vh;
+  }
+  .timer__text {
+    font-size: 2vh;
   }
   .hero-banner__more {
     height: 10vh;
@@ -128,12 +188,24 @@
     height: 80vh;
     font-size: 8vh;
   }
+  .hero-banner__header {
+    height: 10vh;
+  }
+  .header__server {
+    font-size: 1.6vh;
+  }
+  .header__mobile-menu {
+    display: none;
+  }
   .graphic__img {
     width: 100%;
   }
   .hero-banner__text {
     font-size: 8vh;
-    height: 60vh;
+    height: 70vh;
+  }
+  .timer__text {
+    font-size: 4vh;
   }
   .hero-banner__more {
     height: 10vh;
@@ -155,7 +227,7 @@
 }
 
 .graphic__img {
-  opacity: 1;
+  opacity: 0.8;
   z-index: 0;
 }
 
