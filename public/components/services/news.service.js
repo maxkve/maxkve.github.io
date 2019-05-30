@@ -4,9 +4,9 @@ angular.module("epgpApp").service("newsService", function() {
   let news = {
     1: {
       title: "We're recruiting for classic!",
-      img: "public/assets/moltencore.jpg",
+      img: "public/assets/classic.jpg",
       date: "2019-05-29",
-      summary: "Interested in joining? Hit the apply-button above!",
+      summary: "Interested in joining? Hit the apply-button in the menu above!",
       content:
         "Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem"
     },

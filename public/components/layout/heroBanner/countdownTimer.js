@@ -1,13 +1,18 @@
 "use strict";
 
-angular.module("epgpApp").directive("heroBanner", function() {
-  return {
-    restrict: "E",
-    replace: false,
-    transclude: false,
-    scope: {},
-    templateUrl: "public/components/layout/heroBanner.directive.html",
-    controller: function($scope, $mdMenu) {
+angular.module("epgpApp").component("countdownTimer", {
+  bindings: {},
+  templateUrl: "public/components/layout/heroBanner/countdownTimer.html",
+  controller: function() {
+    let ctrl = this;
+
+    ctrl.$onInit = function() {
+      startTimer();
+    };
+
+    ctrl.$onChanges = function(changes) {};
+
+    function startTimer() {
       // Set the date we're counting down to
       var countDownDate = new Date("Aug 27, 2019 11:00:00").getTime();
 
@@ -31,9 +36,9 @@ angular.module("epgpApp").directive("heroBanner", function() {
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("timer").innerHTML = "EXPIRED";
+          document.getElementById("timer").innerHTML = "See you in Azeroth!";
         }
       }, 1000);
     }
-  };
+  }
 });

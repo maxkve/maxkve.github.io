@@ -1,19 +1,12 @@
-.hero-banner {
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
-
-.hero-banner__header {
+.header {
   z-index: 1;
   width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .header__background {
@@ -26,8 +19,8 @@
   filter: blur(5px);
 }
 
-.hero-banner__header:before,
-.hero-banner__header:after {
+.header:before,
+.header:after {
   content: "";
   height: 2px;
   width: 100%;
@@ -127,35 +120,9 @@
   margin: 0;
 }
 
-.hero-banner__text {
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.hero-banner__more {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.hero-banner__more button {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  margin-bottom: -28px;
-}
-
 @media only screen and (max-width: 600px) {
   /* Mobile */
-  .hero-banner {
-    height: 50vh;
-  }
-  .hero-banner__header {
+  .header {
     height: 12vh;
   }
   .header__server {
@@ -164,31 +131,14 @@
   .header__web-menu {
     display: none;
   }
-  .graphic__img {
-    height: 100%;
-  }
   .header__apply {
     display: none;
-  }
-  .hero-banner__text {
-    font-size: 4vh;
-    height: 38vh;
-  }
-  .timer__text {
-    font-size: 2vh;
-  }
-  .hero-banner__more {
-    height: 10vh;
   }
 }
 
 @media only screen and (min-width: 601px) {
   /* Web */
-  .hero-banner {
-    height: 80vh;
-    font-size: 8vh;
-  }
-  .hero-banner__header {
+  .header {
     height: 10vh;
   }
   .header__server {
@@ -197,46 +147,4 @@
   .header__mobile-menu {
     display: none;
   }
-  .graphic__img {
-    width: 100%;
-  }
-  .hero-banner__text {
-    font-size: 8vh;
-    height: 70vh;
-  }
-  .timer__text {
-    font-size: 4vh;
-  }
-  .hero-banner__more {
-    height: 10vh;
-  }
-}
-
-/* Graphic */
-.hero-banner__graphic {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.graphic__img {
-  opacity: 0.8;
-  z-index: 0;
-}
-
-.graphic__overlay {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  opacity: 0.6;
-  position: absolute;
-  z-index: 1;
-  background: radial-gradient(circle at 50%, transparent 25%, #000 50%, #000 100%);
 }

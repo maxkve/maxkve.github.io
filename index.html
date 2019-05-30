@@ -7,14 +7,12 @@
 
     <!-- External Dependencies -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="/index.css" />
     <link rel="stylesheet" href="/node_modules/angular/angular-material.min.css" />
     <link rel="stylesheet" href="/public/views/title/title.css" />
-    <link rel="stylesheet" href="/public/components/layout/heroBanner.css" />
-    <link rel="stylesheet" href="/public/components/layout/newsItem.css" />
-    <link rel="stylesheet" href="/public/components/layout/newsFeed.css" />
 
     <!-- AngularJS Material Dependencies -->
     <script src="/node_modules/angular/angular.min.js"></script>
@@ -33,13 +31,25 @@
     <ng-view></ng-view>
 
     <!-- Layout components -->
-    <script src="/public/components/layout/heroBanner.directive.js"></script>
-    <script src="/public/components/layout/newsItem.directive.js"></script>
-    <script src="/public/components/layout/newsFeed.directive.js"></script>
+    <script src="/public/components/layout/heroBanner/heroBanner.js"></script>
+    <script src="/public/components/layout/heroBanner/countdownTimer.js"></script>
+    <script src="/public/components/layout/navBar/navBar.js"></script>
+    <script src="/public/components/layout/newsFeed/newsFeed.js"></script>
+    <script src="/public/components/layout/newsFeed/newsItem.js"></script>
+    <script src="/public/components/layout/modals/organizationModal.js"></script>
+
+    <link rel="stylesheet" href="/public/components/layout/heroBanner/heroBanner.css" />
+    <link rel="stylesheet" href="/public/components/layout/heroBanner/countdownTimer.css" />
+    <link rel="stylesheet" href="/public/components/layout/navBar/navBar.css" />
+    <link rel="stylesheet" href="/public/components/layout/newsFeed/newsItem.css" />
+    <link rel="stylesheet" href="/public/components/layout/newsFeed/newsFeed.css" />
+    <link rel="stylesheet" href="/public/components/layout/modals/organizationModal.css" />
 
     <!-- Services -->
     <script src="/node_modules/"></script>
     <script src="/public/components/services/news.service.js"></script>
+    <script src="/public/components/services/role.service.js"></script>
+    <script src="/public/components/services/roster.service.js"></script>
 
     <!-- View controllers -->
     <script src="/public/views/title/title.controller.js"></script>

@@ -1,7 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #101010;
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
+}
+
+md-dialog {
+  background-color: #101010;
+  color: white;
+}
+
+md-menu-content {
+  background-color: #101010;
+  color: white;
+}
+
+md-menu-content md-menu-item .md-button[disabled] {
+  color: rgba(255, 255, 255, 0.38);
+}
+
+md-menu-content md-menu-item .md-button {
+  color: rgba(255, 255, 255, 1);
+}
+
+.modal-title {
+  height: 10vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.modal-title__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.modal-title__background img {
+  width: 100%;
+}
+
+.modal-title__text {
+  z-index: 1;
+  margin-left: 20px;
+  font-size: 3vh;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .warlock {
@@ -49,4 +105,25 @@ body {
 
 .md-primary {
   background-color: #222222 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
 }

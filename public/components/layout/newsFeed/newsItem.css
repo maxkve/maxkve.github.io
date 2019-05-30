@@ -72,13 +72,15 @@
   }
   .text__title {
     margin-left: 10px;
-    margin-top: 6px;
+    margin-top: 10px;
   }
   .text__date {
+    margin-top: 2px;
     margin-left: 10px;
     font-size: 2vh;
   }
   .text__summary {
+    margin-top: 2px;
     margin-left: 10px;
   }
 }
@@ -97,15 +99,16 @@
   .text__title {
     margin-left: 20px;
     font-size: 2vh;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .text__date {
+    margin-top: 6px;
     margin-left: 20px;
     font-size: 1.4vh;
   }
   .text__summary {
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 6px;
     font-size: 1.8vh;
   }
 }
