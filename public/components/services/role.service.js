@@ -20,7 +20,7 @@ angular.module("epgpApp").service("roleService", function() {
       title: "Webmaster",
       whois: "Vector",
       img: "public/assets/dps.png",
-      description: "Responsible for managing the technical eco-system, including website and addon suite."
+      description: "Responsible for managing the website and addon pack."
     },
     raidmanager: {
       title: "Raid Manager",

@@ -1,14 +1,17 @@
 <div class="header">
   <div class="header__background"></div>
   <div class="header__guild-info noselect">
-    <div class="header__name">Standard Procedure</div>
-    <div class="header__server">Stormscale-EU</div>
+    <div class="guild-emblem"><img ng-src="public/assets/emblem.png" /></div>
+    <div class="guild-text">
+      <div class="guild__name">Standard Procedure</div>
+      <div class="guild__server">Stormscale-EU</div>
+    </div>
   </div>
   <div class="header__web-menu">
     <div class="header__menu-item"><md-button ng-click="$ctrl.openOrganizationModal()" class="md-flat">Organization</md-button></div>
-    <div class="header__menu-item"><md-button ng-disabled="true" class="md-flat">Loot Rules</md-button></div>
-    <div class="header__menu-item"><md-button ng-disabled="true" class="md-flat">Raids</md-button></div>
-    <div class="header__menu-item"><md-button ng-disabled="true" class="md-flat">Roster</md-button></div>
+    <div class="header__menu-item"><md-button ng-click="$ctrl.openLootModal()" class="md-flat">Loot Rules</md-button></div>
+    <div class="header__menu-item"><md-button ng-click="$ctrl.openRaidModal()" class="md-flat">Raids</md-button></div>
+    <div class="header__menu-item"><md-button ng-click="$ctrl.openRosterModal()" class="md-flat">Roster</md-button></div>
     <div class="header__menu-item"><md-button ng-disabled="true" class="md-flat">AddOn Pack</md-button></div>
   </div>
   <div class="header__mobile-menu">
@@ -18,9 +21,9 @@
       </md-button>
       <md-menu-content>
         <md-menu-item><md-button ng-click="$ctrl.openOrganizationModal()">Organization</md-button></md-menu-item>
-        <md-menu-item><md-button ng-disabled="true" ng-click="doSomething()">Loot Rules</md-button></md-menu-item>
-        <md-menu-item><md-button ng-disabled="true" ng-click="doSomething()">Raids</md-button></md-menu-item>
-        <md-menu-item><md-button ng-disabled="true" ng-click="doSomething()">Roster</md-button></md-menu-item>
+        <md-menu-item><md-button ng-click="$ctrl.openLootModal()">Loot Rules</md-button></md-menu-item>
+        <md-menu-item><md-button ng-click="$ctrl.openRaidModal()">Raids</md-button></md-menu-item>
+        <md-menu-item><md-button ng-click="$ctrl.openRosterModal()">Roster</md-button></md-menu-item>
         <md-menu-item
           ><md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform" target="_blank"
             >Apply</md-button

@@ -34,13 +34,32 @@
   z-index: 1;
   margin-left: 5vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
 }
 
-.header__name {
+.guild-emblem {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 10px;
+  width: 15%;
+}
+
+.guild-emblem img {
+  height: 50%;
+}
+
+.guild-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.guild__name {
   color: rgba(255, 255, 255, 0.87);
   /* color: #FB8C00; */
   text-transform: uppercase;
@@ -48,7 +67,7 @@
   font-weight: 900;
 }
 
-.header__server {
+.guild__server {
   color: rgba(255, 255, 255, 0.26);
   font-weight: 600;
 }

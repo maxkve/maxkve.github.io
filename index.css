@@ -60,6 +60,13 @@ md-menu-content md-menu-item .md-button {
   text-transform: uppercase;
 }
 
+.modal-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
 .warlock {
   border-color: #9482c9;
 }

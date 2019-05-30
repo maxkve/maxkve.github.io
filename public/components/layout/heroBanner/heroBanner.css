@@ -16,6 +16,7 @@
   align-items: center;
   font-weight: bold;
   text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.56);
 }
 
 .hero-banner__more {
@@ -51,7 +52,7 @@
 @media only screen and (min-width: 601px) {
   /* Web */
   .hero-banner {
-    height: 80vh;
+    height: 70vh;
     font-size: 8vh;
   }
   .graphic__img {
