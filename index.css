@@ -67,36 +67,36 @@ md-menu-content md-menu-item .md-button {
   padding-bottom: 20px;
 }
 
-.warlock {
-  border-color: #9482c9;
+.Warlock-text {
+  color: #9482c9;
 }
 
-.rogue {
-  border-color: #fff569;
+.Rogue-text {
+  color: #fff569;
 }
 
-.priest {
-  border-color: #ffffff;
+.Priest-text {
+  color: #ffffff;
 }
 
-.paladin {
-  border-color: #f58cba;
+.Paladin-text {
+  color: #f58cba;
 }
 
-.druid {
-  border-color: #ff7d0a;
+.Druid-text {
+  color: #ff7d0a;
 }
 
-.hunter {
-  border-color: #abd473;
+.Hunter-text {
+  color: #abd473;
 }
 
-.mage {
-  border-color: #69ccf0;
+.Mage-text {
+  color: #69ccf0;
 }
 
-.warrior {
-  border-color: #c79c6e;
+.Warrior-text {
+  color: #c79c6e;
 }
 
 .noselect {

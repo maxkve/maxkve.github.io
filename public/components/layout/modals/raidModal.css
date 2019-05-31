@@ -6,10 +6,17 @@
   width: 100%;
 }
 
-.organization-intro {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+.raid-times {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.raid-times__title {
+  font-weight: 500;
+}
+
+.raid-times__schedule {
 }
 
 @media only screen and (max-width: 600px) {

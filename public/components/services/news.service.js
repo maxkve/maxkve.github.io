@@ -6,7 +6,7 @@ angular.module("epgpApp").service("newsService", function() {
       title: "We're recruiting for classic!",
       img: "public/assets/classic.jpg",
       date: "2019-05-29",
-      summary: "Interested in joining? Hit the apply-button in the menu above!",
+      summary: "Interested in joining? Apply and we'll be in touch!",
       content:
         "Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem"
     },
@@ -14,7 +14,7 @@ angular.module("epgpApp").service("newsService", function() {
       title: "WoW Classic has been announced!",
       img: "public/assets/wow.jpg",
       date: "2019-05-29",
-      summary: "Yeah yeah, we want it.",
+      summary: "Good times ahead, thanks Omar.",
       content:
         "Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem"
     },
@@ -22,7 +22,7 @@ angular.module("epgpApp").service("newsService", function() {
       title: "Discord server online",
       img: "public/assets/discord.jpg",
       date: "2019-05-29",
-      summary: "Controlfreak just launched our Discord server.",
+      summary: "We've launched our Discord server, Controlfreak will be managing it.",
       content:
         "Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem"
     }

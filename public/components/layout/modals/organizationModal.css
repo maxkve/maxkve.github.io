@@ -21,7 +21,6 @@
 .role__title {
   display: flex;
   align-items: center;
-  font-size: 2vh;
   margin-bottom: 6px;
 }
 
@@ -32,6 +31,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  opacity: 0.8;
 }
 
 .role__img img {
@@ -46,15 +46,9 @@
   flex-direction: column;
 }
 
-.role__whois {
-  font-size: 1.6vh;
-  margin-bottom: 6px;
-  color: #666;
-}
-
 .role__description {
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.87);
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 600px) {
