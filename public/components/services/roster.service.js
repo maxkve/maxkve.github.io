@@ -6,7 +6,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Max",
         img: "",
-        roles: "Guild Master, Webmaster, Assistant Alchemist"
+        roles: "Guild Master, Webmaster"
       },
       game: {
         name: "Vector",
