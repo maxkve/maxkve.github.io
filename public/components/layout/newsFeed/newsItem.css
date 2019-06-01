@@ -36,7 +36,7 @@
 }
 
 .news-item__text {
-  height: 16vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -62,7 +62,7 @@
   /* Mobile */
   .news-item {
     width: 94vw;
-    height: 16vh;
+    height: 14vh;
   }
   .news-item__img {
     width: 30%;
