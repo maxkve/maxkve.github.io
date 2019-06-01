@@ -5,6 +5,7 @@
   <div class="modal-text">
     <div class="news-title">{{ ::newsItem.title }}</div>
     <div class="news-date">{{ ::newsItem.date }}</div>
-    {{ ::newsItem.content }}
+    <!--<div class="news-content">{{ ::newsItem.content }}</div>-->
+    <div class="news-content" ng-bind-html="newsItemContent"></div>
   </div>
 </div>

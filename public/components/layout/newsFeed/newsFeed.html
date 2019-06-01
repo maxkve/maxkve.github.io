@@ -1,5 +1,5 @@
 <div class="news-feed" id="news">
-  <div ng-repeat="newsItem in ::$ctrl.news">
+  <div ng-repeat="newsItem in ::$ctrl.news | orderObjectBy:news.date">
     <news-item news-item="newsItem"></news-item>
   </div>
 </div>

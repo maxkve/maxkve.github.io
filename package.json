@@ -22,6 +22,8 @@
     "angular-aria": "^1.7.8",
     "angular-material": "^1.1.17",
     "angular-messages": "^1.7.8",
-    "angular-route": "^1.7.8"
+    "angular-route": "^1.7.8",
+    "angular-sanitize": "^1.7.8",
+    "ng-sanitize": "0.0.2"
   }
 }
