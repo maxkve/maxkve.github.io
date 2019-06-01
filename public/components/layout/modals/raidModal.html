@@ -21,9 +21,13 @@
     Raid times are in GMT+1.
   </div>
   <div class="raid-progress">
+    <div class="raid-times__title">Raid progress</div>
     <div class="raid-instance" ng-repeat="raid in raids">
-      <div class="raid-instance__img">
-        <img ng-src="/public/assets/bosses/{{::raid.img}}" />
+      <div class="raid-instance-web__img">
+        <img ng-src="/public/assets/raids/rectangular/{{::raid.img}}" />
+      </div>
+      <div class="raid-instance-mobile__img">
+        <img ng-src="/public/assets/raids/small/{{::raid.img}}" />
       </div>
       <div class="raid-instance__title">
         {{ ::raid.title }}
@@ -31,7 +35,7 @@
       <div class="raid-bosses">
         <div class="raid-boss" ng-repeat="boss in raid.bosses">
           <div class="raid-boss__img">
-            <img ng-src="/public/assets/bosses/{{::boss.img}}" />
+            <img ng-src="/public/assets/bosses/small/{{::boss.img}}" />
           </div>
           <div class="raid-boss__name">{{ ::boss.name }}</div>
         </div>

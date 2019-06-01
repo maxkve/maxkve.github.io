@@ -10,9 +10,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Vector",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Mage",
-        classIcon: "/public/assets/mage.png",
+        classIcon: "mage.png",
         level: 60
       }
     },
@@ -24,9 +24,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Wezzi",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Warrior",
-        classIcon: "/public/assets/warrior.png",
+        classIcon: "warrior.png",
         level: 60
       }
     },
@@ -38,9 +38,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Controlfreak",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Rogue",
-        classIcon: "/public/assets/rogue.png",
+        classIcon: "rogue.png",
         level: 60
       }
     },
@@ -52,9 +52,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Hanke",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Priest",
-        classIcon: "/public/assets/priest.png",
+        classIcon: "priest.png",
         level: 60
       }
     },
@@ -66,9 +66,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Ohhstar",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Mage",
-        classIcon: "/public/assets/mage.png",
+        classIcon: "mage.png",
         level: 60
       }
     },
@@ -80,9 +80,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Zorn",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Warrior",
-        classIcon: "/public/assets/warrior.png",
+        classIcon: "warrior.png",
         level: 60
       }
     },
@@ -94,9 +94,9 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Probably Something Lewd",
-        img: "/public/assets/uther.png",
+        img: "uther.png",
         class: "Warlock",
-        classIcon: "/public/assets/warlock.png",
+        classIcon: "warlock.png",
         level: 60
       }
     }

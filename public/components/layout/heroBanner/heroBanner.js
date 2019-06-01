@@ -11,8 +11,9 @@ angular.module("epgpApp").component("heroBanner", {
     ctrl.$onChanges = function(changes) {};
 
     ctrl.scrollToNews = function() {
-      $location.hash("news");
-      $anchorScroll();
+      document.querySelector("#news").scrollIntoView({
+        behavior: "smooth"
+      });
     };
   }
 });

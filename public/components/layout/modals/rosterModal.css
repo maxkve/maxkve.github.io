@@ -47,8 +47,8 @@
 }
 
 .member-class-icon {
-  height: 16px;
-  width: 16px;
+  height: 14px;
+  width: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,7 @@
 }
 
 .member-name {
+  margin-bottom: 1px;
 }
 
 .member-class {

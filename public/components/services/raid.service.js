@@ -4,7 +4,7 @@ angular.module("epgpApp").service("raidService", function() {
   const raids = {
     moltencore: {
       title: "Molten Core",
-      img: "moltencore.jpg",
+      img: "moltencore3.jpg",
       bosses: {
         lucifron: { name: "Lucifron", killed: false, img: "lucifron.jpg" },
         magmadar: { name: "Magmadar", killed: false, img: "magmadar.jpg" },
@@ -20,7 +20,7 @@ angular.module("epgpApp").service("raidService", function() {
     },
     onyxia: {
       title: "Onyxia",
-      img: "onyxiaslair.jpg",
+      img: "onyxia2.jpg",
       bosses: {
         onyxia: {
           name: "Onyxia",

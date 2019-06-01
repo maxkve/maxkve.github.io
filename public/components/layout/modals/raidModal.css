@@ -14,6 +14,7 @@
 
 .raid-times__title {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .raid-times__schedule {
@@ -37,14 +38,14 @@
 }
 
 .raid-instance__title {
+  align-self: flex-end;
+  margin-bottom: 10px;
   z-index: 1;
   font-weight: 700;
-  display: flex;
-  align-items: center;
   text-transform: uppercase;
 }
 
-.raid-instance__img {
+.raid-instance-web__img {
   z-index: 0;
   position: absolute;
   width: 100%;
@@ -53,7 +54,20 @@
   overflow: hidden;
 }
 
-.raid-instance__img img {
+.raid-instance-web__img img {
+  width: 100%;
+}
+
+.raid-instance-mobile__img {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+}
+
+.raid-instance-mobile__img img {
   width: 100%;
 }
 
@@ -72,6 +86,7 @@
   overflow: hidden;
   position: relative;
   border-radius: 120px;
+  background-color: black;
 }
 
 .raid-boss__img {
@@ -82,8 +97,8 @@
 }
 
 .raid-boss__img img {
-  width: 100%;
-  height: 100%;
+  width: 106%;
+  height: 106%;
 }
 
 .raid-boss__name {
@@ -99,6 +114,15 @@
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
+  .raid-times__title {
+    font-size: 3vh;
+  }
+  .raid-instance {
+    border-radius: 10px;
+  }
+  .raid-instance-web__img {
+    display: none;
+  }
   .raid-instance__title {
     font-size: 2vh;
     margin-left: 10px;
@@ -123,6 +147,15 @@
 
 @media only screen and (min-width: 601px) {
   /* Web */
+  .raid-times__title {
+    font-size: 2vh;
+  }
+  .raid-instance {
+    border-radius: 20px;
+  }
+  .raid-instance-mobile__img {
+    display: none;
+  }
   .raid-instance__title {
     font-size: 3vh;
     margin-left: 20px;
