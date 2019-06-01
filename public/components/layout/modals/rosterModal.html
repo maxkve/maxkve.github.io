@@ -6,10 +6,9 @@
   <div class="modal-text">
     Once the roster settles in, you'll be able to find every max-level member of the guild here.
   </div>
-  <div class="roster-grid">
+  <div class="roster-list">
     <div class="roster-member" ng-repeat="member in roster">
       <div class="member__game-img"><img ng-src="/public/assets/{{::member.game.img}}" /></div>
-
       <div class="member__game-text">
         <div class="member-name">{{ ::member.game.name }}</div>
         <div class="member-class">

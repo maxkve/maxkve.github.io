@@ -15,6 +15,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
+  line-height: 3vh;
 }
 
 .news-date {

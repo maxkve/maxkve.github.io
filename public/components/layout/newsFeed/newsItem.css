@@ -3,7 +3,6 @@
   color: #f1f2f4;
   margin-top: 20px;
   max-width: 1000px;
-  height: 16vh;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 2px !important;
@@ -63,6 +62,7 @@
   /* Mobile */
   .news-item {
     width: 94vw;
+    height: 16vh;
   }
   .news-item__img {
     width: 30%;
@@ -73,22 +73,25 @@
   .text__title {
     margin-left: 10px;
     margin-top: 10px;
+    font-size: 3vw;
   }
   .text__date {
     margin-top: 2px;
     margin-left: 10px;
-    font-size: 2vh;
+    font-size: 2.6vw;
   }
   .text__summary {
     margin-top: 2px;
     margin-left: 10px;
+    font-size: 2.6vw;
   }
 }
 
 @media only screen and (min-width: 601px) {
   /* Web */
   .news-item {
-    width: 1000px;
+    width: 80vw;
+    height: 14vh;
   }
   .news-item__img {
     width: 20%;

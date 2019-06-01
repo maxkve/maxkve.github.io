@@ -17,6 +17,12 @@
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.56);
+  text-align: center;
+}
+
+.hero-banner__title {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .hero-banner__more {
