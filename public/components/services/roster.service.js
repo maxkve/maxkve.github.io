@@ -93,7 +93,7 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: "Assistant Enchanter, Assistant Tailor"
       },
       game: {
-        name: "Probably Something Lewd",
+        name: "<Undecided>",
         img: "uther.png",
         class: "Warlock",
         classIcon: "warlock.png",
