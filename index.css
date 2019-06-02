@@ -41,7 +41,7 @@ md-menu-content md-menu-item .md-button {
   top: 0;
   left: 0;
   z-index: 0;
-  height: 100%;
+  height: 10vh;
   width: 100%;
   overflow: hidden;
   position: absolute;
@@ -151,11 +151,36 @@ md-menu-content md-menu-item .md-button {
   .modal-title {
     height: 100px;
   }
+  .modal-title__background {
+    height: 100px;
+  }
+  .modal-title__background img {
+    height: 100px;
+  }
+}
 
-  @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-    /* iPhone 8 */
-    .modal-title {
-      height: 100px;
-    }
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  /* iPhone 8 */
+  .modal-title {
+    height: 100px;
+  }
+  .modal-title__background {
+    height: 100px;
+  }
+  .modal-title__background img {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile */
+  .modal-title {
+    height: 100px;
+  }
+  .modal-title__background {
+    height: 100px;
+  }
+  .modal-title__background img {
+    height: 100px;
   }
 }

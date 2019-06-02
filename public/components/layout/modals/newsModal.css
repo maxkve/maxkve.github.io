@@ -6,8 +6,35 @@
   width: 100%;
 }
 
-.news-modal .modal-title {
-  height: 40vh;
+.news-modal-title {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.news-modal-title__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.news-modal-title__background img {
+}
+
+.news-modal-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .news-title {
@@ -28,14 +55,49 @@
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
-  .news-modal .modal-title {
-    height: 20vh;
+  .news-modal-title {
+    height: 170px;
+  }
+  .news-modal-title__background {
+    height: 170px;
+  }
+  .news-modal-title__background img {
+    height: 130%;
   }
 }
 
 @media only screen and (min-width: 601px) {
   /* Web */
-  .news-modal .modal-title {
+  .news-modal-title {
     height: 40vh;
+  }
+  .news-modal-title__background img {
+    width: 100%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  /* iPhone X */
+  .news-modal-title {
+    height: 170px;
+  }
+  .news-modal-title__background {
+    height: 170px;
+  }
+  .news-modal-title__background img {
+    height: 130%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  /* iPhone 8 */
+  .news-modal-title {
+    height: 170px;
+  }
+  .news-modal-title__background {
+    height: 170px;
+  }
+  .news-modal-title__background img {
+    height: 130%;
   }
 }
