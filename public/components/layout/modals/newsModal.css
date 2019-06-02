@@ -1,11 +1,3 @@
-.news-modal {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
-  width: 100%;
-}
-
 .news-modal-title {
   width: 100%;
   overflow: hidden;
@@ -25,9 +17,6 @@
   width: 100%;
   overflow: hidden;
   position: absolute;
-}
-
-.news-modal-title__background img {
 }
 
 .news-modal-text {
