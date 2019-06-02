@@ -31,7 +31,7 @@ md-menu-content md-menu-item .md-button {
   position: relative;
 }
 
-.modal-title__background {
+.modal-title-web__background {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,24 @@ md-menu-content md-menu-item .md-button {
   position: absolute;
 }
 
-.modal-title__background img {
+.modal-title-web__background img {
+  width: 100%;
+  min-height: 120px;
+}
+
+.modal-title-mobile__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.modal-title-mobile__background img {
   width: 100%;
 }
 
@@ -142,41 +159,57 @@ md-menu-content md-menu-item .md-button {
   background: #999;
 }
 
+@media only screen and (min-width: 601px) {
+  /* Web */
+  .modal-title-mobile__background {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile */
+  .modal-title-web__background {
+    display: none;
+  }
+  .modal-title-mobile {
+    height: 100px;
+  }
+  .modal-title-mobile__background {
+    height: 100px;
+  }
+  .modal-title-mobile__background img {
+    height: 100px;
+  }
+}
+
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   /* iPhone X */
-  .modal-title {
+  .modal-title-web__background {
+    display: none;
+  }
+  .modal-title-mobile {
     height: 100px;
   }
-  .modal-title__background {
+  .modal-title-mobile__background {
     height: 100px;
   }
-  .modal-title__background img {
+  .modal-title-mobile__background img {
     height: 100px;
   }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   /* iPhone 8 */
-  .modal-title {
+  .modal-title-web__background {
+    display: none;
+  }
+  .modal-title-mobile {
     height: 100px;
   }
-  .modal-title__background {
+  .modal-title-mobile__background {
     height: 100px;
   }
-  .modal-title__background img {
-    height: 100px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  /* Mobile */
-  .modal-title {
-    height: 100px;
-  }
-  .modal-title__background {
-    height: 100px;
-  }
-  .modal-title__background img {
+  .modal-title-mobile__background img {
     height: 100px;
   }
 }
