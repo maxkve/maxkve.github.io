@@ -138,6 +138,13 @@ md-menu-content md-menu-item .md-button {
   background-color: #222222 !important;
 }
 
+.md-dialog-container {
+  /* Fix for mdDialog not opening center center on iOS when scrolled down a bit on the page */
+  height: 100% !important;
+  position: fixed !important;
+  top: 0px !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -188,13 +195,13 @@ md-menu-content md-menu-item .md-button {
     display: none;
   }
   .modal-title-mobile {
-    height: 100px;
+    height: 90px;
   }
   .modal-title-mobile__background {
-    height: 100px;
+    height: 90px;
   }
   .modal-title-mobile__background img {
-    height: 100px;
+    height: 90px;
   }
 }
 
@@ -204,12 +211,12 @@ md-menu-content md-menu-item .md-button {
     display: none;
   }
   .modal-title-mobile {
-    height: 100px;
+    height: 90px;
   }
   .modal-title-mobile__background {
-    height: 100px;
+    height: 90px;
   }
   .modal-title-mobile__background img {
-    height: 100px;
+    height: 90px;
   }
 }
