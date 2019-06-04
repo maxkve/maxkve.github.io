@@ -21,18 +21,19 @@
   background-color: black;
 }
 
-.member__game-img {
+.member-class-icon {
   border: 10px solid black;
   box-sizing: border-box;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-radius: 60px;
 }
 
-.member__game-img img {
+.member-class-icon img {
   height: 100%;
 }
 
@@ -41,7 +42,7 @@
   align-items: center;
 }
 
-.member-class-icon {
+.member-spec-icon {
   height: 14px;
   width: 14px;
   display: flex;
@@ -51,7 +52,7 @@
   margin-right: 6px;
 }
 
-.member-class-icon img {
+.member-spec-icon img {
   height: 100%;
 }
 
@@ -96,6 +97,7 @@
   }
   .member-roles {
     font-size: 1.6vh;
+    line-height: 1.8vh;
   }
 }
 
@@ -119,6 +121,7 @@
   }
   .member-roles {
     font-size: 1.2vh;
+    line-height: 1.4vh;
   }
 }
 
@@ -141,10 +144,11 @@
     line-height: 3vh;
   }
   .member-class {
-    font-size: 2.2vh;
+    font-size: 2vh;
   }
   .member-roles {
-    font-size: 1.6vh;
+    font-size: 1.4vh;
+    line-height: 1.6vh;
   }
 }
 
@@ -167,9 +171,10 @@
     line-height: 3vh;
   }
   .member-class {
-    font-size: 2.2vh;
+    font-size: 2vh;
   }
   .member-roles {
     font-size: 1.6vh;
+    line-height: 1.8vh;
   }
 }

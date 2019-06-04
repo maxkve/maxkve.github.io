@@ -12,7 +12,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Vector",
         img: "uther.png",
         class: "Mage",
+        spec: "Frost",
         classIcon: "mage.png",
+        specIcon: "frost.png",
         level: 60
       }
     },
@@ -26,7 +28,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Wezzi",
         img: "uther.png",
         class: "Warrior",
+        spec: "Protection",
         classIcon: "warrior.png",
+        specIcon: "protection_warrior.png",
         level: 60
       }
     },
@@ -40,7 +44,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Controlfreak",
         img: "uther.png",
         class: "Rogue",
+        spec: "Combat",
         classIcon: "rogue.png",
+        specIcon: "combat.png",
         level: 60
       }
     },
@@ -54,7 +60,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Hanke",
         img: "uther.png",
         class: "Priest",
+        spec: "Holy",
         classIcon: "priest.png",
+        specIcon: "holy.png",
         level: 60
       }
     },
@@ -68,7 +76,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Ohhstar",
         img: "uther.png",
         class: "Mage",
+        spec: "Frost",
         classIcon: "mage.png",
+        specIcon: "frost.png",
         level: 60
       }
     },
@@ -82,7 +92,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Zorn",
         img: "uther.png",
         class: "Warrior",
+        spec: "Protection",
         classIcon: "warrior.png",
+        specIcon: "protection_warrior.png",
         level: 60
       }
     },
@@ -96,7 +108,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "<Undecided>",
         img: "uther.png",
         class: "Warlock",
+        spec: "Destruction",
         classIcon: "warlock.png",
+        specIcon: "destruction.png",
         level: 60
       }
     }

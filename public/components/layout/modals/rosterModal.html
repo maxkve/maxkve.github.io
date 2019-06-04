@@ -6,12 +6,12 @@
   </div>
   <div class="roster-list">
     <div class="roster-member" ng-repeat="member in roster">
-      <div class="member__game-img"><img ng-src="/public/assets/{{::member.game.img}}" /></div>
+      <div class="member-class-icon"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" /></div>
       <div class="member__game-text">
         <div class="member-name">{{ ::member.game.name }}</div>
         <div class="member-class">
-          <div class="member-class-icon"><img ng-src="/public/assets/classes/{{ ::member.game.classIcon }}" /></div>
-          <div class="member-class-text {{ ::member.game.class }}-text">{{ ::member.game.class }}</div>
+          <div class="member-spec-icon"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" /></div>
+          <div class="member-class-text {{ ::member.game.class }}-text">{{ ::member.game.spec }} {{ ::member.game.class }}</div>
         </div>
         <div class="member-roles">{{ ::member.real.roles }}</div>
       </div>
