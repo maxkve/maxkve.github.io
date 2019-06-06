@@ -5,6 +5,12 @@ body {
   overflow-y: scroll;
 }
 
+a {
+  color: #fb8c00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 md-dialog {
   background-color: #101010;
   color: white;
