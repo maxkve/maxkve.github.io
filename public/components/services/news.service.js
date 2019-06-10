@@ -20,7 +20,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     2: {
       title: "Player Introduction: Zorn",
-      img: "public/assets/wow.jpg",
+      img: "public/assets/news/zorn.png",
       date: "2019-06-04",
       summary: "Learn more about Zorn, Raid Leader and Off-tank, in this short introductory piece.",
       content:
