@@ -1,10 +1,299 @@
-<div class="loot-modal">
-  <div class="modal-title">
-    <div class="modal-title__text">Loot Rules</div>
-    <div class="modal-title-web__background"><img ng-src="/public/assets/headers/large/loot.jpg" /></div>
-    <div class="modal-title-mobile__background"><img ng-src="/public/assets/headers/medium/loot.jpg" /></div>
+<div class="loot-modal modal">
+  <div class="modal-header">
+    <div class="modal-header__text">Loot</div>
+    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/loot.jpg" /></div>
+    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/loot.jpg" /></div>
   </div>
   <div class="modal-text">
-    Standard Procedure uses EPGP to distribute loot during raids. More information will be available here once we decide on the details.
+    <div class="toc">
+      <ul class="toc-list">
+        <li>
+          <a href="#the-basis">1. The Basis</a>
+        </li>
+        <li>
+          <a href="#epgp">2. EPGP</a>
+          <ul>
+            <li><a href="#epgp__how-it-works">2.1 How it works</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#effort-points">3. Effort points (EP)</a>
+          <ul>
+            <li><a href="#effort-points__award">3.1 When will EP be awarded</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#gear-points">4. Gear Points (GP)</a>
+          <ul>
+            <li><a href="#gear-points__formula">4.1 Formula</a></li>
+            <li>
+              <a href="#gear-points__exceptions">4.2 Exceptions</a>
+              <ul>
+                <li><a href="#gear-points__exceptions__ranged">4.2.1 Ranged/2-Handers</a></li>
+                <li><a href="#gear-points__exceptions__tanking">4.2.2 Tanking</a></li>
+                <li><a href="#gear-points__exceptions__legendary">4.2.2 Thunderfury and Atiesh</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#decay">5. Decay</a>
+        </li>
+        <li>
+          <a href="#new-raid-tiers">6. New Raid-tiers</a>
+        </li>
+        <li>
+          <a href="#new-members">7. New Members</a>
+        </li>
+        <li>
+          <a href="#summary">8. Summary</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="the-basis" class="loot-section">
+      <div class="modal-title">1. The Basis</div>
+      <div>
+        In order to minimize drama and maximize success the following criteria should be met by a loot-system:
+        <ul>
+          <li>Fairness</li>
+          <li>Reliability</li>
+          <li>Simplicity</li>
+          <li>Flexibility</li>
+          <li>Transparency</li>
+        </ul>
+        What should also be considered is the fact that it shouldn't in any way, shape nor form be able to be abused by neither a single individual nor a group
+        of people. Here is a list of commonly used loot-systems, how they work and what their strengths and weaknesses are:
+
+        <div class="loot-section__subtitle">Loot-council</div>
+        <div class="loot-section__text">
+          A select group of people, generally officers and the GM, decide who get what item based solely on their opinions. This system CAN be extremely fair,
+          reliable and flexible but runs a high risk of being abused by previously mentioned people. And even if it is not abused the transparency will always
+          be an issue due to the simple fact that individual members have no way of discerning where they currently stand as far as loot goes. Another issue is
+          the simplicity, it demands A LOT of work in order to be properly executed.
+        </div>
+        <div class="loot-section__subtitle">Suicide Kings</div>
+        <div class="loot-section__text">
+          A system where every member is sorted in a big list where the highest person will get whichever item they so desire (within limits of course). As soon
+          as said item is awarded they drop down to last place and have to wait until they are at, or close to, the top to receive an item again. The biggest
+          weakness of this is the flexibility and reliability. There is also the problem with fairness where it can easily be abused without any reprimand.
+        </div>
+        <div class="loot-section__subtitle">DKP</div>
+        <div class="loot-section__text">
+          Killing bosses award attending members with DKP (Dragon Killing Points) and said points are spent to either buy or bid for items that drop.
+          Transparency and fairness is usually not a problem with DKP however it is not always so flexible and reliable. It can unfortunately easily be abused
+          by simply hoarding DKP. Where it falls other than that is generally that it has some side-effects such as inflation/deflation and in either of those
+          cases it makes the system unfair either for or against new members that join in the middle of a raid-tier.
+        </div>
+        <div class="loot-section__subtitle">FFA</div>
+        <div class="loot-section__text">
+          Not an alternative given the criteria listed above.
+        </div>
+        <div class="loot-section__subtitle">Need/Greed</div>
+        <div class="loot-section__text">
+          Simply rolling on items that drop that are appropriate for class/spec. Now this system is undoubtedly simple, reliable and transparent but it falls
+          extremely short in flexibility and fairness. Leaving loot up to luck of the draw will undoubtedly lead to some extremely unhappy individuals who
+          happen upon unlucky streaks.
+        </div>
+        <div class="loot-section__subtitle">EPGP</div>
+        <div class="loot-section__text">
+          EPGP stands for Effort Points/Gear Points and is a system that is most closely related to DKP. But instead of simply using points as a currency it
+          instead gives a value which in turn is used to decide who gets which item. It also factors in a weekly decay which has two main functions: limiting
+          the possibility for individual players to hoard points and keeping all players within a set margin of points. The way the points are tracked can be
+          viewed by anyone and the number of ways to earn EP can be customizable to fit any need. At first the system might seem confusing or even convoluted
+          but it is extremely easy to maintain and control. The system itself also allows for easy handling of new members and the effect they have on an
+          already started tier.
+        </div>
+      </div>
+    </div>
+    <div id="epgp" class="loot-section">
+      <div class="modal-title">2. EPGP</div>
+      <div>
+        Taking the information above into account we have decided to use EPGP as our tool to monitor the efforts of our members and distribution of items that
+        drop in raids. We feel it meets the criterias stated above to the fullest extent and will lead to an enviroment everyone can enjoy.
+        <div id="epgp__how-it-works" class="loot-section__subtitle">2.1 How it works</div>
+        <div class="loot-section__text">
+          As previously mentioned EP/GP stands for Effort Points / Gear Points. The way members accumulate EP can be through a multitude of ways. Such as being
+          inside the instance when the raid-time starts, standing at the ready to jump in if needed or simply by killing bosses. GP on the other hand is awarded
+          when choosing to take a piece of loot. Different pieces have a different value so the better the item the more GP.<br /><br />
+          The next step in the process is to simply divide your current EP with your current GP, the result of this is your priority for future drops. The
+          higher the number the higher your priority. You then compare the priority of all members asking for a specifik drop and whoever has the highest gets
+          said item.<br /><br />
+          Example: <br />
+          An item drops that costs 60 GP. Both Alpha and Beta wants the item and both are eligable to have it. To see who gets it we have to compare their
+          priority:
+          <ul>
+            <li>Alphas Effort Points (from doing various things) are 240</li>
+            <li>Alphas Gear Points (from taking a few items previously) are 120</li>
+            <li>240 / 120 = 2</li>
+            <li>Thus Alphas priority is 2</li>
+            <li>Betas Effort Points (from doing various things) are 260</li>
+            <li>Betas Gear Points (from taking a few items previously) are 180</li>
+            <li>260 / 180 = 1.4</li>
+            <li>Thus Betas priority is 1.4</li>
+            <li>
+              Alphas priority is higher which means he/she gets the item. After the item is awarded Alphas new priority is (240/180=) 1.3 and that means that
+              Beta will get the next item (as long as no one with a higher priority wants that item).
+            </li>
+          </ul>
+          As you can tell the longer between each item you have gotten, the higher your priority will be and sooner or later yours will be higher than those you
+          compete against.<br /><br />
+          So what happens if two people have the same priority? The system will automatically do a roll for each player choosing that they are interested in the
+          item. These rolls can then be compared and whoever rolled highest wins the item. This will happen a lot in the beginning but the further we get the
+          fewer times it will have to be resorted to.
+        </div>
+      </div>
+      <div id="effort-points" class="loot-section">
+        <div class="modal-title">3. Effort Points (EP)</div>
+        <div>
+          The way in which we will be tracking each individual members dedication, commitment and diligence is through Effort Points. If you show up for raids,
+          come prepared and stay the course you will undoubtedly be awarded for it. The gaining of EP is your way of making sure you will get loot, which in
+          turn will make your character and the whole guild stronger.
+          <div id="effort-points__award" class="loot-section__subtitle">3.1 When EP will be awarded</div>
+          <div class="loot-section__text">
+            EP will be awarded to members through these means:
+            <ul>
+              <li>Being inside the raid and at the ready 18.30</li>
+              <li>Having a food-buff up when we do the first pull</li>
+              <li>Killing every boss</li>
+              <li>For every 30 minutes spent raiding</li>
+              <li>Staying throughout the entire raid</li>
+              <li>
+                Being ready to step in if the raid is full. Ready means either logged out just outside the raid and sitting available on Discord or being online
+                in-game and farming/idling.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="gear-points" class="loot-section">
+        <div class="modal-title">4. Gear Points (GP)</div>
+        <div>
+          The manner in which you track how “much” gear a single individual has gotten is through Gear Points. The amount of GP a specific piece costs is
+          determined by a number of factors and this is to make sure different items cost different amounts depending on their worth. A 2 Handed Epic Sword
+          should definitively cost more than a Rare Ring, and an Epic ring from a later Tier should cost more than an Epic Ring from a Lower one.
+          <div id="gear-points__formula" class="loot-section__subtitle">4.1 Formula</div>
+          <div class="loot-section__text">
+            The formula used in order to determine an items GP is as follows:<br /><br />
+            0,483 x (2^((ilvl/26)+(rarity-4)) x slot) x 1<br /><br />
+            ILVL: Fixed depending on the stats on the item, it is an easy way to value items from different Tiers against each other. Generally all items from a
+            raid have a similar ilvl with the exception being the last boss that tends to drop items with a higher ilvl.<br /><br />
+            Rarity: Will not be relevant on very many occasions but should absolutely be taken into account. It is only regarded by two formulas:
+            <ul>
+              <li>Rare: TBD</li>
+              <li>Epic: TBD</li>
+            </ul>
+            Slot: The last variable part of the equation is slots. It is important for different slots to cost different amounts due to the shear value. A
+            Chestpiece is a lot more worth than Bracers for example.
+            <ul>
+              <li>Head: 1</li>
+              <li>Neck: 0.5</li>
+              <li>Shoulder: 0.75</li>
+              <li>Cloak: 0.5</li>
+              <li>Chest: 1</li>
+              <li>Wrist: 0.5</li>
+              <li>Hands: 0.75</li>
+              <li>Waist: 0.75</li>
+              <li>Legs: 1</li>
+              <li>Feet: 0.75</li>
+              <li>Ring: 0.5</li>
+              <li>Trinket: 0.75</li>
+              <li>1H Weapon: 1.25</li>
+              <li>2H Weapon: 2/0.5*</li>
+              <li>Shield: 0.5</li>
+              <li>Ranged: 0.5/2*</li>
+              <li>Wand: 0,5</li>
+              <li>Relic: 0.5</li>
+              <li>Thrown: 0.5</li>
+              <li>Caster OH: 0.5</li>
+            </ul>
+            *Example of exceptions, more below.<br /><br />
+            Reasoning behind weapons:<br /><br />
+            The biggest point of discussion is without a doubt the disparities between using two 1-H, a 1-H and OH or a 2H. These costs don't match up, instead
+            they fall on increments om 1.75, 2 and 2.5. The reasoning behind this is as follows:<br /><br />
+            There is no doubt that one of the most sought out upgrades is weapons for melee. This due to the added value of not simply being used for the base
+            stats. The DPS is paramount for melee. As a result the heavily contested 1-H will have to be tolled with quite a price. The question that might
+            arise then is: “Why doesn't 2-H cost the same price? It has the same added effect.”. The answer is that there just isn't the same type of desire for
+            those weapons. There is also the added effect of having two enchantments etc. As far as casters go there is a lot of simplicity in taking a Staff.
+            While taking a MH and OH requires more effort. Thus the 0.25 difference.<br /><br />
+            This is by no means perfect but it doesn't put any one group in a too good/bad of a position.
+          </div>
+          <div id="gear-points__exceptions" class="loot-section__subtitle">4.2 Exceptions</div>
+          <div class="loot-section__text">
+            Now there are a few exceptions when it comes to GP. This is to help relieve some of the problems that could arise if the system is too rigid. These
+            exceptions are all made in order to make gearing as smooth and fair as possible while also making sure we have the best possibilities to progress.
+          </div>
+          <div id="gear-points__exceptions__ranged" class="loot-section__subtitle">4.2.1 Ranged/2-Handers</div>
+          <div class="loot-section__text">
+            The first exception to general cost-rules are Ranged Weapons and 2-Handed Weapons for Melee/Hunters. For Hunters a 2-Handed Weapon will have a
+            coefficient of 0,5 and Ranged Weapons 2,0. The opposite is true for Melee: a 2-Handed Weapon will have a coefficient of 2,0 and Ranged Weapons 0,5.
+            But not only that, due to the imbalance this might cause Melee will automatically have a priority for 2-Handed Weapons and Hunters for Ranged. This
+            is to make sure items that are simply used as stat-sticks won't cost too much, and Main Weapons won't cost too little.
+          </div>
+          <div id="gear-points__exceptions__tanking" class="loot-section__subtitle">4.2.2 Tanking</div>
+          <div class="loot-section__text">
+            The next exception has to do with DPS-Warriors and Tanking Gear. As per usual Tanks have a priority on all Tanking items, and the Main Tank
+            specifically. This makes sure that the people who have to be hit in the face and survive do just that; survive. But what happens when designated
+            Tanks have the loot they need? Then said items will be handed to other Warriors free of charge. Why? Well it is quite simple, without properly
+            geared tanks we will not succeed and getting far enough they will be required (looking at you 4-H). Thus it is one of the few positions where you
+            really don't have an option. A Healer doesn't HAVE to take items for DPS, neither do the designated Tanks. And should our DPS have to gimp their
+            position in order to accomodate a forced need? Not really. Thus left-over pieces of gear for tanking will be handed out.
+          </div>
+          <div id="gear-points__exceptions__legendary" class="loot-section__subtitle">4.2.3 Thunderfury and Atiesh</div>
+          <div class="loot-section__text">
+            The last exception will be Thunderfury and Atiesh. Now these items will not be handed out on a whim, nor based on who just happened to be on top of
+            the priority. These items will have to be decided before they drop. As far as Thunderfury is concerned it will undoubtedly go to the Main Tank first
+            and to other Tanks thereafter. This is bescause of the insane threat-increase it provides for the tanks, which in turn makes life easier for
+            everyone else. Atiesh is still to be determined.
+          </div>
+        </div>
+      </div>
+      <div id="decay" class="loot-section">
+        <div class="modal-title">5. Decay</div>
+        <div>
+          EPGP has a built in tool in order to minimize the risk, or at least punish the act, of hoarding. This is done through a decay. At a fixed interval, in
+          this case every Wednesday, 5% of every members EP and GP will be deducted. This means that everyones priority will stay the same but the overall
+          point-difference will be decreased. The decay then also fill an important role of making sure long-time raiders still have all the reason to attend
+          raids. Sure your EP goes down but so does your GP and thus raiding again will increase your EP while not taking loot will keep your priority high.
+          This leads us into the next point: changing of raid-tiers. When a new tier of 40-man raiding is introduced we will have a forced decay of 40%. This is
+          done in order to soft-reset the system but still make sure that dedicated people get a priority on loot.
+        </div>
+      </div>
+      <div id="new-raid-tiers" class="loot-section">
+        <div class="modal-title">6. New Raid-tiers</div>
+        <div>
+          As a line in new raids becoming available the old ones will shift over to becoming somewhat redundant. There are however a few reasons why it is still
+          important to run the old raids:
+          <ul>
+            <li>BiS-items for certain classes/specs</li>
+            <li>Thunderfury</li>
+            <li>Crafting mats</li>
+            <li>General upgrades</li>
+          </ul>
+          To make sure the items in said raids don't simply get DE’d because people don't want to waste their priority on them a discount will be enforced. TBD
+        </div>
+      </div>
+      <div id="new-members" class="loot-section">
+        <div class="modal-title">7. New Members</div>
+        <div>
+          As we progress the perfect scenario would be that we keep the exact same lineup throughout, and we will always strive to keep everyone in the guild
+          happy, content and involved. However sometimes things happen and new members will have to be recruited. There will probably never exist a solution to
+          loot and new members that will please everyone but hopefully our option will be a middle ground that everyone can accept. To make sure new members get
+          a worthwhile introduction, and still make sure our long-time members don't feel bypassed, we will have a minimum requirement of EP in order to get
+          loot. This requirement should equate to approximately 2-3 weeks of raiding. Then they are allowed to use their priority to take loot in front of
+          others. It should be noted that receiving loot is still an option, however this is strictly for gear that should otherwise be DE’d.
+        </div>
+      </div>
+      <div id="summary" class="loot-section">
+        <div class="modal-title">8. Summary</div>
+        <div>
+          First of all: thank you for taking on this wall of text. The whole point of it is to make everyone’s stay within the guild easier. Seeing as the
+          biggest breaker of guilds, apart from poor management or lack of progress, is loot-related this compendium should hopefully nip those issues in the
+          bud. If you have any questions or other ideas feel free to raise them with any of the Loot-Managers. The whole point is to have a high ceiling where
+          everyone can make their voice heard. That said, opinions may very well be from one end of the spectrum to another and these guidelines lays the
+          foundation.
+        </div>
+      </div>
+    </div>
   </div>
 </div>

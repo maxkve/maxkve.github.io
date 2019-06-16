@@ -1,8 +1,8 @@
-<div class="raid-modal">
-  <div class="modal-title">
-    <div class="modal-title__text">Raids</div>
-    <div class="modal-title-web__background"><img ng-src="/public/assets/headers/large/dragon.jpg" /></div>
-    <div class="modal-title-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" /></div>
+<div class="raid-modal modal">
+  <div class="modal-header">
+    <div class="modal-header__text">Raids</div>
+    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/dragon.jpg" /></div>
+    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" /></div>
   </div>
   <div class="modal-text">
     Standard Procedure is a PvE-oriented guild, and raids represent the pinnacle of the Classic PvE experience. We raid because we think it's the most enjoyable
@@ -11,7 +11,7 @@
     week, with 1 slot open for an extra raid if need be.
   </div>
   <div class="raid-times">
-    <div class="raid-times__title">Raid times</div>
+    <div class="modal-title">Raid times</div>
     <div class="raid-times__schedule">
       <ul>
         <li>Wednesdays 18.30-22.00</li>
@@ -22,7 +22,6 @@
     Raid times are in GMT+1.
   </div>
   <div class="raid-progress">
-    <div class="raid-times__title">Raid progress</div>
     <div class="raid-instance" ng-repeat="raid in raids">
       <div class="raid-instance-web__img">
         <img ng-src="/public/assets/raids/rectangular/{{::raid.img}}" />

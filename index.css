@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ff9d25;
+}
+
 md-dialog {
   background-color: #101010;
   color: white;
@@ -29,7 +33,10 @@ md-menu-content md-menu-item .md-button {
   color: rgba(255, 255, 255, 1);
 }
 
-.modal-title {
+.modal {
+}
+
+.modal-header {
   height: 10vh;
   overflow: hidden;
   display: flex;
@@ -37,7 +44,7 @@ md-menu-content md-menu-item .md-button {
   position: relative;
 }
 
-.modal-title-web__background {
+.modal-header-web__background {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,12 +57,12 @@ md-menu-content md-menu-item .md-button {
   position: absolute;
 }
 
-.modal-title-web__background img {
+.modal-header-web__background img {
   width: 100%;
   min-height: 120px;
 }
 
-.modal-title-mobile__background {
+.modal-header-mobile__background {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,11 +74,11 @@ md-menu-content md-menu-item .md-button {
   position: absolute;
 }
 
-.modal-title-mobile__background img {
+.modal-header-mobile__background img {
   width: 100%;
 }
 
-.modal-title__text {
+.modal-header__text {
   z-index: 1;
   margin-left: 20px;
   margin-top: 3.5vh;
@@ -80,6 +87,13 @@ md-menu-content md-menu-item .md-button {
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Titillium Web", sans-serif;
+}
+
+.modal-title {
+  font-size: 2vh;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #9482c9;
 }
 
 .modal-text {
@@ -174,55 +188,61 @@ md-menu-content md-menu-item .md-button {
 
 @media only screen and (min-width: 601px) {
   /* Web */
-  .modal-title-mobile__background {
+  .modal-title {
+    font-size: 2vh;
+  }
+  .modal-header-mobile__background {
     display: none;
   }
 }
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
-  .modal-title-web__background {
+  .modal-title {
+    font-size: 3vh;
+  }
+  .modal-header-web__background {
     display: none;
   }
-  .modal-title-mobile {
+  .modal-header-mobile {
     height: 100px;
   }
-  .modal-title-mobile__background {
+  .modal-header-mobile__background {
     height: 100px;
   }
-  .modal-title-mobile__background img {
+  .modal-header-mobile__background img {
     height: 100px;
   }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   /* iPhone X */
-  .modal-title-web__background {
+  .modal-header-web__background {
     display: none;
   }
-  .modal-title-mobile {
+  .modal-header-mobile {
     height: 90px;
   }
-  .modal-title-mobile__background {
+  .modal-header-mobile__background {
     height: 90px;
   }
-  .modal-title-mobile__background img {
+  .modal-header-mobile__background img {
     height: 90px;
   }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   /* iPhone 8 */
-  .modal-title-web__background {
+  .modal-header-web__background {
     display: none;
   }
-  .modal-title-mobile {
+  .modal-header-mobile {
     height: 90px;
   }
-  .modal-title-mobile__background {
+  .modal-header-mobile__background {
     height: 90px;
   }
-  .modal-title-mobile__background img {
+  .modal-header-mobile__background img {
     height: 90px;
   }
 }

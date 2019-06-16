@@ -1,15 +1,14 @@
+.raid-modal {
+  padding-bottom: 0;
+}
+
 .raid-times {
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 20px;
-}
-
-.raid-times__title {
-  font-weight: 500;
-  margin-bottom: 10px;
 }
 
 .raid-progress {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   font-family: "Titillium Web", sans-serif;
@@ -103,9 +102,6 @@
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
-  .raid-times__title {
-    font-size: 3vh;
-  }
   .raid-instance {
     border-radius: 10px;
   }
@@ -136,9 +132,6 @@
 
 @media only screen and (min-width: 601px) {
   /* Web */
-  .raid-times__title {
-    font-size: 2vh;
-  }
   .raid-instance {
     border-radius: 20px;
   }

@@ -113,6 +113,22 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "destruction.png",
         level: 60
       }
+    },
+    jesper: {
+      real: {
+        name: "Jesper",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Chucky",
+        img: "uther.png",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
     }
   };
 
