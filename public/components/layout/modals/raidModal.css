@@ -20,22 +20,14 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-.raid-instance__title {
-  align-self: flex-end;
   margin-bottom: 10px;
-  z-index: 1;
-  font-weight: 700;
-  text-transform: uppercase;
+  overflow: hidden;
 }
 
 .raid-instance-web__img {
   height: 100%;
   overflow: hidden;
-  outline: 4px solid #101010;
+  outline: 4px solid black;
   outline-offset: -4px;
   display: flex;
   align-items: center;
@@ -51,7 +43,7 @@
   position: relative;
   height: 100%;
   overflow: hidden;
-  outline: 4px solid #101010;
+  outline: 4px solid black;
   outline-offset: -4px;
   display: flex;
   align-items: center;
@@ -73,6 +65,7 @@
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
+  background-color: black;
 }
 
 .raid-boss {
@@ -81,7 +74,6 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-  border-radius: 120px;
   background-color: black;
 }
 
@@ -117,11 +109,16 @@
     display: none;
   }
   .raid-bosses {
+    padding-top: 4px;
+    width: 100%;
+    padding-bottom: 4px;
   }
   .raid-boss {
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
     height: 40px;
     width: 40px;
-    margin: 2px;
   }
   .raid-boss__name {
     font-size: 1vh;
@@ -142,9 +139,9 @@
   .raid-bosses {
   }
   .raid-boss {
+    margin-right: 10px;
     height: 80px;
     width: 80px;
-    margin: 5px;
   }
   .raid-boss__name {
     font-size: 1.6vh;
