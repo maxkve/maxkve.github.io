@@ -1,5 +1,5 @@
 <div class="organization-modal modal">
-  <div class="modal-header">
+  <div class="modal-header noselect nointeract">
     <div class="modal-header__text">Organization</div>
     <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/races.jpg" /></div>
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/races.jpg" /></div>
@@ -15,7 +15,7 @@
     <div class="role-list">
       <div class="role" ng-repeat="role in roles">
         <div class="role__title modal-title">
-          <div class="role__img"><img ng-src="public/assets/interface/{{::role.img}}" /></div>
+          <div class="role__img noselect nointeract"><img ng-src="public/assets/interface/{{::role.img}}" /></div>
           {{ role.title }}
         </div>
         <div class="role__description">{{ role.description }}</div>

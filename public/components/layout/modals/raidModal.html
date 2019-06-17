@@ -1,5 +1,5 @@
 <div class="raid-modal modal">
-  <div class="modal-header">
+  <div class="modal-header noselect nointeract">
     <div class="modal-header__text">Raids</div>
     <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/dragon.jpg" /></div>
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" /></div>
@@ -21,16 +21,13 @@
     </div>
     Raid times are in GMT+1.
   </div>
-  <div class="raid-progress">
+  <div class="raid-progress noselect nointeract">
     <div class="raid-instance" ng-repeat="raid in raids">
       <div class="raid-instance-web__img">
-        <img ng-src="/public/assets/raids/rectangular/{{::raid.img}}" />
+        <img ng-src="/public/assets/raids/plaques/{{::raid.img}}" />
       </div>
       <div class="raid-instance-mobile__img">
-        <img ng-src="/public/assets/raids/small/{{::raid.img}}" />
-      </div>
-      <div class="raid-instance__title">
-        {{ ::raid.title }}
+        <img ng-src="/public/assets/raids/plaques/{{::raid.img}}" />
       </div>
       <div class="raid-bosses">
         <div class="raid-boss" ng-repeat="boss in raid.bosses">
