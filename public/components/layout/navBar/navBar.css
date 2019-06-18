@@ -53,6 +53,7 @@
 }
 
 .guild-text {
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +64,6 @@
   color: rgba(255, 255, 255, 0.87);
   /* color: #FB8C00; */
   text-transform: uppercase;
-  font-size: 2.4vh;
   font-weight: 900;
 }
 
@@ -144,7 +144,10 @@
   .header {
     height: 12vh;
   }
-  .header__server {
+  .guild__name {
+    font-size: 2.4vh;
+  }
+  .guild__server {
     font-size: 2vh;
   }
   .header__web-menu {
@@ -160,7 +163,10 @@
   .header {
     height: 10vh;
   }
-  .header__server {
+  .guild__name {
+    font-size: 2vh;
+  }
+  .guild__server {
     font-size: 1.6vh;
   }
   .header__mobile-menu {

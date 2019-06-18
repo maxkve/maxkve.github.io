@@ -4,28 +4,63 @@
   align-items: center;
 }
 
+.timer {
+  display: flex;
+}
+
+.timer__digit {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.timer__digit__label {
+  position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
   /* Mobile */
   .countdown-timer {
-    height: 6vh;
   }
   .timer__text {
     font-size: 3vh;
   }
-  #timer {
+  .timer__digit {
     font-size: 3vh;
+    line-height: 3vh;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 6px;
+    margin: 6px;
+  }
+  .timer__digit__label {
+    font-size: 1.2vh;
+    bottom: -18px;
   }
 }
 
 @media only screen and (min-width: 601px) {
   /* Web */
   .countdown-timer {
-    height: 7vh;
   }
   .timer__text {
     font-size: 4vh;
   }
-  #timer {
-    font-size: 3vh;
+  .timer__digit {
+    font-size: 4vh;
+    line-height: 4vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .timer__digit__label {
+    font-size: 1.8vh;
+    bottom: -36px;
   }
 }

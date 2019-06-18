@@ -58,7 +58,6 @@
 .raid-bosses {
   height: 100%;
   padding-left: 10px;
-  padding-right: 10px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -112,6 +111,7 @@
     padding-top: 4px;
     width: 100%;
     padding-bottom: 4px;
+    padding-right: 10px;
   }
   .raid-boss {
     margin-right: 6px;
@@ -139,7 +139,7 @@
   .raid-bosses {
   }
   .raid-boss {
-    margin-right: 10px;
+    margin-right: 20px;
     height: 80px;
     width: 80px;
   }
