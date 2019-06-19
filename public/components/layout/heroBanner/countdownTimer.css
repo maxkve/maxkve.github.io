@@ -15,10 +15,14 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  font-weight: normal;
+  color: #eaeaea;
 }
 
 .timer__digit__label {
   position: absolute;
+  font-weight: 900;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,16 +55,16 @@
     font-size: 4vh;
   }
   .timer__digit {
-    font-size: 4vh;
-    line-height: 4vh;
-    width: 50px;
-    height: 50px;
+    font-size: 3vh;
+    line-height: 3vh;
+    width: 40px;
+    height: 40px;
     border-radius: 6px;
     padding: 10px;
     margin: 10px;
   }
   .timer__digit__label {
-    font-size: 1.8vh;
-    bottom: -36px;
+    font-size: 1.4vh;
+    bottom: -25px;
   }
 }
