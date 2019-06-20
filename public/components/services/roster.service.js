@@ -1,6 +1,32 @@
 "use strict";
 
 angular.module("epgpApp").service("rosterService", function() {
+  this.getMemberReadOnly = function(id) {
+    return angular.copy(roster[id]);
+  };
+
+  this.getMember = function(id) {
+    return roster[id];
+  };
+
+  this.getRosterReadOnly = function() {
+    return angular.copy(roster);
+  };
+
+  this.getRoster = function() {
+    return roster;
+  };
+
+  this.getClassCount = function(className) {
+    let classCount = 0;
+    Object.keys(roster).forEach(memberId => {
+      if (roster[memberId].game.class == className) {
+        classCount += 1;
+      }
+    });
+    return classCount;
+  };
+
   let roster = {
     0: {
       real: {
@@ -226,7 +252,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    14: {
       real: {
         name: "Stehr",
         img: "",
@@ -242,7 +268,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    15: {
       real: {
         name: "Oliver",
         img: "",
@@ -258,7 +284,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    16: {
       real: {
         name: "Felix",
         img: "",
@@ -274,7 +300,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    17: {
       real: {
         name: "Tommie",
         img: "",
@@ -290,7 +316,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    18: {
       real: {
         name: "Mackan",
         img: "",
@@ -306,21 +332,5 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     }
-  };
-
-  this.getMemberReadOnly = function(id) {
-    return angular.copy(roster[id]);
-  };
-
-  this.getMember = function(id) {
-    return roster[id];
-  };
-
-  this.getRosterReadOnly = function() {
-    return angular.copy(roster);
-  };
-
-  this.getRoster = function() {
-    return roster;
   };
 });

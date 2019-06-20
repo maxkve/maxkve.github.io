@@ -7,19 +7,44 @@
   margin-bottom: 10px;
 }
 
+.roster-summary {
+  display: flex;
+  justify-content: center;
+}
+
+.summary__class {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.summary__class-img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 120px;
+}
+
+.summary__class-img img {
+  height: 100%;
+  width: 100%;
+}
+
 .roster-list {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   position: relative;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .roster-member {
   display: flex;
   align-items: center;
   background-color: black;
+  border-radius: 10px;
 }
 
 .member-class-icon {
@@ -83,7 +108,6 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 10px;
   }
   .roster-list {
     flex-direction: column;
@@ -100,6 +124,23 @@
     font-size: 1.6vh;
     line-height: 1.8vh;
   }
+  .roster-summary {
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .summary__class {
+    font-size: 1.6vh;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 4px;
+  }
+  .summary__class-img {
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -107,7 +148,6 @@
   .roster-member {
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
     flex: 1 0 calc(20% - 20px);
   }
   .roster-list {
@@ -123,6 +163,21 @@
   .member-roles {
     font-size: 1.2vh;
     line-height: 1.4vh;
+  }
+  .roster-summary {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+  .summary__class {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 4px;
+  }
+  .summary__class-img {
+    margin-right: 10px;
   }
 }
 

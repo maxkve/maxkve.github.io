@@ -4,6 +4,43 @@
     <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/group.jpg" /></div>
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/group.jpg" /></div>
   </div>
+  <div class="roster-summary">
+    <div class="summary__class Druid-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" /></div>
+      {{::druidCount}}
+      <!--Druid(s)-->
+    </div>
+    <div class="summary__class Hunter-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/hunter.png" /></div>
+      {{::hunterCount}}
+      <!--Hunter(s)-->
+    </div>
+    <div class="summary__class Mage-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/mage.png" /></div>
+      {{::mageCount}}
+      <!--Mage(s)-->
+    </div>
+    <div class="summary__class Paladin-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/paladin.png" /></div>
+      {{::paladinCount}}
+      <!--Paladin(s)-->
+    </div>
+    <div class="summary__class Priest-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/priest.png" /></div>
+      {{::priestCount}}
+      <!--Priest(s)-->
+    </div>
+    <div class="summary__class Rogue-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/rogue.png" /></div>
+      {{::rogueCount}}
+      <!--Rogue(s)-->
+    </div>
+    <div class="summary__class Warrior-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/warrior.png" /></div>
+      {{::warriorCount}}
+      <!--Warrior(s)-->
+    </div>
+  </div>
   <div class="roster-list">
     <div class="roster-member" ng-repeat="member in roster">
       <div class="member-class-icon noselect nointeract"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" /></div>
