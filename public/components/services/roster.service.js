@@ -328,7 +328,7 @@ angular.module("epgpApp").service("rosterService", function() {
         class: "Warrior",
         spec: "Fury",
         classIcon: "warrior.png",
-        specIcon: "Fury.png",
+        specIcon: "fury.png",
         level: 60
       }
     }
