@@ -2,7 +2,7 @@
 
 angular.module("epgpApp").service("rosterService", function() {
   let roster = {
-    vector: {
+    0: {
       real: {
         name: "Max",
         img: "",
@@ -18,7 +18,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    wezzi: {
+    1: {
       real: {
         name: "Albin",
         img: "",
@@ -34,7 +34,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    controlfreak: {
+    2: {
       real: {
         name: "Hampus",
         img: "",
@@ -50,7 +50,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    hanke: {
+    3: {
       real: {
         name: "Oskar",
         img: "",
@@ -66,7 +66,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    ohhstar: {
+    4: {
       real: {
         name: "Kajsa",
         img: "",
@@ -82,7 +82,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    zorn: {
+    5: {
       real: {
         name: "Anton",
         img: "",
@@ -98,7 +98,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    viktor: {
+    6: {
       real: {
         name: "Viktor",
         img: "",
@@ -114,19 +114,195 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    jesper: {
+    7: {
       real: {
         name: "Jesper",
         img: "",
         roles: ""
       },
       game: {
-        name: "Chucky",
+        name: "Zernox",
         img: "uther.png",
         class: "Warrior",
         spec: "Fury",
         classIcon: "warrior.png",
         specIcon: "fury.png",
+        level: 60
+      }
+    },
+    8: {
+      real: {
+        name: "Linus",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
+    },
+    9: {
+      real: {
+        name: "Bosse",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    10: {
+      real: {
+        name: "Wolle",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
+        level: 60
+      }
+    },
+    11: {
+      real: {
+        name: "Jarre",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
+        level: 60
+      }
+    },
+    12: {
+      real: {
+        name: "Macke",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Hunter",
+        spec: "Marksmanship",
+        classIcon: "hunter.png",
+        specIcon: "marksmanship.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Axel",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Stehr",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Oliver",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Hunter",
+        spec: "Marksmanship",
+        classIcon: "hunter.png",
+        specIcon: "marksmanship.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Felix",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Druid",
+        spec: "Restoration",
+        classIcon: "druid.png",
+        specIcon: "restoration.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Tommie",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    13: {
+      real: {
+        name: "Mackan",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "<Undecided>",
+        img: "uther.png",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "Fury.png",
         level: 60
       }
     }
