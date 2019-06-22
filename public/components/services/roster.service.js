@@ -35,12 +35,12 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: "Guild Master, Webmaster"
       },
       game: {
-        name: "Vector",
+        name: "Combobreaker",
         img: "uther.png",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
         level: 60
       }
     },
