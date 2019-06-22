@@ -37,6 +37,11 @@ angular.module("epgpApp").service("roleService", function() {
       description:
         "Responsible for organizing the raid groups, communicating strategy, and co-ordinating the raid group during the raid. Also, as a group responsible for making guild-wide default strategy decisions affecting all raid groups running a given raid (ensuring that raid groups operate somewhat similarly). The Raid Leaders decide amongst themselves who will be leading the raid for the night. Communicates with the Raid Manager to ensure that the raid group is built appropriately for the given raid."
     },
+    healingcoordinator: {
+      title: "Healing Coordinator",
+      img: "ambulance.png",
+      description: "Organizes raid healing and designates healing targets."
+    },
     tank: {
       title: "Tank",
       img: "shield.png",
