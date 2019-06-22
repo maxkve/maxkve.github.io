@@ -5,6 +5,7 @@
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/group.jpg" /></div>
   </div>
   <div class="roster-summary">
+    <div class="summary__class">Members: {{::totalCount}}</div>
     <div class="summary__class Druid-text">
       <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" /></div>
       {{::druidCount}}
@@ -34,6 +35,11 @@
       <div class="summary__class-img"><img ng-src="/public/assets/classes/rogue.png" /></div>
       {{::rogueCount}}
       <!--Rogue(s)-->
+    </div>
+    <div class="summary__class Warlock-text">
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/warlock.png" /></div>
+      {{::warlockCount}}
+      <!--Warrior(s)-->
     </div>
     <div class="summary__class Warrior-text">
       <div class="summary__class-img"><img ng-src="/public/assets/classes/warrior.png" /></div>

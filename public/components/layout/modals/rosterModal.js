@@ -12,5 +12,7 @@ angular.module("epgpApp").controller("rosterModalController", function($scope, $
   $scope.paladinCount = rosterService.getClassCount("Paladin");
   $scope.priestCount = rosterService.getClassCount("Priest");
   $scope.rogueCount = rosterService.getClassCount("Rogue");
+  $scope.warlockCount = rosterService.getClassCount("Warlock");
   $scope.warriorCount = rosterService.getClassCount("Warrior");
+  $scope.totalCount = rosterService.getTotalCount();
 });

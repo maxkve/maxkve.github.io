@@ -27,6 +27,10 @@ angular.module("epgpApp").service("rosterService", function() {
     return classCount;
   };
 
+  this.getTotalCount = function() {
+    return Object.keys(roster).length;
+  };
+
   let roster = {
     0: {
       real: {
