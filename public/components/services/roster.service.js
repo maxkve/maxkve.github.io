@@ -40,7 +40,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Combobreaker",
-        img: "uther.png",
+        img: "",
         class: "Paladin",
         spec: "Holy",
         classIcon: "paladin.png",
@@ -56,7 +56,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Wezzi",
-        img: "uther.png",
+        img: "",
         class: "Warrior",
         spec: "Protection",
         classIcon: "warrior.png",
@@ -72,7 +72,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Controlfreak",
-        img: "uther.png",
+        img: "",
         class: "Rogue",
         spec: "Combat",
         classIcon: "rogue.png",
@@ -87,8 +87,8 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: "Assistant Raid Manager, Raid Leader, Healing Coordinator, Alchemist"
       },
       game: {
-        name: "Hanke",
-        img: "uther.png",
+        name: "Snuggle",
+        img: "",
         class: "Priest",
         spec: "Holy",
         classIcon: "priest.png",
@@ -104,7 +104,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Ohhstar",
-        img: "uther.png",
+        img: "",
         class: "Mage",
         spec: "Frost",
         classIcon: "mage.png",
@@ -120,7 +120,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Zorn",
-        img: "uther.png",
+        img: "",
         class: "Warrior",
         spec: "Protection",
         classIcon: "warrior.png",
@@ -136,7 +136,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Warlock",
         spec: "Destruction",
         classIcon: "warlock.png",
@@ -152,7 +152,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Zernox",
-        img: "uther.png",
+        img: "",
         class: "Warrior",
         spec: "Fury",
         classIcon: "warrior.png",
@@ -168,7 +168,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Warrior",
         spec: "Fury",
         classIcon: "warrior.png",
@@ -184,7 +184,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Paladin",
         spec: "Holy",
         classIcon: "paladin.png",
@@ -200,7 +200,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Warlock",
         spec: "Destruction",
         classIcon: "warlock.png",
@@ -216,7 +216,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Rogue",
         spec: "Combat",
         classIcon: "rogue.png",
@@ -232,7 +232,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Hunter",
         spec: "Marksmanship",
         classIcon: "hunter.png",
@@ -248,7 +248,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Rogue",
         spec: "Combat",
         classIcon: "rogue.png",
@@ -264,7 +264,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Mage",
         spec: "Frost",
         classIcon: "mage.png",
@@ -280,7 +280,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Hunter",
         spec: "Marksmanship",
         classIcon: "hunter.png",
@@ -296,7 +296,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Druid",
         spec: "Restoration",
         classIcon: "druid.png",
@@ -312,7 +312,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Paladin",
         spec: "Holy",
         classIcon: "paladin.png",
@@ -328,7 +328,7 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "uther.png",
+        img: "",
         class: "Warrior",
         spec: "Fury",
         classIcon: "warrior.png",
