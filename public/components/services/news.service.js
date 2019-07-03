@@ -25,6 +25,14 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Zorn, Raid Leader and Off-tank, in this short introductory piece.",
       content:
         "Hello, I'm Zorn. Your Raid Leader and Off-tank by night, 31-year old Banker from Sweden by day. I've been an avid player of WoW since the original Beta back in 2004. I've played every expansion up to Legion (BFA being the first one I havent played on release).<br><br>I created my first character back in the Beta, a Human Warrior, and have had him as my main ever since. I raided quite hardcore in both Vanilla and TBC, reaching 4-Horsemen before the dreaded 2.0 patch tore our raid to pieces. I have a lot of experience as a Raid-Leader and Main Tank through all of Vanillas content, that being said I'm open to new ideas and tactics!<br><br>I'm really looking forward to experience all that Classic has to offer with all of you!"
+    },
+    3: {
+      title: "Zorn appears on Countdown to Classic",
+      img: "public/assets/news/countdowntoclassic.jpg",
+      date: "2019-07-03",
+      summary: "Zorn talks Thunderfury on episode #111 of Countdown to Classic.",
+      content:
+        "Zorn recently appeared on episode #111 of Countdown to Classic where he spoke at length about Thunderfury, its state pre- and post-nerf, its role in tanking, if any other classes were eligible to receive it (sorry Hunters), and much more.<br><br>You can listen to the podcast on Josh's website here: <a href='https://countdowntoclassic.com/2019/07/03/episode-111-thunderfury-dr-lupo-on-wow-classic-streaming-a-listener-reply-to-world-buffs-eu-server-mayhem-the-making-of-wailing-caverns/' target='_blank'>Countdown to Classic</a>"
     }
   };
 
