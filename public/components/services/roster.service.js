@@ -351,6 +351,22 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "destruction.png",
         level: 60
       }
+    },
+    20: {
+      real: {
+        name: "Ema",
+        img: "",
+        roles: "Off-tank"
+      },
+      game: {
+        name: "Ema",
+        img: "",
+        class: "Warrior",
+        spec: "Protection",
+        classIcon: "warrior.png",
+        specIcon: "protection_warrior.png",
+        level: 60
+      }
     }
   };
 });
