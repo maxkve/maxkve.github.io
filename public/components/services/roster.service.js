@@ -335,6 +335,22 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "fury.png",
         level: 60
       }
+    },
+    19: {
+      real: {
+        name: "Jens",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Sleypner",
+        img: "",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
+        level: 60
+      }
     }
   };
 });
