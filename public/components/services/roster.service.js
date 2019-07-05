@@ -367,6 +367,22 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "protection_warrior.png",
         level: 60
       }
+    },
+    21: {
+      real: {
+        name: "Afze",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Afze",
+        img: "",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
     }
   };
 });
