@@ -46,6 +46,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #fb8c00;
+  white-space: pre-wrap;
 }
 
 .text__date {
@@ -72,6 +73,7 @@
   .text__title {
     margin-left: 10px;
     margin-top: 10px;
+    margin-right: 10px;
     font-size: 3vw;
   }
   .text__date {
@@ -103,6 +105,7 @@
     margin-left: 20px;
     font-size: 2vh;
     margin-top: 20px;
+    margin-right: 20px;
   }
   .text__date {
     margin-top: 6px;
