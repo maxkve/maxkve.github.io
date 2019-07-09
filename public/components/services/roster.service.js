@@ -383,6 +383,102 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "fury.png",
         level: 60
       }
+    },
+    22: {
+      real: {
+        name: "Petr",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Bhallock",
+        img: "",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
+        level: 60
+      }
+    },
+    23: {
+      real: {
+        name: "Kevin",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Yakshi",
+        img: "",
+        class: "Druid",
+        spec: "Restoration",
+        classIcon: "druid.png",
+        specIcon: "restoration.png",
+        level: 60
+      }
+    },
+    24: {
+      real: {
+        name: "Andreas",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Stormday",
+        img: "",
+        class: "Hunter",
+        spec: "Marksmanship",
+        classIcon: "hunter.png",
+        specIcon: "marksmanship.png",
+        level: 60
+      }
+    },
+    25: {
+      real: {
+        name: "Christian",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Chresjan",
+        img: "",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    26: {
+      real: {
+        name: "Taka",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Taka",
+        img: "",
+        class: "Warrior",
+        spec: "Protection",
+        classIcon: "warrior.png",
+        specIcon: "protection_warrior.png",
+        level: 60
+      }
+    },
+    27: {
+      real: {
+        name: "Phogster",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Phogster",
+        img: "",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
     }
   };
 });
