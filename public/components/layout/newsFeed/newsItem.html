@@ -1,7 +1,9 @@
 <div class="news-item">
   <md-button ng-click="$ctrl.openNewsModal($ctrl.newsItem)">
-    <div class="news-item__img">
-      <img ng-src="{{ ::$ctrl.newsItem.img }}" />
+    <div class="news-item__image">
+      <div class="news-item__image__scaler">
+        <img ng-src="{{::$ctrl.newsItem.img}}" />
+      </div>
     </div>
     <div class="news-item__text">
       <div class="text__title">{{ ::$ctrl.newsItem.title }}</div>

@@ -496,22 +496,6 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    28: {
-      real: {
-        name: "Kiggi",
-        img: "",
-        roles: ""
-      },
-      game: {
-        name: "Kiggi",
-        img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
-        level: 60
-      }
-    },
     29: {
       real: {
         name: "Fugitive",
@@ -519,7 +503,7 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: ""
       },
       game: {
-        name: "<Undecided>",
+        name: "Fugitive",
         img: "",
         class: "Mage",
         spec: "Frost",
