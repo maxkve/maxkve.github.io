@@ -249,10 +249,10 @@ angular.module("epgpApp").service("rosterService", function() {
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
         level: 60
       }
     },
@@ -509,6 +509,38 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Frost",
         classIcon: "mage.png",
         specIcon: "frost.png",
+        level: 60
+      }
+    },
+    30: {
+      real: {
+        name: "Andrion",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Legolas",
+        img: "",
+        class: "Hunter",
+        spec: "Marksmanship",
+        classIcon: "hunter.png",
+        specIcon: "marksmanship.png",
+        level: 60
+      }
+    },
+    31: {
+      real: {
+        name: "Ironcrusader",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Ironcrusader",
+        img: "",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
         level: 60
       }
     }
