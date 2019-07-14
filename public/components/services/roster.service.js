@@ -295,12 +295,12 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: ""
       },
       game: {
-        name: "<Undecided>",
+        name: "Drwatson",
         img: "",
-        class: "Druid",
-        spec: "Restoration",
-        classIcon: "druid.png",
-        specIcon: "restoration.png",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
         level: 60
       }
     },
@@ -311,7 +311,7 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: ""
       },
       game: {
-        name: "<Undecided>",
+        name: "Xeddan",
         img: "",
         class: "Paladin",
         spec: "Holy",
