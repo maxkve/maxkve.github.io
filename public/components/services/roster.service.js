@@ -247,12 +247,12 @@ angular.module("epgpApp").service("rosterService", function() {
         roles: ""
       },
       game: {
-        name: "<Undecided>",
+        name: "Pontz",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
         level: 60
       }
     },
