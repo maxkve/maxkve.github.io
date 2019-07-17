@@ -498,7 +498,7 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     29: {
       real: {
-        name: "Fugitive",
+        name: "Ben",
         img: "",
         roles: ""
       },
@@ -541,6 +541,102 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Combat",
         classIcon: "rogue.png",
         specIcon: "combat.png",
+        level: 60
+      }
+    },
+    32: {
+      real: {
+        name: "Esoteric",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Esoteric",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    33: {
+      real: {
+        name: "Fred",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Freddo",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    34: {
+      real: {
+        name: "Ollie",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Ohceejay",
+        img: "",
+        class: "Druid",
+        spec: "Restoration",
+        classIcon: "druid.png",
+        specIcon: "restoration.png",
+        level: 60
+      }
+    },
+    35: {
+      real: {
+        name: "Emil",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Froeen",
+        img: "",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
+        level: 60
+      }
+    },
+    36: {
+      real: {
+        name: "Dennis",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Zeltres",
+        img: "",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
+    },
+    37: {
+      real: {
+        name: "Andrea",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Allistair",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
         level: 60
       }
     }
