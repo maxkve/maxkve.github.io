@@ -532,7 +532,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ironcrusader",
         img: "",
-        roles: ""
+        roles: "Rogue Class Leader"
       },
       game: {
         name: "Ironcrusader",
@@ -632,6 +632,22 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "Allistair",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    38: {
+      real: {
+        name: "Dennis",
+        img: "",
+        roles: ""
+      },
+      game: {
+        name: "Baraccus",
         img: "",
         class: "Priest",
         spec: "Holy",
