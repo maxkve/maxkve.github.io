@@ -36,7 +36,10 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Max",
         img: "",
-        roles: "Guild Master, Webmaster"
+        roles: "Guild Master, Webmaster",
+        rank: "Raider",
+        rankIcon: "raider.png",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Combobreaker",
@@ -52,7 +55,10 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Albin",
         img: "",
-        roles: "Assistant Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith"
+        roles: "Assistant Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith",
+        rank: "Raider",
+        rankIcon: "raider.png",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Wezzi",
@@ -68,7 +74,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Hampus",
         img: "",
-        roles: "Recruitment Manager, Tribal Leatherworker"
+        roles: "Recruitment Manager, Tribal Leatherworker",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Controlfreak",
@@ -84,7 +92,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Oskar",
         img: "",
-        roles: "Assistant Raid Manager, Raid Leader, Healing Coordinator, Alchemist"
+        roles: "Assistant Raid Manager, Raid Leader, Healing Coordinator, Alchemist",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Snuggle",
@@ -100,7 +110,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Kajsa",
         img: "",
-        roles: "Loot Manager, Enchanter, Tailor"
+        roles: "Loot Manager, Enchanter, Tailor",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Ohhstar",
@@ -116,7 +128,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Anton",
         img: "",
-        roles: "Raid Leader, Off-tank, Armorsmith"
+        roles: "Raid Leader, Off-tank, Armorsmith",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Zorn",
@@ -132,7 +146,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Viktor",
         img: "",
-        roles: "Assistant Enchanter, Assistant Tailor"
+        roles: "Assistant Enchanter, Assistant Tailor",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -148,7 +164,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Jesper",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Zernox",
@@ -164,7 +182,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Linus",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -180,7 +200,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Bosse",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "<Undecided>",
@@ -196,7 +218,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Wolle",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -212,7 +236,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Jarre",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -228,7 +254,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Macke",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "<Undecided>",
@@ -244,7 +272,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Axel",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "Pontz",
@@ -260,7 +290,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Stehr",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -276,7 +308,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Oliver",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "<Undecided>",
@@ -292,7 +326,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Felix",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "Drwatson",
@@ -308,7 +344,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Tommie",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Xeddan",
@@ -324,10 +362,12 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Mackan",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
-        name: "<Undecided>",
+        name: "Mackemjo",
         img: "",
         class: "Warrior",
         spec: "Fury",
@@ -340,7 +380,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Jens",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Sleypner",
@@ -356,7 +398,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ema",
         img: "",
-        roles: "Off-tank"
+        roles: "Off-tank",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Ema",
@@ -372,7 +416,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Afze",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Afze",
@@ -388,7 +434,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Petr",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Bhallock",
@@ -404,7 +452,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Kevin",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Yakshi",
@@ -420,7 +470,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andreas",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Stormday",
@@ -436,7 +488,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Christian",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Chresjan",
@@ -452,7 +506,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Taka",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "Taka",
@@ -468,7 +524,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Phogster",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Phogster",
@@ -484,7 +542,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Kiggi",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "Kiggi",
@@ -500,7 +560,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ben",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Fugitive",
@@ -516,7 +578,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andrion",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Legolas",
@@ -532,7 +596,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ironcrusader",
         img: "",
-        roles: "Rogue Class Leader"
+        roles: "Rogue Class Leader",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Ironcrusader",
@@ -548,7 +614,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Esoteric",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Esoteric",
@@ -564,7 +632,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Fred",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Freddo",
@@ -580,7 +650,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ollie",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Ohceejay",
@@ -596,7 +668,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Emil",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Froeen",
@@ -612,7 +686,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Dennis",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Zeltres",
@@ -628,7 +704,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andrea",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Allistair",
@@ -644,7 +722,9 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Dennis",
         img: "",
-        roles: ""
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
       },
       game: {
         name: "Baraccus",

@@ -5,6 +5,25 @@
   align-items: center;
   background-color: black;
   padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-feed__items {
+  z-index: 1;
+}
+
+.news-feed__background {
+  margin-top: -50px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  filter: grayscale();
+  opacity: 0.06;
+}
+
+.news-feed__background img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

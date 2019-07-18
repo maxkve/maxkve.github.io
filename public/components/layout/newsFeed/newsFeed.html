@@ -1,5 +1,8 @@
 <div class="news-feed" id="news">
-  <div ng-repeat="newsItem in ::$ctrl.news | orderObjectBy:news.date">
+  <div class="news-feed__items" ng-repeat="newsItem in ::$ctrl.news | orderObjectBy:news.date">
     <news-item news-item="newsItem"></news-item>
+  </div>
+  <div class="news-feed__background">
+    <img ng-src="public/assets/ancient_wars.jpg" />
   </div>
 </div>

@@ -45,11 +45,10 @@
   align-items: center;
   height: 100%;
   margin-right: 10px;
-  width: 15%;
 }
 
 .guild-emblem img {
-  height: 50%;
+  height: 70%;
 }
 
 .guild-text {
@@ -62,7 +61,6 @@
 
 .guild__name {
   color: rgba(255, 255, 255, 0.87);
-  /* color: #FB8C00; */
   text-transform: uppercase;
   font-weight: 900;
 }

@@ -42,12 +42,24 @@
 
 .roster-member {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   background-color: black;
   border-radius: 10px;
 }
 
-.member-class-icon {
+.member__row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.member__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.member__class-icon {
   border: 10px solid black;
   box-sizing: border-box;
   height: 60px;
@@ -59,16 +71,16 @@
   border-radius: 60px;
 }
 
-.member-class-icon img {
+.member__class-icon img {
   height: 100%;
 }
 
-.member-class {
+.member__class {
   display: flex;
   align-items: center;
 }
 
-.member-spec-icon {
+.member__spec-icon {
   height: 14px;
   width: 14px;
   display: flex;
@@ -79,27 +91,43 @@
   margin-right: 4px;
 }
 
-.member-spec-icon img {
+.member__spec-icon img {
   height: 100%;
 }
 
 .member__game-text {
-  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.member-name {
-  margin-top: 6px;
+.member__name {
+  margin-top: 8px;
   margin-bottom: 1px;
 }
 
-.member-roles {
+.member__roles {
   color: #666;
-  padding-right: 10px;
-  margin-bottom: 6px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+}
+
+.member__rank-icon {
+  align-self: flex-end;
+  opacity: 0.2;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.member__rank-icon img {
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,15 +142,15 @@
     flex-direction: column;
     align-items: center;
   }
-  .member-name {
-    font-size: 3vh;
+  .member__name {
+    font-size: 2.6vh;
     line-height: 3vh;
   }
-  .member-class {
+  .member__class {
     font-size: 2vh;
   }
-  .member-roles {
-    font-size: 1.6vh;
+  .member__roles {
+    font-size: 1.4vh;
     line-height: 1.8vh;
   }
   .roster-summary {
@@ -154,14 +182,14 @@
   .roster-list {
     flex-wrap: wrap;
   }
-  .member-name {
+  .member__name {
     font-size: 2.4vh;
     line-height: 2.4vh;
   }
-  .member-class {
+  .member__class {
     font-size: 1.6vh;
   }
-  .member-roles {
+  .member__roles {
     font-size: 1.2vh;
     line-height: 1.4vh;
   }
@@ -196,14 +224,14 @@
     flex-direction: column;
     align-items: center;
   }
-  .member-name {
-    font-size: 3vh;
+  .member__name {
+    font-size: 2.6vh;
     line-height: 3vh;
   }
-  .member-class {
-    font-size: 2vh;
+  .member__class {
+    font-size: 1.6vh;
   }
-  .member-roles {
+  .member__roles {
     font-size: 1.4vh;
     line-height: 1.6vh;
   }
@@ -223,15 +251,15 @@
     flex-direction: column;
     align-items: center;
   }
-  .member-name {
-    font-size: 3vh;
+  .member__name {
+    font-size: 2.6vh;
     line-height: 3vh;
   }
-  .member-class {
+  .member__class {
     font-size: 2vh;
   }
-  .member-roles {
-    font-size: 1.6vh;
+  .member__roles {
+    font-size: 1.4vh;
     line-height: 1.8vh;
   }
 }

@@ -5,7 +5,7 @@
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/group.jpg" /></div>
   </div>
   <div class="roster-summary noselect nointeract">
-    <div class="summary__class">Members: {{::totalCount}}</div>
+    <div class="summary__class">{{::totalCount}} members</div>
     <div class="summary__class Druid-text">
       <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" /></div>
       {{::druidCount}}
@@ -49,14 +49,21 @@
   </div>
   <div class="roster-list">
     <div class="roster-member" ng-repeat="member in roster">
-      <div class="member-class-icon noselect nointeract"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" /></div>
-      <div class="member__game-text">
-        <div class="member-name">{{ ::member.game.name }}</div>
-        <div class="member-class">
-          <div class="member-spec-icon noselect nointeract"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" /></div>
-          <div class="member-class-text {{ ::member.game.class }}-text">{{ ::member.game.spec }} {{ ::member.game.class }}</div>
+      <div class="member__row">
+        <div class="member__column">
+          <div class="member__class-icon noselect nointeract"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" /></div>
         </div>
-        <div class="member-roles">{{ ::member.real.roles }}</div>
+        <div class="member__column">
+          <div class="member__name">{{ ::member.game.name }}</div>
+          <div class="member__class">
+            <div class="member__spec-icon noselect nointeract"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" /></div>
+            <div class="member__class-text {{ ::member.game.class }}-text">{{ ::member.game.spec }} {{ ::member.game.class }}</div>
+          </div>
+          <div class="member__roles">{{ ::member.real.roles }}</div>
+        </div>
+      </div>
+      <div class="member__column">
+        <div class="member__rank-icon noselect nointeract"><img ng-src="/public/assets/ranks/{{::member.real.rankIcon}}" /></div>
       </div>
     </div>
   </div>

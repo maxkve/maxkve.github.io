@@ -93,7 +93,14 @@ md-menu-content md-menu-item .md-button {
   font-size: 2vh;
   font-weight: 500;
   margin-top: 20px;
-  color: #9482c9;
+  color: #fb8c00;
+}
+
+.modal-subtitle {
+  margin-top: 10px;
+  font-size: 1.6vh;
+  font-weight: 500;
+  color: #fb8c00;
 }
 
 .modal-text {
@@ -155,7 +162,7 @@ md-menu-content md-menu-item .md-button {
 }
 
 .md-primary {
-  background-color: #222222 !important;
+  background-color: #252d30 !important;
 }
 
 .md-dialog-container {
