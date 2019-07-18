@@ -19,7 +19,7 @@
   width: 100%;
   overflow: hidden;
   filter: grayscale();
-  opacity: 0.06;
+  opacity: 0.03;
 }
 
 .news-feed__background img {
