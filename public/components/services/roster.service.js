@@ -92,7 +92,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Oskar",
         img: "",
-        roles: "Assistant Raid Manager, Raid Leader, Healing Coordinator, Alchemist",
+        roles: "Alchemist",
         rank: "Raider",
         rankIcon: "raider.png"
       },
@@ -576,7 +576,7 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     31: {
       real: {
-        name: "Ironcrusader",
+        name: "Simon",
         img: "",
         roles: "Rogue Class Leader",
         rank: "Raider",
