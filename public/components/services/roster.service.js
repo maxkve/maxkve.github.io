@@ -502,24 +502,6 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    26: {
-      real: {
-        name: "Taka",
-        img: "",
-        roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
-      },
-      game: {
-        name: "Taka",
-        img: "",
-        class: "Warrior",
-        spec: "Protection",
-        classIcon: "warrior.png",
-        specIcon: "protection_warrior.png",
-        level: 60
-      }
-    },
     27: {
       real: {
         name: "Phogster",
@@ -733,6 +715,60 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Holy",
         classIcon: "priest.png",
         specIcon: "holy.png",
+        level: 60
+      }
+    },
+    39: {
+      real: {
+        name: "Jonathan",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Alendariel",
+        img: "",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    40: {
+      real: {
+        name: "Johnny",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Jaycea",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    41: {
+      real: {
+        name: "John",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Aiki",
+        img: "",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
         level: 60
       }
     }
