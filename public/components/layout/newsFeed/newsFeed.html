@@ -2,7 +2,12 @@
   <div class="news-feed__items" ng-repeat="newsItem in ::$ctrl.news | orderObjectBy:news.date">
     <news-item news-item="newsItem"></news-item>
   </div>
-  <div class="news-feed__background">
+  <div class="news-feed__background" style="left:0">
+    <div class="background-fade__left"></div>
+    <img ng-src="public/assets/ancient_wars.jpg" />
+  </div>
+  <div class="news-feed__background" style="right:0">
+    <div class="background-fade__right"></div>
     <img ng-src="public/assets/ancient_wars.jpg" />
   </div>
 </div>
