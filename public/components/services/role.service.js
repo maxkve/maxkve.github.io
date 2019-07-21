@@ -61,7 +61,8 @@ angular.module("epgpApp").service("roleService", function() {
     guildcrafter: {
       title: "Guild Crafter",
       img: "hand-saw.png",
-      description: "Responsible for high-end crafts within their various discipline, free of charge, to any guild member able to provide materials."
+      description:
+        "Guild Crafters are prioritized when it comes to recipes from drops. In exchange they are responsible for high-end crafts within their various discipline, free of charge, to any guild member able to provide materials."
     }
   };
 

@@ -74,7 +74,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Hampus",
         img: "",
-        roles: "Recruitment Manager, Tribal Leatherworker",
+        roles: "Recruitment Manager, Guild Officer, Tribal Leatherworker",
         rank: "Raider",
         rankIcon: "raider.png"
       },
@@ -128,7 +128,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Anton",
         img: "",
-        roles: "Raid Leader, Off-tank, Armorsmith",
+        roles: "Raid Leader, Guild Officer, Off-tank, Armorsmith",
         rank: "Raider",
         rankIcon: "raider.png"
       },
@@ -146,7 +146,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Viktor",
         img: "",
-        roles: "Assistant Enchanter, Assistant Tailor",
+        roles: "Assistant Tailor",
         rank: "Raider",
         rankIcon: "raider.png"
       },
@@ -650,7 +650,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Emil",
         img: "",
-        roles: "",
+        roles: "Dragonscale Leatherworker, Assistant Enchanter",
         rank: "Raider",
         rankIcon: "raider.png"
       },
@@ -686,7 +686,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andrea",
         img: "",
-        roles: "",
+        roles: "Assistant Alchemist",
         rank: "Raider",
         rankIcon: "raider.png"
       },
