@@ -453,16 +453,16 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Kevin",
         img: "",
         roles: "",
-        rank: "Raider",
+        rank: "Social",
         rankIcon: "raider.png"
       },
       game: {
         name: "Yakshi",
         img: "",
         class: "Druid",
-        spec: "Restoration",
+        spec: "Feral",
         classIcon: "druid.png",
-        specIcon: "restoration.png",
+        specIcon: "feral.png",
         level: 60
       }
     },
