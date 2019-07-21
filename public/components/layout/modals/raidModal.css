@@ -8,31 +8,50 @@
 }
 
 .raid-progress {
-  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.raids {
+  margin-top: 10px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-family: "Titillium Web", sans-serif;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .raid-instance {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   overflow: hidden;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.raid-instance img {
+  height: 100%;
+}
+
+.raid-instance__title {
+  font-size: 2vh;
+  line-height: 2vh;
+  padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .raid-instance-web__img {
+  position: absolute;
+  z-index: -1;
   height: 100%;
   overflow: hidden;
-  outline: 4px solid black;
-  outline-offset: -4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2px;
 }
 
 .raid-instance-web__img img {
@@ -40,40 +59,40 @@
 }
 
 .raid-instance-mobile__img {
-  position: relative;
+  position: absolute;
+  z-index: -1;
   height: 100%;
   overflow: hidden;
-  outline: 4px solid black;
-  outline-offset: -4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2px;
 }
 
 .raid-instance-mobile__img img {
-  width: 100%;
+  height: 100%;
 }
 
 .raid-bosses {
-  height: 100%;
-  padding-left: 10px;
-  box-sizing: border-box;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  box-sizing: border-box;
-  background-color: black;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vh;
 }
 
 .raid-boss {
+  margin-left: 5px;
+  margin-right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   position: relative;
   background-color: black;
+  border-radius: 80px;
 }
 
 .raid-boss__img {
@@ -102,21 +121,14 @@
 @media only screen and (max-width: 600px) {
   /* Mobile */
   .raid-instance {
-    flex-direction: column;
+    width: 100%;
   }
   .raid-instance-web__img {
     display: none;
   }
   .raid-bosses {
-    padding-top: 4px;
-    width: 100%;
-    padding-bottom: 4px;
-    padding-right: 10px;
   }
   .raid-boss {
-    margin-right: 6px;
-    margin-bottom: 6px;
-    margin-left: 6px;
     height: 40px;
     width: 40px;
   }
@@ -130,8 +142,7 @@
 @media only screen and (min-width: 601px) {
   /* Web */
   .raid-instance {
-    height: 121px;
-    flex-direction: row;
+    width: calc(50% - 10px);
   }
   .raid-instance-mobile__img {
     display: none;
@@ -139,13 +150,12 @@
   .raid-bosses {
   }
   .raid-boss {
-    margin-right: 20px;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
   }
   .raid-boss__name {
-    font-size: 1.6vh;
-    line-height: 1.8vh;
-    padding: 6px;
+    font-size: 1.2vh;
+    line-height: 1.4vh;
+    padding: 4px;
   }
 }

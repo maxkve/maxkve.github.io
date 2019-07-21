@@ -3,9 +3,7 @@
   // Angular app
   /// /////////////////////////////////////////////////////////////////////////////////
   let ngApp = angular.module("epgpApp", ["ngRoute", "ngMaterial", "ngMessages", "ngSanitize"]);
-  ngApp.run(function() {
-    console.log("Booting up...");
-  });
+  ngApp.run(function() {});
 
   ngApp.filter("orderObjectBy", function() {
     return function(input, attribute) {

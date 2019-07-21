@@ -21,20 +21,24 @@
     </div>
     Raid times are in GMT+1.
   </div>
-  <div class="raid-progress noselect nointeract">
-    <div class="raid-instance" ng-repeat="raid in raids">
-      <div class="raid-instance-web__img">
-        <img ng-src="/public/assets/raids/plaques/{{::raid.img}}" />
-      </div>
-      <div class="raid-instance-mobile__img">
-        <img ng-src="/public/assets/raids/plaques/{{::raid.img}}" />
-      </div>
-      <div class="raid-bosses">
-        <div class="raid-boss" ng-repeat="boss in raid.bosses">
-          <div class="raid-boss__img">
-            <img ng-src="/public/assets/bosses/small/{{::boss.img}}" />
+  <div class="raid-progress">
+    <div class="modal-title">Raid progress</div>
+    <div class="raids">
+      <div class="raid-instance" ng-repeat="raid in raids">
+        <div class="raid-instance__title">{{::raid.title}}</div>
+        <div class="raid-instance-web__img">
+          <img ng-src="/public/assets/raids/{{::raid.img}}" />
+        </div>
+        <div class="raid-instance-mobile__img">
+          <img ng-src="/public/assets/raids/{{::raid.img}}" />
+        </div>
+        <div class="raid-bosses">
+          <div class="raid-boss" ng-repeat="boss in raid.bosses">
+            <div class="raid-boss__img">
+              <img ng-src="/public/assets/bosses/small/{{::boss.img}}" />
+            </div>
+            <div class="raid-boss__name">{{ ::boss.name }}</div>
           </div>
-          <div class="raid-boss__name">{{ ::boss.name }}</div>
         </div>
       </div>
     </div>
