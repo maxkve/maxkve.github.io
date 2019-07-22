@@ -1,14 +1,15 @@
 <div class="news-item">
   <md-button ng-click="$ctrl.openNewsModal($ctrl.newsItem)">
     <div class="news-item__image">
-      <div class="news-item__image__scaler">
-        <img ng-src="{{::$ctrl.newsItem.img}}" />
-      </div>
+      <img ng-src="{{::$ctrl.newsItem.img}}" />
     </div>
     <div class="news-item__text">
       <div class="text__title">{{ ::$ctrl.newsItem.title }}</div>
       <div class="text__date">{{ ::$ctrl.newsItem.date }}</div>
       <div class="text__summary">{{ ::$ctrl.newsItem.summary }}</div>
+      <div class="text__tags">
+        <div class="tag" ng-repeat="tag in ::$ctrl.newsItem.tags">{{ tag }}</div>
+      </div>
     </div>
   </md-button>
 </div>

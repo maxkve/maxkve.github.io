@@ -1,5 +1,17 @@
 <div class="news-feed" id="news">
-  <div class="news-feed__items" ng-repeat="newsItem in ::$ctrl.news | orderObjectBy:news.date">
+  <div class="news-feed__filter">
+    <md-menu>
+      <md-button ng-click="$mdMenu.open($event)">
+        Filter
+      </md-button>
+      <md-menu-content>
+        <md-menu-item><md-button md-autofocus ng-click="$ctrl.selectTag('')">All</md-button></md-menu-item>
+        <md-menu-item><md-button ng-click="$ctrl.selectTag('Announcement')">Announcements</md-button></md-menu-item>
+        <md-menu-item><md-button ng-click="$ctrl.selectTag('Player Introduction')">Player Introductions</md-button></md-menu-item>
+      </md-menu-content>
+    </md-menu>
+  </div>
+  <div class="news-feed__item" ng-repeat="newsItem in $ctrl.news | orderObjectBy:news.date | filter:{ tags: $ctrl.selectedTag }">
     <news-item news-item="newsItem"></news-item>
   </div>
   <div class="news-feed__background" style="left:0">

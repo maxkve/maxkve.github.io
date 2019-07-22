@@ -6,6 +6,10 @@ angular.module("epgpApp").component("newsFeed", {
   controller: function(newsService) {
     let ctrl = this;
 
+    ctrl.selectTag = function(selectedTag) {
+      ctrl.selectedTag = selectedTag;
+    };
+
     ctrl.$onInit = function() {
       ctrl.news = newsService.getNews();
     };
