@@ -825,6 +825,42 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "holy.png",
         level: 60
       }
+    },
+    45: {
+      real: {
+        name: "Gareth",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Nandaiyo",
+        img: "",
+        class: "Druid",
+        spec: "Restoration",
+        classIcon: "druid.png",
+        specIcon: "restoration.png",
+        level: 60
+      }
+    },
+    46: {
+      real: {
+        name: "Benny",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Benmeister",
+        img: "",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
     }
   };
 });

@@ -54,7 +54,7 @@ angular.module("epgpApp").service("newsService", function() {
       tags: ["Announcement"],
       summary: "We've finished our initial general recruitment drive, but still need some specific roles.",
       content:
-        "We're happy to announce that our initial general recruitment drive has finished. Thank you to those who applied, and welcome to those who were accepted. We're very excited about all the fine people we've managed to attract, and we're looking forward to getting to know you all. With that said, we're still looking for a couple of specific roles to top out the roster:<ul><li>1 Fury Warrior</li><li>2 Rogues</li><li>1 Holy Paladin</li><li>2 Mages</li><li>1 Resto Druid</li></ul><a href='https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform' target='_blank'>Click here to apply!</a>"
+        "We're happy to announce that our initial general recruitment drive has finished. Thank you to those who applied, and welcome to those who were accepted. We're very excited about all the fine people we've managed to attract, and we're looking forward to getting to know you all. With that said, we're still looking for a couple of specific roles to top out the roster:<ul><li>1 Fury Warrior</li><li>2 Rogues</li><li>1 Holy Paladin</li><li>2 Mages</li></ul><a href='https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform' target='_blank'>Click here to apply!</a>"
     }
   };
 
