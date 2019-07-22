@@ -454,7 +454,7 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         roles: "",
         rank: "Social",
-        rankIcon: "raider.png"
+        rankIcon: "social.png"
       },
       game: {
         name: "Yakshi",
