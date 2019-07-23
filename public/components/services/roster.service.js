@@ -17,7 +17,7 @@ angular.module("epgpApp").service("rosterService", function() {
     return roster;
   };
 
-  this.getClassCount = function(className) {
+  this.getTotalClassCount = function(className) {
     let classCount = 0;
     Object.keys(roster).forEach(memberId => {
       if (roster[memberId].game.class == className) {
@@ -29,6 +29,36 @@ angular.module("epgpApp").service("rosterService", function() {
 
   this.getTotalCount = function() {
     return Object.keys(roster).length;
+  };
+
+  this.getRaiderClassCount = function(className) {
+    let classCount = 0;
+    Object.keys(roster).forEach(memberId => {
+      if (roster[memberId].game.class == className && roster[memberId].real.rank == "Raider") {
+        classCount += 1;
+      }
+    });
+    return classCount;
+  };
+
+  this.getRaiderCount = function() {
+    let raiderCount = 0;
+    Object.keys(roster).forEach(memberId => {
+      if (roster[memberId].real.rank == "Raider") {
+        raiderCount += 1;
+      }
+    });
+    return raiderCount;
+  };
+
+  this.getSocialCount = function() {
+    let socialCount = 0;
+    Object.keys(roster).forEach(memberId => {
+      if (roster[memberId].real.rank == "Social") {
+        socialCount += 1;
+      }
+    });
+    return socialCount;
   };
 
   let roster = {
@@ -859,6 +889,60 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Frost",
         classIcon: "mage.png",
         specIcon: "frost.png",
+        level: 60
+      }
+    },
+    47: {
+      real: {
+        name: "Adrian",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Ade",
+        img: "",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
+    },
+    48: {
+      real: {
+        name: "Kingironbeard",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Kingironbeard",
+        img: "",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat	.png",
+        level: 60
+      }
+    },
+    49: {
+      real: {
+        name: "Remo",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Remo",
+        img: "",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
         level: 60
       }
     }

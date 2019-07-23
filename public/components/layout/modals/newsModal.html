@@ -1,11 +1,10 @@
 <div class="news-modal modal">
   <div class="news-modal-header">
-    <div class="news-modal-header__background"><img ng-src="{{ ::newsItem.img }}" /></div>
+    <div class="news-modal-header__background"><img ng-src="{{ ::newsItem.img }}" draggable="false" /></div>
   </div>
   <div class="news-modal-text">
     <div class="news-title">{{ ::newsItem.title }}</div>
     <div class="news-date">{{ ::newsItem.date }}</div>
-    <!--<div class="news-content">{{ ::newsItem.content }}</div>-->
     <div class="news-content" ng-bind-html="newsItemContent"></div>
   </div>
 </div>

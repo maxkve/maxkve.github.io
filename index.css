@@ -172,6 +172,10 @@ md-menu-content md-menu-item .md-button {
   top: 0px !important;
 }
 
+.md-tooltip {
+  background-color: #000000 !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

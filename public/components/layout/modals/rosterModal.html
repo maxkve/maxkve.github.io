@@ -5,46 +5,46 @@
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" /></div>
   </div>
   <div class="roster-summary noselect">
-    <div class="summary__class">{{::totalCount}} members</div>
+    <div class="summary__class">{{::raiderCount}} raiders</div>
     <div class="summary__class Druid-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" draggable="false" /></div>
       {{::druidCount}}
-      <!--Druid(s)-->
+      <md-tooltip md-direction="top">Druid</md-tooltip>
     </div>
     <div class="summary__class Hunter-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/hunter.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/hunter.png" draggable="false" /></div>
       {{::hunterCount}}
-      <!--Hunter(s)-->
+      <md-tooltip md-direction="top">Hunter</md-tooltip>
     </div>
     <div class="summary__class Mage-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/mage.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/mage.png" draggable="false" /></div>
       {{::mageCount}}
-      <!--Mage(s)-->
+      <md-tooltip md-direction="top">Mage</md-tooltip>
     </div>
     <div class="summary__class Paladin-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/paladin.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/paladin.png" draggable="false" /></div>
       {{::paladinCount}}
-      <!--Paladin(s)-->
+      <md-tooltip md-direction="top">Paladin</md-tooltip>
     </div>
     <div class="summary__class Priest-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/priest.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/priest.png" draggable="false" /></div>
       {{::priestCount}}
-      <!--Priest(s)-->
+      <md-tooltip md-direction="top">Priest</md-tooltip>
     </div>
     <div class="summary__class Rogue-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/rogue.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/rogue.png" draggable="false" /></div>
       {{::rogueCount}}
-      <!--Rogue(s)-->
+      <md-tooltip md-direction="top">Rogue</md-tooltip>
     </div>
     <div class="summary__class Warlock-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/warlock.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/warlock.png" draggable="false" /></div>
       {{::warlockCount}}
-      <!--Warrior(s)-->
+      <md-tooltip md-direction="top">Warlock</md-tooltip>
     </div>
     <div class="summary__class Warrior-text">
-      <div class="summary__class-img"><img ng-src="/public/assets/classes/warrior.png" /></div>
+      <div class="summary__class-img"><img ng-src="/public/assets/classes/warrior.png" draggable="false" /></div>
       {{::warriorCount}}
-      <!--Warrior(s)-->
+      <md-tooltip md-direction="top">Warrior</md-tooltip>
     </div>
   </div>
   <div class="roster-list">
@@ -63,8 +63,9 @@
         </div>
       </div>
       <div class="member__column">
-        <div class="member__rank-icon noselect nointeract">
-          <img ng-src="/public/assets/ranks/{{::member.real.rankIcon}}" />
+        <div class="member__rank-icon noselect ">
+          <img ng-src="/public/assets/ranks/{{::member.real.rankIcon}}" draggable="false" />
+          <md-tooltip md-direction="top">{{::member.real.rank}}</md-tooltip>
         </div>
       </div>
     </div>
