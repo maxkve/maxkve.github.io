@@ -680,7 +680,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Emil",
         img: "",
-        roles: "Dragonscale Leatherworker, Assistant Enchanter",
+        roles: "Assistant Enchanter",
         rank: "Raider",
         rankIcon: "raider.png"
       },
