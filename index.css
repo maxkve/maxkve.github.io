@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -13,6 +17,10 @@ a {
 
 a:hover {
   color: #ff9d25;
+}
+
+.md-button[disabled] {
+  color: rgba(255, 255, 255, 0.2);
 }
 
 md-dialog {
@@ -31,9 +39,6 @@ md-menu-content md-menu-item .md-button[disabled] {
 
 md-menu-content md-menu-item .md-button {
   color: rgba(255, 255, 255, 1);
-}
-
-.modal {
 }
 
 .modal-header {
