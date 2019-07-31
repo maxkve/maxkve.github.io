@@ -64,18 +64,16 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Growgor, 3D-artist by day and Rogue by night, in this short introductory piece.",
       content:
         "Hey everyone! My name is Nicolaj, I'm 32 years of age and I'm from central part Denmark, where I live together with my wife and our dog.<br><br>I work as a 3d artist in the architectural visualization industry, and have done so for over ten years now. When I'm not sitting in front of my computer and working or playing games, I'm usually found outside spending time on some of my countless hobbies, such as bow hunting, spear fishing, hiking, bushcrafting, or crafting stuff in my little workshop.<br><br>I've played World of Warcraft ever since the very first release day, and it has been my undisputed favorite game ever since. That said, after Burning Crusade and especially Wrath of the Lich King, it all went downhill from there, and shortly after Cataclysm I stopped playing the game. I did drop by in every expansion though, but only to be disappointed.<br><br>I'm very much looking forward to relive the glorious days of vanilla, and I'm excited to step in and clear especially Naxxramas, since I didn't get to clear that back in the days.<br><br>See you all in Azeroth!"
-    }
-    /*
+    },
     {
       title: "Player Introduction: Froeen",
-      img: "public/assets/news/wow.jpg",
+      img: "public/assets/news/froeen.png",
       date: "2019-07-31",
       tags: ["Player Introduction"],
       summary: "Learn more about Froeen, boardgame enthusiast and future economic powerhouse, in this short introductory piece.",
       content:
         "Hey! I'm Froeen from Denmark. I am 26 years old and I work as a marketing specialist in a startup within music, which is a lot of fun. When I'm not eagerly waiting classic wow launch I play board games like Rising Sun, Time Stories, 7th Continent, Gloomhaven and Star Wars Imperial Assault as well as hanging out with my friends and wife or playing Crash Team Racing on my playstation.<br><br>I have played WoW since week 1 of TBC so unfortunately I'm not a vanilla player. My favorite expansion (so far) is TBC and I can't wait to get back to the game that I love. <br><br>I have raided in TBC, WOTLK, skipped Cata, raided again in MOP and skipped WoD and then played PvP in Legion. I was a raidleader in MOP where we were the best guild on our server's faction, and getting all the ahead of the curve achievements, which is my best memories with WoW. <br><br>I love the social aspect of WoW and I love making tons of gold as well, so if you need a loan you can come to me :-D"
-		}
-		*/
+    }
   ];
 
   this.getNewsReadOnly = function() {
