@@ -61,8 +61,8 @@ angular.module("epgpApp").service("rosterService", function() {
     return socialCount;
   };
 
-  let roster = {
-    0: {
+  let roster = [
+    {
       real: {
         name: "Max",
         img: "",
@@ -81,7 +81,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    1: {
+    {
       real: {
         name: "Albin",
         img: "",
@@ -100,7 +100,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    2: {
+    {
       real: {
         name: "Hampus",
         img: "",
@@ -118,7 +118,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    3: {
+    {
       real: {
         name: "Oskar",
         img: "",
@@ -136,7 +136,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    4: {
+    {
       real: {
         name: "Kajsa",
         img: "",
@@ -154,7 +154,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    5: {
+    {
       real: {
         name: "Anton",
         img: "",
@@ -172,7 +172,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    6: {
+    {
       real: {
         name: "Viktor",
         img: "",
@@ -190,7 +190,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    7: {
+    {
       real: {
         name: "Jesper",
         img: "",
@@ -208,7 +208,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    8: {
+    {
       real: {
         name: "Linus",
         img: "",
@@ -226,7 +226,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    9: {
+    {
       real: {
         name: "Bosse",
         img: "",
@@ -244,7 +244,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    10: {
+    {
       real: {
         name: "Wolle",
         img: "",
@@ -262,7 +262,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    11: {
+    {
       real: {
         name: "Jarre",
         img: "",
@@ -280,7 +280,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    12: {
+    {
       real: {
         name: "Macke",
         img: "",
@@ -298,7 +298,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    13: {
+    {
       real: {
         name: "Axel",
         img: "",
@@ -316,7 +316,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    14: {
+    {
       real: {
         name: "Stehr",
         img: "",
@@ -334,7 +334,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    15: {
+    {
       real: {
         name: "Oliver",
         img: "",
@@ -352,7 +352,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    16: {
+    {
       real: {
         name: "Felix",
         img: "",
@@ -370,7 +370,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    17: {
+    {
       real: {
         name: "Tommie",
         img: "",
@@ -388,7 +388,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    18: {
+    {
       real: {
         name: "Mackan",
         img: "",
@@ -406,7 +406,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    19: {
+    {
       real: {
         name: "Jens",
         img: "",
@@ -424,7 +424,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    20: {
+    {
       real: {
         name: "Ema",
         img: "",
@@ -442,7 +442,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    21: {
+    {
       real: {
         name: "Afze",
         img: "",
@@ -460,7 +460,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    22: {
+    {
       real: {
         name: "Petr",
         img: "",
@@ -478,7 +478,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    23: {
+    {
       real: {
         name: "Kevin",
         img: "",
@@ -496,7 +496,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    24: {
+    {
       real: {
         name: "Andreas",
         img: "",
@@ -514,7 +514,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    25: {
+    {
       real: {
         name: "Christian",
         img: "",
@@ -532,7 +532,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    27: {
+    {
       real: {
         name: "Phogster",
         img: "",
@@ -550,7 +550,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    28: {
+    {
       real: {
         name: "Kiggi",
         img: "",
@@ -568,7 +568,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    29: {
+    {
       real: {
         name: "Ben",
         img: "",
@@ -586,7 +586,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    30: {
+    {
       real: {
         name: "Andrion",
         img: "",
@@ -604,7 +604,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    31: {
+    {
       real: {
         name: "Simon",
         img: "",
@@ -622,7 +622,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    32: {
+    {
       real: {
         name: "Esoteric",
         img: "",
@@ -640,7 +640,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    33: {
+    {
       real: {
         name: "Fred",
         img: "",
@@ -658,7 +658,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    34: {
+    {
       real: {
         name: "Ollie",
         img: "",
@@ -676,7 +676,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    35: {
+    {
       real: {
         name: "Emil",
         img: "",
@@ -694,7 +694,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    36: {
+    {
       real: {
         name: "Dennis",
         img: "",
@@ -712,7 +712,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    37: {
+    {
       real: {
         name: "Andrea",
         img: "",
@@ -730,7 +730,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    38: {
+    {
       real: {
         name: "Dennis",
         img: "",
@@ -748,7 +748,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    39: {
+    {
       real: {
         name: "Jonathan",
         img: "",
@@ -766,7 +766,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    40: {
+    {
       real: {
         name: "Johnny",
         img: "",
@@ -784,7 +784,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    41: {
+    {
       real: {
         name: "John",
         img: "",
@@ -802,7 +802,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    42: {
+    {
       real: {
         name: "Sebastian",
         img: "",
@@ -820,7 +820,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    43: {
+    {
       real: {
         name: "Anton Bergström",
         img: "",
@@ -838,7 +838,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    44: {
+    {
       real: {
         name: "Jonas",
         img: "",
@@ -856,7 +856,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    45: {
+    {
       real: {
         name: "Gareth",
         img: "",
@@ -874,7 +874,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    46: {
+    {
       real: {
         name: "Benny",
         img: "",
@@ -892,7 +892,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    47: {
+    {
       real: {
         name: "Adrian",
         img: "",
@@ -910,7 +910,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    48: {
+    {
       real: {
         name: "Kingironbeard",
         img: "",
@@ -928,7 +928,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    49: {
+    {
       real: {
         name: "Remo",
         img: "",
@@ -946,7 +946,7 @@ angular.module("epgpApp").service("rosterService", function() {
         level: 60
       }
     },
-    50: {
+    {
       real: {
         name: "Nicolaj",
         img: "",
@@ -963,6 +963,42 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "combat.png",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Replacement",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Replacement",
+        img: "",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Paul",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Everchosen",
+        img: "",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
+        level: 60
+      }
     }
-  };
+  ];
 });
