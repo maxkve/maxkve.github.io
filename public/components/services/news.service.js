@@ -4,7 +4,7 @@ angular.module("epgpApp").service("newsService", function() {
   let news = [
     {
       title: "We're recruiting for Classic!",
-      img: "public/assets/classic.jpg",
+      img: "classic.jpg",
       date: "2019-05-29",
       tags: ["Announcement"],
       summary: "Click here to read more!",
@@ -13,7 +13,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Combobreaker",
-      img: "public/assets/news/vector2.jpg",
+      img: "vector2.jpg",
       date: "2019-06-01",
       tags: ["Player Introduction"],
       summary: "Learn more about your Guild Master in this short introductory piece.",
@@ -22,7 +22,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Zorn",
-      img: "public/assets/news/zorn.png",
+      img: "zorn.png",
       date: "2019-06-04",
       tags: ["Player Introduction"],
       summary: "Learn more about Zorn, Raid Leader and Off-tank, in this short introductory piece.",
@@ -31,7 +31,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Zorn appears on Countdown to Classic",
-      img: "public/assets/news/countdowntoclassic.jpg",
+      img: "countdowntoclassic.jpg",
       date: "2019-07-03",
       tags: ["Announcement"],
       summary: "Zorn talks Thunderfury on episode #111 of Countdown to Classic.",
@@ -40,7 +40,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Ohhstar",
-      img: "public/assets/news/ohhstar.png",
+      img: "ohhstar.png",
       date: "2019-07-21",
       tags: ["Player Introduction"],
       summary: "Learn more about Ohhstar, Loot Manager and Crafter, in this short introductory piece.",
@@ -49,7 +49,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Initial recruitment drive finished",
-      img: "public/assets/news/recruit.jpg",
+      img: "recruit.jpg",
       date: "2019-07-21",
       tags: ["Announcement"],
       summary: "We've finished our initial general recruitment drive, but still need some specific roles.",
@@ -58,7 +58,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Growgor",
-      img: "public/assets/news/growgor.jpg",
+      img: "growgor.jpg",
       date: "2019-07-31",
       tags: ["Player Introduction"],
       summary: "Learn more about Growgor, 3D-artist by day and Rogue by night, in this short introductory piece.",
@@ -67,7 +67,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Froeen",
-      img: "public/assets/news/froeen.png",
+      img: "froeen.png",
       date: "2019-07-31",
       tags: ["Player Introduction"],
       summary: "Learn more about Froeen, boardgame enthusiast and future economic powerhouse, in this short introductory piece.",
