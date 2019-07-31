@@ -22,7 +22,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Zorn",
-      img: "zorn.png",
+      img: "zorn.jpg",
       date: "2019-06-04",
       tags: ["Player Introduction"],
       summary: "Learn more about Zorn, Raid Leader and Off-tank, in this short introductory piece.",
@@ -40,7 +40,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Ohhstar",
-      img: "ohhstar.png",
+      img: "ohhstar.jpg",
       date: "2019-07-21",
       tags: ["Player Introduction"],
       summary: "Learn more about Ohhstar, Loot Manager and Crafter, in this short introductory piece.",
@@ -67,7 +67,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Froeen",
-      img: "froeen.png",
+      img: "froeen.jpg",
       date: "2019-07-31",
       tags: ["Player Introduction"],
       summary: "Learn more about Froeen, boardgame enthusiast and future economic powerhouse, in this short introductory piece.",
