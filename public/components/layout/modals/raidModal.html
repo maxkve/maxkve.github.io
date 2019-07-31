@@ -27,10 +27,10 @@
       <div class="raid-instance noselect nointeract" ng-repeat="raid in ::raids">
         <div class="raid-instance__title">{{::raid.title}}</div>
         <div class="raid-instance-web__img">
-          <img ng-src="/public/assets/raids/{{::raid.img}}" />
+          <img ng-src="/public/assets/raids/large/{{::raid.img}}" />
         </div>
         <div class="raid-instance-mobile__img">
-          <img ng-src="/public/assets/raids/{{::raid.img}}" />
+          <img ng-src="/public/assets/raids/small/{{::raid.img}}" />
         </div>
         <div class="raid-bosses">
           <div class="raid-boss" ng-repeat="boss in ::raid.bosses">
