@@ -82,6 +82,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Allistair, soon-to-be first time WoW-player, in this short introductory piece.",
       content:
         "Hi everyone, I'm Andrea your friendly Italian neighbor. I'm 27 years old and I work for a small Italian company here in Stockholm. I moved to Sweden in 2016, it was a hard change to my lifestyle but that was the whole point. To challenge myself.<br><br>I play video games since I was 6, starting with ps1 and then at the age of 11 I got my first pc. I play in particular RTS from AoE to warcraft 3. I never played WoW and the reason is kind of funny: back in 2004 there was no internet in my home town, can you imagine that? So when I saw that classic would be released I jumped in immediately.<br><br>In game I'm a very competitive guy, I don't like to be second to none. But don't worry I'm still a nice and friendly person.<br><br>Can't wait to play with you all. FOR THE ALLIANCE!"
+    },
+    {
+      title: "Player Introduction: Somedaymaybe",
+      img: "somedaymaybe.jpg",
+      date: "2019-08-01",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Somedaymaybe, TBC-fanatic and avid PvPer, in this short introductory piece.",
+      content:
+        "Greetings!<br><br>My name is Anton and I am 26 years old, currently living in Hälsingland, Sweden.<br><br>I started playing World of Warcraft late 2006 and played throughout The Burning Crusade expansion and loved it but quit once Wrath of the Lich King came around. After that I started playing on a vanilla private server called Absolute Virtue which was one of the first 1.12.1 servers, and since then I've played on most of the big vanilla and tbc private servers, but mostly tbc.<br><br>Huge fan of PvP and arenas but this time around I will focus on clearing the game and hopefully kill Kel'Thuzad. I can't wait for classic to progress into TBC as this is my absolute favourite expansion and I feel like this is where I truly excel at the game.<br><br>I am a big fan of buddhism, eastern philosophy, personal development and nature. Favourite book is Man's Search for Meaning by Viktor Frankl, favourite movie would be anything by Wes Anderson."
     }
   ];
 
