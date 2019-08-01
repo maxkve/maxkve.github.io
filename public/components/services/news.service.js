@@ -73,6 +73,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Froeen, boardgame enthusiast and future economic powerhouse, in this short introductory piece.",
       content:
         "Hey! I'm Froeen from Denmark. I am 26 years old and I work as a marketing specialist in a startup within music, which is a lot of fun. When I'm not eagerly waiting classic wow launch I play board games like Rising Sun, Time Stories, 7th Continent, Gloomhaven and Star Wars Imperial Assault as well as hanging out with my friends and wife or playing Crash Team Racing on my playstation.<br><br>I have played WoW since week 1 of TBC so unfortunately I'm not a vanilla player. My favorite expansion (so far) is TBC and I can't wait to get back to the game that I love. <br><br>I have raided in TBC, WOTLK, skipped Cata, raided again in MOP and skipped WoD and then played PvP in Legion. I was a raidleader in MOP where we were the best guild on our server's faction, and getting all the ahead of the curve achievements, which is my best memories with WoW. <br><br>I love the social aspect of WoW and I love making tons of gold as well, so if you need a loan you can come to me :-D"
+    },
+    {
+      title: "Player Introduction: Allistair",
+      img: "classic.jpg",
+      date: "2019-08-01",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Allistair, soon-to-be first time WoW-player, in this short introductory piece.",
+      content:
+        "Hi everyone, I'm Andrea your friendly Italian neighbor. I'm 27 years old and I work for a small Italian company here in Stockholm. I moved to Sweden in 2016, it was a hard change to my lifestyle but that was the whole point. To challenge myself.<br><br>I play video games since I was 6, starting with ps1 and then at the age of 11 I got my first pc. I play in particular RTS from AoE to warcraft 3. I never played WoW and the reason is kind of funny: back in 2004 there was no internet in my home town, can you imagine that? So when I saw that classic would be released I jumped in immediately.<br><br>In game I'm a very competitive guy, I don't like to be second to none. But don't worry I'm still a nice and friendly person.<br><br>Can't wait to play with you all. FOR THE ALLIANCE!"
     }
   ];
 
