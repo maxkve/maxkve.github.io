@@ -175,7 +175,7 @@
   .roster-member {
     padding: 10px;
     margin: 10px;
-    flex: 1 0 calc(20% - 20px);
+    width: calc(25% - 40px);
   }
   .roster-list {
     flex-wrap: wrap;

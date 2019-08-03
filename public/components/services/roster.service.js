@@ -999,6 +999,24 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "combat.png",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Mers",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Mers",
+        img: "",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
     }
   ];
 });
