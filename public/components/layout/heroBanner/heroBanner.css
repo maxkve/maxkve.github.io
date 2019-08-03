@@ -8,6 +8,29 @@
   font-family: "Titillium Web", sans-serif;
 }
 
+.hero-banner__recruit {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  font-weight: normal;
+}
+
+.hero-banner__recruit .summary__class {
+  background-color: transparent;
+}
+
+.recruit-message {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 10px;
+}
+
 .hero-banner__text {
   z-index: 1;
   display: flex;
@@ -30,6 +53,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  position: absolute;
+  bottom: 0;
 }
 
 .hero-banner__more button {
@@ -57,6 +82,10 @@
   .hero-banner__more {
     height: 10vh;
   }
+  .hero-banner__recruit {
+    margin-top: 30px;
+    font-size: 1.6vh;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -70,13 +99,15 @@
   }
   .hero-banner__text {
     font-size: 8vh;
-    height: 70vh;
+    height: 100%;
   }
   .hero-banner__title {
     line-height: 8vh;
   }
-  .hero-banner__more {
-    height: 10vh;
+  .hero-banner__recruit {
+    position: absolute;
+    bottom: 80px;
+    font-size: 1.6vh;
   }
 }
 

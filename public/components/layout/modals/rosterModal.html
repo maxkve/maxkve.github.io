@@ -1,8 +1,8 @@
 <div class="roster-modal modal">
-  <div class="modal-header noselect nointeract">
+  <div class="modal-header noselect">
     <div class="modal-header__text">Roster</div>
-    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/dragon.jpg" /></div>
-    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" /></div>
+    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/dragon.jpg" draggable="false" /></div>
+    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" draggable="false" /></div>
   </div>
   <div class="roster-summary noselect">
     <div class="summary__class">{{::raiderCount}} raiders</div>
@@ -51,12 +51,12 @@
     <div class="roster-member" ng-repeat="member in ::roster">
       <div class="member__row">
         <div class="member__column">
-          <div class="member__class-icon noselect nointeract"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" /></div>
+          <div class="member__class-icon noselect"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" draggable="false" /></div>
         </div>
         <div class="member__column">
           <div class="member__name">{{ ::member.game.name }}</div>
           <div class="member__class">
-            <div class="member__spec-icon noselect nointeract"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" /></div>
+            <div class="member__spec-icon noselect"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" draggable="false" /></div>
             <div class="member__class-text {{ ::member.game.class }}-text">{{ ::member.game.spec }} {{ ::member.game.class }}</div>
           </div>
           <div class="member__roles">{{ ::member.real.roles }}</div>

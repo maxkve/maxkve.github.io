@@ -1,8 +1,8 @@
 <div class="raid-modal modal">
-  <div class="modal-header noselect nointeract">
+  <div class="modal-header noselect">
     <div class="modal-header__text">Raids</div>
-    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/group.jpg" /></div>
-    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/group.jpg" /></div>
+    <div class="modal-header-web__background"><img ng-src="/public/assets/headers/large/group.jpg" draggable="false" /></div>
+    <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/group.jpg" draggable="false" /></div>
   </div>
   <div class="modal-text">
     Standard Procedure is a PvE-oriented guild, and raids represent the pinnacle of the Classic PvE experience. We raid because we think it's the most enjoyable
@@ -24,18 +24,18 @@
   <div class="raid-progress">
     <div class="modal-title">Raid progress</div>
     <div class="raids">
-      <div class="raid-instance noselect nointeract" ng-repeat="raid in ::raids">
+      <div class="raid-instance noselect" ng-repeat="raid in ::raids">
         <div class="raid-instance__title">{{::raid.title}}</div>
         <div class="raid-instance-web__img">
-          <img ng-src="/public/assets/raids/large/{{::raid.img}}" />
+          <img ng-src="/public/assets/raids/large/{{::raid.img}}" draggable="false" />
         </div>
         <div class="raid-instance-mobile__img">
-          <img ng-src="/public/assets/raids/small/{{::raid.img}}" />
+          <img ng-src="/public/assets/raids/small/{{::raid.img}}" draggable="false" />
         </div>
         <div class="raid-bosses">
           <div class="raid-boss" ng-repeat="boss in ::raid.bosses">
             <div class="raid-boss__img">
-              <img ng-src="/public/assets/bosses/small/{{::boss.img}}" />
+              <img ng-src="/public/assets/bosses/small/{{::boss.img}}" draggable="false" />
             </div>
             <div class="raid-boss__name">{{ ::boss.name }}</div>
           </div>
