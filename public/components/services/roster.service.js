@@ -363,10 +363,10 @@ angular.module("epgpApp").service("rosterService", function() {
       game: {
         name: "Drwatson",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "Hunter",
+        spec: "Marksmanship",
+        classIcon: "hunter.png",
+        specIcon: "marksmanship.png",
         level: 60
       }
     },
@@ -1015,6 +1015,42 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Fury",
         classIcon: "warrior.png",
         specIcon: "fury.png",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Coco",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Peaches",
+        img: "",
+        class: "Warrior",
+        spec: "Fury",
+        classIcon: "warrior.png",
+        specIcon: "fury.png",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Sooibot",
+        img: "",
+        roles: "",
+        rank: "Raider",
+        rankIcon: "raider.png"
+      },
+      game: {
+        name: "Sooibot",
+        img: "",
+        class: "Paladin",
+        spec: "Holy",
+        classIcon: "paladin.png",
+        specIcon: "holy.png",
         level: 60
       }
     }
