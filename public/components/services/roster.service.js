@@ -1053,8 +1053,8 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "holy.png",
         level: 60
       }
-		},
-		{
+    },
+    {
       real: {
         name: "Wilhelm",
         img: "",
@@ -1071,5 +1071,6 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "frost.png",
         level: 60
       }
+    }
   ];
 });
