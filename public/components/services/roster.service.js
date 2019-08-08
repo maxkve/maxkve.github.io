@@ -1053,6 +1053,23 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "holy.png",
         level: 60
       }
-    }
+		},
+		{
+      real: {
+        name: "Wilhelm",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "<Undecided>",
+        img: "",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
   ];
 });
