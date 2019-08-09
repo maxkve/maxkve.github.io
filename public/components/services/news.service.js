@@ -91,6 +91,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Somedaymaybe, TBC-fanatic and avid PvPer, in this short introductory piece.",
       content:
         "Greetings!<br><br>My name is Anton and I am 26 years old, currently living in Hälsingland, Sweden.<br><br>I started playing World of Warcraft late 2006 and played throughout The Burning Crusade expansion and loved it but quit once Wrath of the Lich King came around. After that I started playing on a vanilla private server called Absolute Virtue which was one of the first 1.12.1 servers, and since then I've played on most of the big vanilla and tbc private servers, but mostly tbc.<br><br>Huge fan of PvP and arenas but this time around I will focus on clearing the game and hopefully kill Kel'Thuzad. I can't wait for classic to progress into TBC as this is my absolute favourite expansion and I feel like this is where I truly excel at the game.<br><br>I am a big fan of buddhism, eastern philosophy, personal development and nature. Favourite book is Man's Search for Meaning by Viktor Frankl, favourite movie would be anything by Wes Anderson."
+    },
+    {
+      title: "Player Introduction: Peaches",
+      img: "classic.jpg",
+      date: "2019-08-09",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Peaches, Noodle-walker and arena master, in this short introductory piece.",
+      content:
+        "Hey my name is Timo, aka Peaches/Coco (we will see what I can grab on name day).  I am a Capetonian living between London and Bermuda.  I work at a hedge fund, I am married and we have a white Pomeranian named Noodle - who will no doubt make a raid appearance #FinalBoss.  Recently joined Sooibot is also my bro.<br><br>I raided in Vanilla as a Resto Shaman in a guild called The Tide, which was the top horde guild on The Venture Co for a while.  When BC hit I moved to Tokyo for school, but decided to try arena once I figured out how to connect to Taiwanese servers.  I made a NE druid named Stormz and was the top ranked Druid+Rogue in the world for 2 seasons during WoTLK (based on rating - rogues name was Vi).  Haven't played since then.<br><br>Happy to be back, and keen to see all of AQ and Naxx with what looks like a great group :)"
     }
   ];
 
