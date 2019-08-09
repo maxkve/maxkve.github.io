@@ -63,6 +63,17 @@ angular.module("epgpApp").service("roleService", function() {
       img: "hand-saw.png",
       description:
         "Guild Crafters are prioritized when it comes to recipes from drops. In exchange they are responsible for high-end crafts within their various discipline, free of charge, to any guild member able to provide materials."
+    },
+    raider: {
+      title: "Raider",
+      img: "raider.png",
+      description:
+        "Raiders are expected to show up on our 2 main raid days, they are prioritized over Socials when it comes to spots for raids and loot from raids."
+    },
+    social: {
+      title: "Social",
+      img: "social.png",
+      description: "Socials can play the game however they like, and can join for raids when there are spots open (if they want to!)."
     }
   };
 

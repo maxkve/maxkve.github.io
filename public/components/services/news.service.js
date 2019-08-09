@@ -100,6 +100,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Peaches, Noodle-walker and arena master, in this short introductory piece.",
       content:
         "Hey my name is Timo, aka Peaches/Coco (we will see what I can grab on name day).  I am a Capetonian living between London and Bermuda.  I work at a hedge fund, I am married and we have a white Pomeranian named Noodle - who will no doubt make a raid appearance #FinalBoss.  Recently joined Sooibot is also my bro.<br><br>I raided in Vanilla as a Resto Shaman in a guild called The Tide, which was the top horde guild on The Venture Co for a while.  When BC hit I moved to Tokyo for school, but decided to try arena once I figured out how to connect to Taiwanese servers.  I made a NE druid named Stormz and was the top ranked Druid+Rogue in the world for 2 seasons during WoTLK (based on rating - rogues name was Vi).  Haven't played since then.<br><br>Happy to be back, and keen to see all of AQ and Naxx with what looks like a great group :)"
+    },
+    {
+      title: "Player Introduction: Ema",
+      img: "classic.jpg",
+      date: "2019-08-09",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Ema, discgolfer and nature hero, in this short introductory piece.",
+      content:
+        "Hey all!<br><br>My name is Emil (Ema) i am 22 years old and living in Stockholm Sweden with my girlfriend. On my free time i spend it on frisbee golf, movie night, dog guard and cat guard and partying.<br>I work as a garbage truck driver and loveing it. Saveing the nature everyday as a job is fantastic and i get home early everyday. (Got to much free time)<br><br>I begin playing World of Warcraft when i was 8 years old so late vanilla and only got to lvl 30 and i did not really play TBC (cuz i was a child), Wotlk is where it all went down hill in school. Raided all the content forward to BFA where i quit. Started playing private server and lead some few guilds in cata and wotlk.<br><br>Hope to stay up all night with you guys on release day and see you all in Azeroth!"
     }
   ];
 
