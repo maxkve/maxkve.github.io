@@ -109,6 +109,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Ema, discgolfer and nature hero, in this short introductory piece.",
       content:
         "Hey all!<br><br>My name is Emil (Ema) i am 22 years old and living in Stockholm Sweden with my girlfriend. On my free time i spend it on frisbee golf, movie night, dog guard and cat guard and partying.<br>I work as a garbage truck driver and loveing it. Saveing the nature everyday as a job is fantastic and i get home early everyday. (Got to much free time)<br><br>I begin playing World of Warcraft when i was 8 years old so late vanilla and only got to lvl 30 and i did not really play TBC (cuz i was a child), Wotlk is where it all went down hill in school. Raided all the content forward to BFA where i quit. Started playing private server and lead some few guilds in cata and wotlk.<br><br>Hope to stay up all night with you guys on release day and see you all in Azeroth!"
+    },
+    {
+      title: "Player Introduction: Benmeister",
+      img: "benny.jpg",
+      date: "2019-08-10",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Benmeister, programmer and game dev, in this short introductory piece.",
+      content:
+        "Hello! My name is Benny (for real!) and I'm a swede currently residing in Linköping. I work as a programmer/game designer and this will be a mostly new journey since I didn't hop on the WoW train the first time around. Well mostly except for the week I played the vanilla beta and vowed never to play these addicting MMO type games again. :)<br><br>Still I've been curious ever since. Seems people can never talk enough about their golden WoW days.<br><br>Games have been a focus ever since I booted up my SNES. I also dabble in a lot of things like composing electronic music, playing tennis and making my own games. I've released a mobile game and an indie game on Steam and I'm now working on a new one with our own master Combobreaker. It'll probably be put on hold for the near future as we venture deep into Azeroth though. :)<br><br>My plan is to play a mage and I'll level semi-casually to explore the world and improve along the way. Slowpokes unite!<br><br>Looking forward to see what all the fuss has been about all these years and join ya'll this time!"
     }
   ];
 

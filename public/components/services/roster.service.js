@@ -321,8 +321,8 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Stehr",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "Social",
+        rankIcon: "social.png"
       },
       game: {
         name: "<Undecided>",
@@ -685,7 +685,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Froeen",
+        name: "Frø",
         img: "",
         class: "Rogue",
         spec: "Combat",
@@ -1069,6 +1069,24 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "Frost",
         classIcon: "mage.png",
         specIcon: "frost.png",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Bakker",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Bakker",
+        img: "",
+        class: "Priest",
+        spec: "Holy",
+        classIcon: "priest.png",
+        specIcon: "holy.png",
         level: 60
       }
     }
