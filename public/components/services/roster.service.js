@@ -577,7 +577,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Fugitive",
+        name: "Kosgred",
         img: "",
         class: "Mage",
         spec: "Frost",
@@ -631,7 +631,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Esoteric",
+        name: "Crimsa",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -793,7 +793,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Aiki",
+        name: "Allyria",
         img: "",
         class: "Warlock",
         spec: "Destruction",
@@ -847,7 +847,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Vaikingu",
+        name: "Tsuki",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -865,7 +865,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Nandaiyo",
+        name: "Swift",
         img: "",
         class: "Druid",
         spec: "Restoration",
@@ -883,7 +883,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "social.png"
       },
       game: {
-        name: "Benmeister",
+        name: "Niermis",
         img: "",
         class: "Mage",
         spec: "Frost",
@@ -991,7 +991,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "social.png"
       },
       game: {
-        name: "Everchosen",
+        name: "Éverchosen",
         img: "",
         class: "Rogue",
         spec: "Combat",
