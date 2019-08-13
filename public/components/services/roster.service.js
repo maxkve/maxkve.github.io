@@ -399,10 +399,10 @@ angular.module("epgpApp").service("rosterService", function() {
       game: {
         name: "Mackemjo",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
         level: 60
       }
     },
