@@ -426,14 +426,14 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Ema",
+        name: "Emil",
         img: "",
         roles: "Off-tank",
         rank: "Raider",
         rankIcon: "raider.png"
       },
       game: {
-        name: "Ema",
+        name: "Emax",
         img: "",
         class: "Warrior",
         spec: "Protection",
@@ -613,7 +613,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Ironcrusader",
+        name: "Ghostblade",
         img: "",
         class: "Rogue",
         spec: "Combat",
@@ -631,7 +631,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Crimsa",
+        name: "Shakewell",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -811,7 +811,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "social.png"
       },
       game: {
-        name: "Arkadian",
+        name: "Pronin",
         img: "",
         class: "Mage",
         spec: "Frost",
@@ -847,7 +847,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Tsuki",
+        name: "Corra",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -901,7 +901,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Ade",
+        name: "Dixey",
         img: "",
         class: "Mage",
         spec: "Frost",
@@ -1027,7 +1027,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Peaches",
+        name: "Crazyqq",
         img: "",
         class: "Warrior",
         spec: "Fury",
@@ -1063,7 +1063,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "social.png"
       },
       game: {
-        name: "<Undecided>",
+        name: "Surtsalt",
         img: "",
         class: "Mage",
         spec: "Frost",
