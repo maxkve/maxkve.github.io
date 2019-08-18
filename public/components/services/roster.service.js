@@ -1125,6 +1125,42 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "combat.png",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Johannes",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Gargkill",
+        img: "",
+        class: "Priest",
+        spec: "Shadow",
+        classIcon: "priest.png",
+        specIcon: "shadow.png",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Leptest",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Desolock",
+        img: "",
+        class: "Warlock",
+        spec: "Destruction",
+        classIcon: "warlock.png",
+        specIcon: "destruction.png",
+        level: 60
+      }
     }
   ];
 });

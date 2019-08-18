@@ -1,5 +1,5 @@
 <div class="news-feed" md-swipe-left="$ctrl.newerNews()" md-swipe-right="$ctrl.olderNews()" id="news">
-  <div class="news-feed__filter">
+  <div class="news-feed__filter anim-fade-in">
     <md-menu>
       <md-button ng-click="$mdMenu.open($event)">
         Filter
@@ -11,10 +11,10 @@
       </md-menu-content>
     </md-menu>
   </div>
-  <div class="news-feed__item" ng-repeat="newsItem in $ctrl.newsViewModel[$ctrl.activePageIndex]">
+  <div class="news-feed__item" ng-class="{'anim-from-bottom': $ctrl.animateFromBottom}" ng-repeat="newsItem in $ctrl.newsViewModel[$ctrl.activePageIndex]">
     <news-item news-item="newsItem"></news-item>
   </div>
-  <div class="news-feed__pagination">
+  <div class="news-feed__pagination anim-fade-in">
     <md-button ng-if="$ctrl.numberOfPages > 1" ng-disabled="$ctrl.activePageIndex === $ctrl.numberOfPages-1" ng-click="$ctrl.olderNews()">
       Older
     </md-button>

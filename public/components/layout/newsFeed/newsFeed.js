@@ -10,6 +10,7 @@ angular.module("epgpApp").component("newsFeed", {
     ctrl.numberOfPages = 0;
     ctrl.newsViewModel = {};
     ctrl.pagesViewModel = [];
+    ctrl.animateFromBottom = true;
 
     function buildNewsViewModel(tag) {
       let filteredNews = $filter("filter")(news, { tags: tag }).reverse();
@@ -25,12 +26,14 @@ angular.module("epgpApp").component("newsFeed", {
     }
 
     ctrl.olderNews = function() {
+      ctrl.animateFromBottom = false;
       if (ctrl.activePageIndex != ctrl.numberOfPages - 1) {
         ctrl.activePageIndex += 1;
       }
     };
 
     ctrl.newerNews = function() {
+      ctrl.animateFromBottom = false;
       if (ctrl.activePageIndex > 0) {
         ctrl.activePageIndex -= 1;
       }

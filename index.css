@@ -254,3 +254,57 @@ md-menu-content md-menu-item .md-button {
     height: 90px;
   }
 }
+
+.anim-delay-short {
+  animation-delay: 0 !important;
+}
+
+.anim-delay-long {
+  animation-delay: 1s !important;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim-fade-in {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 700ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes from-bottom {
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.anim-from-bottom {
+  transform: translate3d(0, 60vh, 0);
+  animation-name: from-bottom;
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes from-top {
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.anim-from-top {
+  transform: translate3d(0, -60vh, 0);
+  animation-name: from-bottom;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
