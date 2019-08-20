@@ -19,11 +19,21 @@ angular.module("epgpApp").service("rosterService", function() {
 
   this.getTotalClassCount = function(className) {
     let classCount = 0;
+
+    /*
     Object.keys(roster).forEach(memberId => {
       if (roster[memberId].game.class == className) {
         classCount += 1;
       }
-    });
+		});
+		*/
+
+    for (i = 0; i < roster.length; i++) {
+      if (roster[i].game.class == className) {
+        classCount += 1;
+      }
+    }
+
     return classCount;
   };
 
@@ -33,31 +43,60 @@ angular.module("epgpApp").service("rosterService", function() {
 
   this.getRaiderClassCount = function(className) {
     let classCount = 0;
+
+    /*
     Object.keys(roster).forEach(memberId => {
       if (roster[memberId].game.class == className && roster[memberId].real.rank == "Raider") {
         classCount += 1;
       }
-    });
+		});
+		*/
+
+    for (i = 0; i < roster.length; i++) {
+      if (roster[i].game.class == className && roster[i].real.rank == "Raider") {
+        classCount += 1;
+      }
+    }
+
     return classCount;
   };
 
   this.getRaiderCount = function() {
     let raiderCount = 0;
-    Object.keys(roster).forEach(memberId => {
+
+    /*
+		    Object.keys(roster).forEach(memberId => {
       if (roster[memberId].real.rank == "Raider") {
         raiderCount += 1;
       }
-    });
+		});
+		*/
+
+    for (i = 0; i < roster.length; i++) {
+      if (roster[i].real.rank == "Raider") {
+        raiderCount += 1;
+      }
+    }
+
     return raiderCount;
   };
 
   this.getSocialCount = function() {
     let socialCount = 0;
+    /*
     Object.keys(roster).forEach(memberId => {
       if (roster[memberId].real.rank == "Social") {
         socialCount += 1;
       }
-    });
+		});
+		*/
+
+    for (i = 0; i < roster.length; i++) {
+      if (roster[i].real.rank == "Social") {
+        raiderCount += 1;
+      }
+    }
+
     return socialCount;
   };
 
@@ -68,7 +107,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         roles: "Guild Master, Webmaster",
         rank: "Raider",
-        rankIcon: "raider.png",
         rankIcon: "raider.png"
       },
       game: {
@@ -87,7 +125,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         roles: "Assistant Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith",
         rank: "Raider",
-        rankIcon: "raider.png",
         rankIcon: "raider.png"
       },
       game: {

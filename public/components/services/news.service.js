@@ -118,6 +118,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Learn more about Benmeister, programmer and game dev, in this short introductory piece.",
       content:
         "Hello! My name is Benny (for real!) and I'm a swede currently residing in Linköping. I work as a programmer/game designer and this will be a mostly new journey since I didn't hop on the WoW train the first time around. Well mostly except for the week I played the vanilla beta and vowed never to play these addicting MMO type games again. :)<br><br>Still I've been curious ever since. Seems people can never talk enough about their golden WoW days.<br><br>Games have been a focus ever since I booted up my SNES. I also dabble in a lot of things like composing electronic music, playing tennis and making my own games. I've released a mobile game and an indie game on Steam and I'm now working on a new one with our own master Combobreaker. It'll probably be put on hold for the near future as we venture deep into Azeroth though. :)<br><br>My plan is to play a mage and I'll level semi-casually to explore the world and improve along the way. Slowpokes unite!<br><br>Looking forward to see what all the fuss has been about all these years and join ya'll this time!"
+    },
+    {
+      title: "Player Introduction: Baraccus",
+      img: "classic.jpg",
+      date: "2019-08-20",
+      tags: ["Player Introduction"],
+      summary: "Learn more about Baraccus, tolkien fan and master chef, in this short introductory piece.",
+      content:
+        "Hey gang!<br><br>My name is Dennis and I am 30 years old. I grew up in a small town in central Sweden and later spent a bunch of years at the university i Norrköping, studying project management, math, programming and media production.<br><br>Nowadays I work as a freelancer in the film industry in Stockholm as a production manager for feature films and tv-series.<br><br>I started my MMO-carrer in 2004 on a private Lineage 2 server before moving to vanilla in 2005. I was a casual raider back then and spent most of my time exploring and loosing against the Horde in Arathi Basin. I downed Rag, Hakkar, Ony, BWL and some of AQ20 just before TBC. I played a holy paladin all the way up to WOTLK where I swapped to Retri/Tank and did most of my hard core raiding and clearing most content. <br><br>I left WOW about half way through CATA when SWTOR launched and played that for about a year. I became one of the servers top PVPers before quitting altogether in 2013 when I moved to Stockholm and started my career.<br><br>Other then video- and boardgames I’m a massive Tolkien fan and an avid reader of classic fantasy and science fiction.<br><br>I’m also a pretty amazing cook and ofcz I plan on going all out cooking and fishing in classic! Mmm… I can already smell the Nightfin soup simmering…"
     }
   ];
 
