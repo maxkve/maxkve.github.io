@@ -218,7 +218,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "<Undecided>",
+        name: "Rotter",
         img: "",
         class: "Warlock",
         spec: "Destruction",
@@ -470,7 +470,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Emax",
+        name: "Ema",
         img: "",
         class: "Warrior",
         spec: "Protection",
@@ -614,7 +614,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Kosgred",
+        name: "Aramus",
         img: "",
         class: "Mage",
         spec: "Frost",
@@ -632,7 +632,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Legolas",
+        name: "Andrion",
         img: "",
         class: "Hunter",
         spec: "Marksmanship",
@@ -686,7 +686,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Freddo",
+        name: "Freddy",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -704,7 +704,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Ohceejay",
+        name: "Ceejay",
         img: "",
         class: "Druid",
         spec: "Restoration",
@@ -722,7 +722,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Frø",
+        name: "Fro",
         img: "",
         class: "Rogue",
         spec: "Combat",
@@ -794,7 +794,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Alendariel",
+        name: "Sick",
         img: "",
         class: "Paladin",
         spec: "Holy",
@@ -884,7 +884,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "raider.png"
       },
       game: {
-        name: "Corra",
+        name: "Korra",
         img: "",
         class: "Priest",
         spec: "Holy",
@@ -1190,7 +1190,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rankIcon: "social.png"
       },
       game: {
-        name: "Desolock",
+        name: "Leptest",
         img: "",
         class: "Warlock",
         spec: "Destruction",
