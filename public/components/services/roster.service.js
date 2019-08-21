@@ -1198,6 +1198,24 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "destruction.png",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Konphewzd",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Misanthrope",
+        img: "",
+        class: "Rogue",
+        spec: "Combat",
+        classIcon: "rogue.png",
+        specIcon: "combat.png",
+        level: 60
+      }
     }
   ];
 });
