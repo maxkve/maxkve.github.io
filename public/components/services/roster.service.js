@@ -1211,9 +1211,9 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Misanthrope",
         img: "",
         class: "Rogue",
-        spec: "Combat",
+        spec: "Assassination",
         classIcon: "rogue.png",
-        specIcon: "combat.png",
+        specIcon: "assassination.png",
         level: 60
       }
     }
