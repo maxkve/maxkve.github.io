@@ -1216,6 +1216,24 @@ angular.module("epgpApp").service("rosterService", function() {
         specIcon: "assassination.png",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Shadybloke",
+        img: "",
+        roles: "",
+        rank: "Social",
+        rankIcon: "social.png"
+      },
+      game: {
+        name: "Shadybloke",
+        img: "",
+        class: "Mage",
+        spec: "Frost",
+        classIcon: "mage.png",
+        specIcon: "frost.png",
+        level: 60
+      }
     }
   ];
 });
