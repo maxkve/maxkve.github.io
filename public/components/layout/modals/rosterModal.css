@@ -105,6 +105,10 @@
   margin-bottom: 1px;
 }
 
+.member__class {
+  text-transform: capitalize;
+}
+
 .member__roles {
   color: #666;
   padding-right: 16px;

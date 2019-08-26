@@ -46,14 +46,14 @@ angular.module("epgpApp").service("rosterService", function() {
 
     /*
     Object.keys(roster).forEach(memberId => {
-      if (roster[memberId].game.class == className && roster[memberId].real.rank == "Raider") {
+      if (roster[memberId].game.class == className && roster[memberId].real.rank == "raider") {
         classCount += 1;
       }
 		});
 		*/
 
     for (i = 0; i < roster.length; i++) {
-      if (roster[i].game.class == className && roster[i].real.rank == "Raider") {
+      if (roster[i].game.class == className && roster[i].real.rank == "raider") {
         classCount += 1;
       }
     }
@@ -66,14 +66,14 @@ angular.module("epgpApp").service("rosterService", function() {
 
     /*
 		    Object.keys(roster).forEach(memberId => {
-      if (roster[memberId].real.rank == "Raider") {
+      if (roster[memberId].real.rank == "raider") {
         raiderCount += 1;
       }
 		});
 		*/
 
     for (i = 0; i < roster.length; i++) {
-      if (roster[i].real.rank == "Raider") {
+      if (roster[i].real.rank == "raider") {
         raiderCount += 1;
       }
     }
@@ -85,14 +85,14 @@ angular.module("epgpApp").service("rosterService", function() {
     let socialCount = 0;
     /*
     Object.keys(roster).forEach(memberId => {
-      if (roster[memberId].real.rank == "Social") {
+      if (roster[memberId].real.rank == "social") {
         socialCount += 1;
       }
 		});
 		*/
 
     for (i = 0; i < roster.length; i++) {
-      if (roster[i].real.rank == "Social") {
+      if (roster[i].real.rank == "social") {
         raiderCount += 1;
       }
     }
@@ -106,16 +106,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Max",
         img: "",
         roles: "Guild Master, Webmaster",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Combobreaker",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -124,16 +121,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Albin",
         img: "",
         roles: "Assistant Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Wezzi",
         img: "",
-        class: "Warrior",
-        spec: "Protection",
-        classIcon: "warrior.png",
-        specIcon: "protection_warrior.png",
+        class: "warrior",
+        spec: "protection",
         level: 60
       }
     },
@@ -142,16 +136,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Hampus",
         img: "",
         roles: "Recruitment Manager, Guild Officer, Tribal Leatherworker",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Controlfreak",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -160,16 +151,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Oskar",
         img: "",
         roles: "Alchemist",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Snuggle",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -178,16 +166,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Kajsa",
         img: "",
         roles: "Loot Manager, Enchanter, Tailor",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Ohhstar",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -196,16 +181,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Anton",
         img: "",
         roles: "Raid Leader, Guild Officer, Off-tank, Armorsmith",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Zorn",
         img: "",
-        class: "Warrior",
-        spec: "Protection",
-        classIcon: "warrior.png",
-        specIcon: "protection_warrior.png",
+        class: "warrior",
+        spec: "protection",
         level: 60
       }
     },
@@ -214,16 +196,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Viktor",
         img: "",
         roles: "Assistant Tailor",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Rotter",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -232,16 +211,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Jesper",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Zernox",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -250,16 +226,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Linus",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -268,16 +241,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Bosse",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -286,16 +256,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Wolle",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -304,16 +271,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Jarre",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -322,16 +286,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Macke",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -340,16 +301,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Axel",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Pontz",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -358,16 +316,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Stehr",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -376,16 +331,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Oliver",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "<Undecided>",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -394,16 +346,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Felix",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Drwatson",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -412,16 +361,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Tommie",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Xeddan",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -430,16 +376,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Mackan",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Mackemjo",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -448,16 +391,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Jens",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Sleypner",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -466,16 +406,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Emil",
         img: "",
         roles: "Off-tank",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Ema",
         img: "",
-        class: "Warrior",
-        spec: "Protection",
-        classIcon: "warrior.png",
-        specIcon: "protection_warrior.png",
+        class: "warrior",
+        spec: "protection",
         level: 60
       }
     },
@@ -484,16 +421,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Afze",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Afze",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -502,16 +436,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Petr",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Bhallock",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -520,16 +451,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Kevin",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Yakshi",
         img: "",
-        class: "Druid",
-        spec: "Feral",
-        classIcon: "druid.png",
-        specIcon: "feral.png",
+        class: "druid",
+        spec: "feral",
         level: 60
       }
     },
@@ -538,16 +466,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Andreas",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Stormday",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -556,16 +481,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Christian",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Chresjan",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -574,16 +496,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Phogster",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Phogster",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -592,16 +511,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Kiggi",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Kiggi",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -610,16 +526,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Ben",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Aramus",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -628,16 +541,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Andrion",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Andrion",
         img: "",
-        class: "Hunter",
-        spec: "Marksmanship",
-        classIcon: "hunter.png",
-        specIcon: "marksmanship.png",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
@@ -645,17 +555,14 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Simon",
         img: "",
-        roles: "Rogue Class Leader",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        roles: "rogue Class Leader",
+        rank: "raider"
       },
       game: {
-        name: "Ghostblade",
+        name: "Baneblade",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -664,16 +571,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Esoteric",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Shakewell",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -682,16 +586,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Fred",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Freddy",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -700,16 +601,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Ollie",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Ceejay",
         img: "",
-        class: "Druid",
-        spec: "Restoration",
-        classIcon: "druid.png",
-        specIcon: "restoration.png",
+        class: "druid",
+        spec: "restoration",
         level: 60
       }
     },
@@ -718,16 +616,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Emil",
         img: "",
         roles: "Assistant Enchanter",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Fro",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -736,16 +631,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Dennis",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Zeltres",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -754,16 +646,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Andrea",
         img: "",
         roles: "Assistant Alchemist",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Allistair",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -772,16 +661,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Dennis",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Baraccus",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -790,16 +676,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Jonathan",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Sick",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -808,16 +691,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Johnny",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Jaycea",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -826,16 +706,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "John",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Allyria",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -844,16 +721,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Sebastian",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Pronin",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -862,16 +736,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Anton Bergström",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Somedaymaybe",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -880,16 +751,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Jonas",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Korra",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -898,16 +766,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Gareth",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Swift",
         img: "",
-        class: "Druid",
-        spec: "Restoration",
-        classIcon: "druid.png",
-        specIcon: "restoration.png",
+        class: "druid",
+        spec: "restoration",
         level: 60
       }
     },
@@ -916,16 +781,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Benny",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Niermis",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -934,16 +796,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Adrian",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Dixey",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -952,16 +811,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Kingironbeard",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Kingironbeard",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat	.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -970,16 +826,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Remo",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Remo",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -988,16 +841,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Nicolaj",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Growgor",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -1006,16 +856,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Replacement",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Replacement",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -1024,16 +871,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Paul",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Éverchosen",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -1042,16 +886,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Mers",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Mers",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -1060,16 +901,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Coco",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Crazyqq",
         img: "",
-        class: "Warrior",
-        spec: "Fury",
-        classIcon: "warrior.png",
-        specIcon: "fury.png",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     },
@@ -1078,16 +916,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Sooibot",
         img: "",
         roles: "",
-        rank: "Raider",
-        rankIcon: "raider.png"
+        rank: "raider"
       },
       game: {
         name: "Sooibot",
         img: "",
-        class: "Paladin",
-        spec: "Holy",
-        classIcon: "paladin.png",
-        specIcon: "holy.png",
+        class: "paladin",
+        spec: "holy",
         level: 60
       }
     },
@@ -1096,16 +931,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Wilhelm",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Surtsalt",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -1114,16 +946,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Bakker",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Bakker",
         img: "",
-        class: "Priest",
-        spec: "Holy",
-        classIcon: "priest.png",
-        specIcon: "holy.png",
+        class: "priest",
+        spec: "holy",
         level: 60
       }
     },
@@ -1132,16 +961,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Stoffe",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Madikken",
         img: "",
-        class: "Druid",
-        spec: "Feral",
-        classIcon: "druid.png",
-        specIcon: "feral.png",
+        class: "druid",
+        spec: "feral",
         level: 60
       }
     },
@@ -1150,16 +976,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Oliver",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Ganer",
         img: "",
-        class: "Rogue",
-        spec: "Combat",
-        classIcon: "rogue.png",
-        specIcon: "combat.png",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -1168,16 +991,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Johannes",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Gargkill",
         img: "",
-        class: "Priest",
-        spec: "Shadow",
-        classIcon: "priest.png",
-        specIcon: "shadow.png",
+        class: "priest",
+        spec: "shadow",
         level: 60
       }
     },
@@ -1186,16 +1006,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Leptest",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Leptest",
         img: "",
-        class: "Warlock",
-        spec: "Destruction",
-        classIcon: "warlock.png",
-        specIcon: "destruction.png",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -1204,16 +1021,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Konphewzd",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Misanthrope",
         img: "",
-        class: "Rogue",
-        spec: "Assassination",
-        classIcon: "rogue.png",
-        specIcon: "assassination.png",
+        class: "rogue",
+        spec: "assassination",
         level: 60
       }
     },
@@ -1222,16 +1036,13 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Shadybloke",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Shadybloke",
         img: "",
-        class: "Mage",
-        spec: "Frost",
-        classIcon: "mage.png",
-        specIcon: "frost.png",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     },
@@ -1240,16 +1051,103 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Mårten",
         img: "",
         roles: "",
-        rank: "Social",
-        rankIcon: "social.png"
+        rank: "social"
       },
       game: {
         name: "Hicky",
         img: "",
-        class: "Druid",
-        spec: "Feral",
-        classIcon: "druid.png",
-        specIcon: "feral.png",
+        class: "druid",
+        spec: "feral",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Joacim",
+        img: "",
+        roles: "",
+        rank: "social"
+      },
+      game: {
+        name: "Woodedwire",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Gunnar",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Beiken",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Pookie",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Pookie",
+        img: "",
+        class: "mage",
+        spec: "frost",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Shinganova",
+        img: "",
+        roles: "",
+        rank: "social"
+      },
+      game: {
+        name: "Shinganova",
+        img: "",
+        class: "priest",
+        spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Ardy",
+        img: "",
+        roles: "",
+        rank: "social"
+      },
+      game: {
+        name: "Ardy",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Kuddish",
+        img: "",
+        roles: "",
+        rank: "social"
+      },
+      game: {
+        name: "Kuddish",
+        img: "",
+        class: "druid",
+        spec: "feral",
         level: 60
       }
     }

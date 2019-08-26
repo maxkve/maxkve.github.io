@@ -51,12 +51,12 @@
     <div class="roster-member" ng-repeat="member in ::roster">
       <div class="member__row">
         <div class="member__column">
-          <div class="member__class-icon noselect"><img ng-src="/public/assets/classes/{{::member.game.classIcon}}" draggable="false" /></div>
+          <div class="member__class-icon noselect"><img ng-src="/public/assets/classes/{{::member.game.class}}.png" draggable="false" /></div>
         </div>
         <div class="member__column">
           <div class="member__name">{{ ::member.game.name }}</div>
           <div class="member__class">
-            <div class="member__spec-icon noselect"><img ng-src="/public/assets/specs/{{ ::member.game.specIcon }}" draggable="false" /></div>
+            <div class="member__spec-icon noselect"><img ng-src="/public/assets/specs/{{ ::member.game.spec }}.png" draggable="false" /></div>
             <div class="member__class-text {{ ::member.game.class }}-text">{{ ::member.game.spec }} {{ ::member.game.class }}</div>
           </div>
           <div class="member__roles">{{ ::member.real.roles }}</div>
@@ -64,7 +64,7 @@
       </div>
       <div class="member__column">
         <div class="member__rank-icon noselect ">
-          <img ng-src="/public/assets/ranks/{{::member.real.rankIcon}}" draggable="false" />
+          <img ng-src="/public/assets/ranks/{{::member.real.rank}}.png" draggable="false" />
           <md-tooltip md-direction="top">{{::member.real.rank}}</md-tooltip>
         </div>
       </div>
