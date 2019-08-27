@@ -6,13 +6,13 @@ angular.module("epgpApp").controller("rosterModalController", function($scope, $
 
   $scope.roster = rosterService.getRoster();
 
-  $scope.druidCount = rosterService.getRaiderClassCount("Druid");
-  $scope.hunterCount = rosterService.getRaiderClassCount("Hunter");
-  $scope.mageCount = rosterService.getRaiderClassCount("Mage");
-  $scope.paladinCount = rosterService.getRaiderClassCount("Paladin");
-  $scope.priestCount = rosterService.getRaiderClassCount("Priest");
-  $scope.rogueCount = rosterService.getRaiderClassCount("Rogue");
-  $scope.warlockCount = rosterService.getRaiderClassCount("Warlock");
-  $scope.warriorCount = rosterService.getRaiderClassCount("Warrior");
+  $scope.druidCount = rosterService.getRaiderClassCount("druid");
+  $scope.hunterCount = rosterService.getRaiderClassCount("hunter");
+  $scope.mageCount = rosterService.getRaiderClassCount("mage");
+  $scope.paladinCount = rosterService.getRaiderClassCount("paladin");
+  $scope.priestCount = rosterService.getRaiderClassCount("priest");
+  $scope.rogueCount = rosterService.getRaiderClassCount("rogue");
+  $scope.warlockCount = rosterService.getRaiderClassCount("warlock");
+  $scope.warriorCount = rosterService.getRaiderClassCount("warrior");
   $scope.raiderCount = rosterService.getRaiderCount();
 });
