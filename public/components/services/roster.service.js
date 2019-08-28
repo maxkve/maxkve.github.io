@@ -238,96 +238,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Bosse",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "<Undecided>",
-        img: "",
-        class: "paladin",
-        spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Wolle",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "<Undecided>",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Jarre",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "<Undecided>",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Macke",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "<Undecided>",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Axel",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Pontz",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Stehr",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "<Undecided>",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Oliver",
         img: "",
         roles: "",
@@ -335,21 +245,6 @@ angular.module("epgpApp").service("rosterService", function() {
       },
       game: {
         name: "<Undecided>",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Felix",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Drwatson",
         img: "",
         class: "hunter",
         spec: "marksmanship",
@@ -448,21 +343,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Kevin",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Yakshi",
-        img: "",
-        class: "druid",
-        spec: "feral",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Andreas",
         img: "",
         roles: "",
@@ -488,36 +368,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "paladin",
         spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Phogster",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Phogster",
-        img: "",
-        class: "warrior",
-        spec: "fury",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Kiggi",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Kiggi",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
         level: 60
       }
     },
@@ -559,7 +409,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Baneblade",
+        name: "Shinobi",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -718,21 +568,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Sebastian",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Pronin",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Anton Bergström",
         img: "",
         roles: "",
@@ -778,21 +613,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Benny",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Niermis",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Adrian",
         img: "",
         roles: "",
@@ -803,36 +623,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "mage",
         spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Kingironbeard",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Kingironbeard",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Remo",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Remo",
-        img: "",
-        class: "warrior",
-        spec: "fury",
         level: 60
       }
     },
@@ -871,10 +661,10 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Paul",
         img: "",
         roles: "",
-        rank: "social"
+        rank: "raider"
       },
       game: {
-        name: "Éverchosen",
+        name: "Everchosen",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -928,156 +718,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Wilhelm",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Surtsalt",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Bakker",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Bakker",
-        img: "",
-        class: "priest",
-        spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Stoffe",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Madikken",
-        img: "",
-        class: "druid",
-        spec: "feral",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Oliver",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Ganer",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Johannes",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Gargkill",
-        img: "",
-        class: "priest",
-        spec: "shadow",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Leptest",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Leptest",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Konphewzd",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Misanthrope",
-        img: "",
-        class: "rogue",
-        spec: "assassination",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Shadybloke",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Shadybloke",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Mårten",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Hicky",
-        img: "",
-        class: "druid",
-        spec: "feral",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Joacim",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Woodedwire",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Gunnar",
         img: "",
         roles: "",
@@ -1103,51 +743,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "mage",
         spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Shinganova",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Shinganova",
-        img: "",
-        class: "priest",
-        spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Ardy",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Ardy",
-        img: "",
-        class: "warrior",
-        spec: "fury",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Kuddish",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Kuddish",
-        img: "",
-        class: "druid",
-        spec: "feral",
         level: 60
       }
     }
