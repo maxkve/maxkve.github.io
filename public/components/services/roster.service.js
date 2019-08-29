@@ -274,7 +274,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Mackemjo",
+        name: "Mageic",
         img: "",
         class: "mage",
         spec: "frost",
@@ -319,7 +319,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Afze",
+        name: "Afza",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -394,7 +394,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Andrion",
+        name: "Silaray",
         img: "",
         class: "hunter",
         spec: "marksmanship",
@@ -405,7 +405,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Simon",
         img: "",
-        roles: "rogue Class Leader",
+        roles: "Rogue Class Leader",
         rank: "raider"
       },
       game: {
@@ -439,7 +439,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Freddy",
+        name: "Frederick",
         img: "",
         class: "priest",
         spec: "holy",
@@ -469,7 +469,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Fro",
+        name: "Frø",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -529,7 +529,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Sick",
+        name: "Alendariel",
         img: "",
         class: "paladin",
         spec: "holy",
@@ -604,7 +604,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Swift",
+        name: "Nandaiya",
         img: "",
         class: "druid",
         spec: "restoration",
@@ -664,7 +664,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Everchosen",
+        name: "Neverchosen",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -709,7 +709,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Sooibot",
+        name: "Soiboi",
         img: "",
         class: "paladin",
         spec: "holy",
