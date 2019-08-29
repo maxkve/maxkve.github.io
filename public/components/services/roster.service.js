@@ -244,10 +244,10 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "<Undecided>",
+        name: "Dayson",
         img: "",
-        class: "hunter",
-        spec: "marksmanship",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -331,7 +331,7 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Petr",
         img: "",
         roles: "",
-        rank: "raider"
+        rank: "social"
       },
       game: {
         name: "Bhallock",
@@ -559,7 +559,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Allyria",
+        name: "Ilyria",
         img: "",
         class: "warlock",
         spec: "destruction",
@@ -661,7 +661,7 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Paul",
         img: "",
         roles: "",
-        rank: "raider"
+        rank: "social"
       },
       game: {
         name: "Neverchosen",
@@ -724,7 +724,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Beiken",
+        name: "Biaxident",
         img: "",
         class: "hunter",
         spec: "marksmanship",
