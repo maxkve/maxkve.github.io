@@ -405,14 +405,14 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Simon",
         img: "",
-        roles: "Rogue Class Leader",
+        roles: "",
         rank: "raider"
       },
       game: {
-        name: "Shinobi",
+        name: "Boombeard",
         img: "",
-        class: "rogue",
-        spec: "combat",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     },
