@@ -3,15 +3,6 @@
 angular.module("epgpApp").service("newsService", function() {
   let news = [
     {
-      title: "We're recruiting for Classic!",
-      img: "classic.jpg",
-      date: "2019-05-29",
-      tags: ["Announcement"],
-      summary: "Click here to read more!",
-      content:
-        "Standard Procedure is a PvE-oriented european guild looking for mature and friendly people for Classic. We're aiming for a semi-casual atmosphere and a stable and structured community. Please check out Organization above for information on how the guild is organized, Raids and Loot Rules for details on raiding, and Roster to see who's already on the team. Sounds good? Apply using our Google form and we'll be in touch!<br><br><a href='https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform' target='_blank'>Click here to apply!</a>"
-    },
-    {
       title: "Player Introduction: Combobreaker",
       img: "vector2.jpg",
       date: "2019-06-01",
@@ -129,11 +120,11 @@ angular.module("epgpApp").service("newsService", function() {
         "Hey gang!<br><br>My name is Dennis and I am 30 years old. I grew up in a small town in central Sweden and later spent a bunch of years at the university i Norrköping, studying project management, math, programming and media production.<br><br>Nowadays I work as a freelancer in the film industry in Stockholm as a production manager for feature films and tv-series.<br><br>I started my MMO-carrer in 2004 on a private Lineage 2 server before moving to vanilla in 2005. I was a casual raider back then and spent most of my time exploring and loosing against the Horde in Arathi Basin. I downed Rag, Hakkar, Ony, BWL and some of AQ20 just before TBC. I played a holy paladin all the way up to WOTLK where I swapped to Retri/Tank and did most of my hard core raiding and clearing most content. <br><br>I left WOW about half way through CATA when SWTOR launched and played that for about a year. I became one of the servers top PVPers before quitting altogether in 2013 when I moved to Stockholm and started my career.<br><br>Other then video- and boardgames I’m a massive Tolkien fan and an avid reader of classic fantasy and science fiction.<br><br>I’m also a pretty amazing cook and ofcz I plan on going all out cooking and fishing in classic! Mmm… I can already smell the Nightfin soup simmering…"
     },
     {
-      title: "Player Introduction: Rotter",
+      title: "Player Introduction: Rascalgag",
       img: "classic.jpg",
       date: "2019-08-20",
       tags: ["Player Introduction"],
-      summary: "Learn more about Rotter, who knows all about Naxx and tracks.",
+      summary: "Learn more about Rascalgag, who knows all about Naxx and tracks.",
       content:
         "Herro!<br><br>My name is Viktor, 28, living in the capital city of Sweden!<br><br>My World of Warcraft journey started in Vanilla like many others here. I've been playing all expansions so far, with various amount of fun. Best expansion for me was Cataclysm, mostly due to a awesome guild.<br>In Vanilla I raided as a Holy Paladin in the guild 'The Anvil' on the realm Bladefist. Bladefist became overpopulated, so the whole guild took the free migration to the new realm, Outland. We cleared the easy wing in Naxxramas before TBC was announced and after that the guild died. This time around I'm going as a Warlock! <br><br>When I'm not at the computer I work as a traffic controller in the subway. Clearing train failures, point failures, accidents and such.<br>Doing everything to keep the traffic going!<br><br>Aaaand while I'm not at the computer or working I am outside fishing.<br><br>All the best!"
     },
@@ -154,6 +145,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "The adventure is underway.",
       content:
         "After battling queues on Firemaw, following a heroic push by Aramus and crew to get the guild up and running, we made the tough decision to move to Noggenfogger. There's still queues, but we have a feeling they may subside in time. Other than that people are having a blast coming back to the game they've been waiting for for years. See you in Azeroth!"
+    },
+    {
+      title: "Recruitment has stopped",
+      img: "recruit.jpg",
+      date: "2019-08-27",
+      tags: ["Announcement"],
+      summary: "No applications will be considered at this time.",
+      content:
+        "We've decided to stop recruitment altogether (both for Raiders and Socials) due to the extreme popularity we've enjoyed over the past week. Thank you to all those who've joined and applied! See you in Azeroth. We may open up recruitment again at a later date."
     }
   ];
 

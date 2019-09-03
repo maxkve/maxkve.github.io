@@ -328,21 +328,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Petr",
-        img: "",
-        roles: "",
-        rank: "social"
-      },
-      game: {
-        name: "Bhallock",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Andreas",
         img: "",
         roles: "",
