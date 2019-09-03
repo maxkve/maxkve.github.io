@@ -199,7 +199,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Rotter",
+        name: "Rascalgag",
         img: "",
         class: "warlock",
         spec: "destruction",
