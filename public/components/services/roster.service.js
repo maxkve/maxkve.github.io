@@ -135,7 +135,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Hampus",
         img: "",
-        roles: "Recruitment Manager, Guild Officer, Tribal Leatherworker",
+        roles: "Roster Manager, Discord Manager, Guild Officer, Tribal Leatherworker",
         rank: "raider"
       },
       game: {

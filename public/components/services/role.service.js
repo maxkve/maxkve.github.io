@@ -9,7 +9,7 @@ angular.module("epgpApp").service("roleService", function() {
         "Responsible for responding to member questions, concerns and feedback, facilitating the effectiveness of operational roles, managing the guild bank, and otherwise ensuring a smoothly operating guild. Handles any miscellaneous issues that fall outside the responsibilities of the other roles."
     },
     recruitmentmanager: {
-      title: "Recruitment Manager",
+      title: "Roster Manager",
       img: "account-search.png",
       description:
         "Responsible for making sure the overall guild roster is balanced and complete, handling continuous recruitment, conducting interviews, and reviewing applications."
@@ -18,6 +18,11 @@ angular.module("epgpApp").service("roleService", function() {
       title: "Webmaster",
       img: "desktop-tower-monitor.png",
       description: "Responsible for managing the website and addon pack."
+    },
+    discordmanager: {
+      title: "Discord Manager",
+      img: "discord.png",
+      description: "Responsible for managing the Discord, setting up rooms, handling roles and permissions, etc."
     },
     raidmanager: {
       title: "Raid Manager",
