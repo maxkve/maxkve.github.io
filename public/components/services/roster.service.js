@@ -229,7 +229,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "<Undecided>",
+        name: "Vildingen",
         img: "",
         class: "warrior",
         spec: "fury",
