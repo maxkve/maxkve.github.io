@@ -373,21 +373,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Simon",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Boombeard",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Esoteric",
         img: "",
         roles: "",
@@ -508,21 +493,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "John",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Ilyria",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Anton Bergström",
         img: "",
         roles: "",
@@ -563,21 +533,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "druid",
         spec: "restoration",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Adrian",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Dixey",
-        img: "",
-        class: "mage",
-        spec: "frost",
         level: 60
       }
     },
