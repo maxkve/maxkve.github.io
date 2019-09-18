@@ -330,7 +330,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Christian",
         img: "",
-        roles: "",
+        roles: "Guild Officer",
         rank: "raider"
       },
       game: {
@@ -360,7 +360,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andrion",
         img: "",
-        roles: "",
+        roles: "Guild Officer, Hunter Class Leader",
         rank: "raider"
       },
       game: {
@@ -623,6 +623,21 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "mage",
         spec: "frost",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Gunnar",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Biaxident",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60
       }
     }
