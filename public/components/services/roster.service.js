@@ -655,6 +655,51 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "fury",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Narvii",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Narvii",
+        img: "",
+        class: "priest",
+        spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Dancer",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Dancer",
+        img: "",
+        class: "rogue",
+        spec: "combat",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Estacion",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Estacion",
+        img: "",
+        class: "mage",
+        spec: "frost",
+        level: 60
+      }
     }
   ];
 });
