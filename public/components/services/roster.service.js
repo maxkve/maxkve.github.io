@@ -640,6 +640,21 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "marksmanship",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Engineer",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Engineer",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60
+      }
     }
   ];
 });
