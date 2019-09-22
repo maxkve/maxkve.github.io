@@ -700,6 +700,21 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "frost",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Hjälplös",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Hjälplös",
+        img: "",
+        class: "priest",
+        spec: "holy",
+        level: 60
+      }
     }
   ];
 });
