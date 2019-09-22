@@ -156,13 +156,13 @@ angular.module("epgpApp").service("newsService", function() {
         "We've decided to stop recruitment altogether (both for Raiders and Socials) due to the extreme popularity we've enjoyed over the past week. Thank you to all those who've joined and applied! See you in Azeroth. We may open up recruitment again at a later date."
     },
     {
-      title: "Raidstart imminent",
+      title: "Raid start looms",
       img: "blackrock.jpg",
       date: "2019-09-19",
       tags: ["Announcement"],
       summary: "Exciting times ahead as the start of raiding approaches.",
       content:
-        "As many people in the guild have either hit 60 or are approaching 60, we'll be starting some warm-ups in UBRS as well as scheduled attunement runs soon. This is in preparation of the MC and Onyxia raids which will start in about 2 weeks time."
+        "As many people in the guild have either hit 60 or are approaching 60, we'll be starting some warm-ups in UBRS as well as scheduled attunement runs soon. This is in preparation of the MC and Onyxia raids which we hope will start in about 2 weeks time."
     }
   ];
 
