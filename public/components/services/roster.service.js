@@ -730,6 +730,21 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "frost",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Arlinn",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Arlinn",
+        img: "",
+        class: "druid",
+        spec: "restoration",
+        level: 60
+      }
     }
   ];
 });
