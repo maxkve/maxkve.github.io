@@ -223,36 +223,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Linus",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Vildingen",
-        img: "",
-        class: "warrior",
-        spec: "fury",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Oliver",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Dayson",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Mackan",
         img: "",
         roles: "",
