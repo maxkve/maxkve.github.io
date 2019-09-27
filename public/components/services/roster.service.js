@@ -730,6 +730,21 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "restoration",
         level: 60
       }
+		},
+		{
+      real: {
+        name: "Isythien",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Isythien",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
+        level: 60
+      }
     }
   ];
 });
