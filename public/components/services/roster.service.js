@@ -625,8 +625,8 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "fury",
         level: 60
       }
-		},
-		{
+    },
+    {
       real: {
         name: "Ardy",
         img: "",
@@ -640,7 +640,7 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "fury",
         level: 60
       }
-    }
+    },
     {
       real: {
         name: "Narvii",
@@ -730,8 +730,8 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "restoration",
         level: 60
       }
-		},
-		{
+    },
+    {
       real: {
         name: "Isythien",
         img: "",
