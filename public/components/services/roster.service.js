@@ -625,7 +625,22 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "fury",
         level: 60
       }
-    },
+		},
+		{
+      real: {
+        name: "Ardy",
+        img: "",
+        roles: "Raid Manager, Warrior Class Leader",
+        rank: "raider"
+      },
+      game: {
+        name: "Ardy",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60
+      }
+    }
     {
       real: {
         name: "Narvii",
