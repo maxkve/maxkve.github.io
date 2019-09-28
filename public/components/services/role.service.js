@@ -28,7 +28,7 @@ angular.module("epgpApp").service("roleService", function() {
       title: "Raid Manager",
       img: "puzzle.png",
       description:
-        "Responsible for creating raid events, managing waiting lists, inviting people to the raid group(s), ensuring the raid group(s) is properly balanced for the intended raid. Communicates with the Raid Leader to ensure that the raid group is built appropriately for the given raid."
+        "Responsible for creating raid events, managing waiting lists, inviting people to the raid group(s), ensuring the raid group(s) is properly balanced for the intended raid, and adding (or removing) EP during raid. Communicates with the Raid Leader to ensure that the raid group is built appropriately for the given raid."
     },
     lootmanager: {
       title: "Loot Manager",
