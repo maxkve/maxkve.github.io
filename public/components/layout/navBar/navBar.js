@@ -82,5 +82,23 @@ angular.module("epgpApp").component("navBar", {
           }
         );
     };
+    ctrl.openAddonModal = function() {
+      return $mdDialog
+        .show({
+          controller: "addonModalController",
+          templateUrl: "public/components/layout/modals/addonModal.html",
+          parent: angular.element(document.body),
+          clickOutsideToClose: true,
+          fullscreen: false
+        })
+        .then(
+          function(result) {
+            // Hide
+          },
+          function() {
+            // Cancel
+          }
+        );
+    };
   }
 });

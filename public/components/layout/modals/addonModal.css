@@ -1,0 +1,92 @@
+.addon-modal-header {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.addon-modal-header__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.addon-modal-text {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.addon-title {
+  font-size: 3vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 3vh;
+}
+
+.addon-date {
+  font-size: 1.6vh;
+  color: #666;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile */
+  .addon-modal-header {
+    height: 170px;
+  }
+  .addon-modal-header__background {
+    height: 170px;
+  }
+  .addon-modal-header__background img {
+    height: 130%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /* Web */
+  .addon-modal-header {
+    height: 40vh;
+  }
+  .addon-modal-header__background img {
+    width: 100%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  /* iPhone X */
+  .addon-modal-header {
+    height: 170px;
+  }
+  .addon-modal-header__background {
+    height: 170px;
+  }
+  .addon-modal-header__background img {
+    height: 130%;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  /* iPhone 8 */
+  .addon-modal-header {
+    height: 170px;
+  }
+  .addon-modal-header__background {
+    height: 170px;
+  }
+  .addon-modal-header__background img {
+    height: 130%;
+  }
+}
