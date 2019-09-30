@@ -123,6 +123,10 @@
   text-align: center;
 }
 
+.faded-boss {
+  opacity: 0.2;
+}
+
 @media only screen and (max-width: 600px) {
   /* Mobile */
   .raid-instance {

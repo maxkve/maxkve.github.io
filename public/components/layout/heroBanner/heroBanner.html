@@ -1,21 +1,12 @@
 <div class="hero-banner noselect">
+  <div class="hero-banner__text anim-fade-in anim-delay-short noselect">
+    <div class="hero-banner__title">{{ $ctrl.newsItem.title }}</div>
+    <div class="hero-banner__subtitle">{{ $ctrl.newsItem.summary }}</div>
+  </div>
   <div class="hero-banner__graphic anim-fade-in anim-delay-short">
-    <img class="graphic__img" ng-src="public/assets/banners/recruit.jpg" draggable="false" />
+    <img class="graphic__img" ng-src="public/assets/news/large/{{ $ctrl.newsItem.img }}" draggable="false" />
     <div class="graphic__overlay"></div>
   </div>
-
-  <div class="hero-banner__text noselect">
-    <div class="hero-banner__title"></div>
-    <!--
-    <div class="hero-banner__recruit">
-      <div class="recruit-message">Now recruiting</div>
-      <div class="summary__class Mage-text">
-        <div class="summary__class-img"><img ng-src="/public/assets/classes/mage.png" draggable="false" /></div>
-        1
-        <md-tooltip md-direction="top">Mage</md-tooltip>
-      </div>
-		</div>
-		--></div>
 
   <div class="hero-banner__more anim-fade-in">
     <md-button class="md-fab md-accent" aria-label="FAB" ng-click="$ctrl.scrollToNews()">
