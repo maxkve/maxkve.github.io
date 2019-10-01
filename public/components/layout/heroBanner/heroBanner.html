@@ -1,13 +1,14 @@
 <div class="hero-banner noselect">
-  <div class="hero-banner__text anim-fade-in anim-delay-short noselect">
-    <div class="hero-banner__title">{{ $ctrl.newsItem.title }}</div>
-    <div class="hero-banner__subtitle">{{ $ctrl.newsItem.summary }}</div>
-  </div>
-  <div class="hero-banner__graphic anim-fade-in anim-delay-short">
-    <img class="graphic__img anim-zoom-in" ng-src="public/assets/news/large/{{ $ctrl.newsItem.img }}" draggable="false" />
-    <div class="graphic__overlay"></div>
-  </div>
-
+  <md-button ng-click="$ctrl.openNewsModal($ctrl.newsItem)">
+    <div class="hero-banner__text anim-fade-in anim-delay-short noselect">
+      <div class="hero-banner__title">{{ $ctrl.newsItem.title }}</div>
+      <div class="hero-banner__subtitle">{{ $ctrl.newsItem.summary }}</div>
+    </div>
+    <div class="hero-banner__graphic anim-fade-in anim-delay-short">
+      <img class="graphic__img anim-zoom-in" ng-src="public/assets/news/large/{{ $ctrl.newsItem.img }}" draggable="false" />
+      <div class="graphic__overlay"></div>
+    </div>
+  </md-button>
   <div class="hero-banner__more anim-fade-in">
     <md-button class="md-fab md-accent" aria-label="FAB" ng-click="$ctrl.scrollToNews()">
       <md-icon md-svg-src="public/assets/interface/chevron-double-down.svg"></md-icon>

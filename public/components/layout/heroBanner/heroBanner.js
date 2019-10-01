@@ -3,7 +3,7 @@
 angular.module("epgpApp").component("heroBanner", {
   bindings: {},
   templateUrl: "public/components/layout/heroBanner/heroBanner.html",
-  controller: function(newsService) {
+  controller: function($mdDialog, newsService) {
     let ctrl = this;
 
     let news = newsService.getNewsReadOnly();
@@ -18,6 +18,26 @@ angular.module("epgpApp").component("heroBanner", {
       document.querySelector("#news").scrollIntoView({
         behavior: "smooth"
       });
+    };
+
+    ctrl.openNewsModal = function(newsItem) {
+      return $mdDialog
+        .show({
+          locals: { newsItem: newsItem },
+          controller: "newsModalController",
+          templateUrl: "public/components/layout/modals/newsModal.html",
+          parent: angular.element(document.body),
+          clickOutsideToClose: true,
+          fullscreen: false
+        })
+        .then(
+          function(result) {
+            // Hide
+          },
+          function() {
+            // Cancel
+          }
+        );
     };
   }
 });
