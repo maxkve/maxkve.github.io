@@ -24,11 +24,11 @@ angular.module("epgpApp").service("raidService", function() {
       /* Phase 1 */
       title: "Onyxia",
       img: "onyxia2.jpg",
-      killCount: "0 / 1",
+      killCount: "1 / 1",
       bosses: {
         onyxia: {
           name: "Onyxia",
-          killed: false,
+          killed: true,
           img: "onyxia.jpg"
         }
       }
