@@ -163,6 +163,14 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "First guild raid results in 9/10 bosses cleared.",
       content:
         "What an amazing run, everyone made such an effort. We were a total of 30 people in the raid and 7 of those people were lvl 55-59, we managed to kill 9/10 Bosses up to Majordomo because time was against us, but next time we will be coming for the Ragnaros kill.<br><br>We had very few wipes during the course of the raid, the bosses and the trash went down smoothly and easily even though we had some AoE taunts from DPS and a little Druid that blew up the whole raid (no names mentioned).<br><br>Extra thanks to those who ran to Azshara to collect water so we could spawn all the bosses!<br><br>On the last boss that we killed, Majordomo, we were 29 people because one person had to go and save lives IRL.<br><br>We had one initial wipe on Majordomo before he died (with just a few deaths on our side)."
+    },
+    {
+      title: "Dragon I hardly knew ya",
+      img: "20191002.jpg",
+      date: "2019-10-02",
+      tags: ["Announcement"],
+      summary: "Onyxia falls in a blaze of glory.",
+      content: "Onyxia was brought down in swift fashion after some initial struggles with the P3 transition. All in all everything went very smoothly."
     }
   ];
 
