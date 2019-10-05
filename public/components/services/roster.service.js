@@ -643,6 +643,21 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
+        name: "Luffaz",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Luffaz",
+        img: "",
+        class: "warlock",
+        spec: "destruction",
+        level: 60
+      }
+    },
+    {
+      real: {
         name: "Dancer",
         img: "",
         roles: "",
