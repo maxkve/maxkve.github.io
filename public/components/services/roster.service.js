@@ -274,7 +274,7 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Afza",
+        name: "Afze",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -448,28 +448,13 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Jonathan",
+        name: "Shemmari",
         img: "",
         roles: "",
         rank: "raider"
       },
       game: {
-        name: "Alendariel",
-        img: "",
-        class: "paladin",
-        spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Anton Bergström",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Somedaymaybe",
+        name: "Shemmari",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -758,6 +743,21 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "warrior",
         spec: "fury",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Axel",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Pontz",
+        img: "",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     }
