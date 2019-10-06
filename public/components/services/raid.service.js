@@ -6,7 +6,7 @@ angular.module("epgpApp").service("raidService", function() {
       /* Phase 1 */
       title: "Molten Core",
       img: "moltencore3.jpg",
-      killCount: "9 / 10",
+      killCount: "10 / 10",
       bosses: {
         lucifron: { name: "Lucifron", killed: true, img: "lucifron.jpg" },
         magmadar: { name: "Magmadar", killed: true, img: "magmadar.jpg" },
@@ -17,7 +17,7 @@ angular.module("epgpApp").service("raidService", function() {
         sulfuronharbinger: { name: "Sulfuron Harbinger", killed: true, img: "sulfuronharbinger.jpg" },
         golemaggtheincinerator: { name: "Golemagg", killed: true, img: "golemaggtheincinerator.jpg" },
         majordomoexecutus: { name: "Majordomo", killed: true, img: "majordomoexecutus.jpg" },
-        ragnaros: { name: "Ragnaros", killed: false, img: "ragnaros.jpg" }
+        ragnaros: { name: "Ragnaros", killed: true, img: "ragnaros.jpg" }
       }
     },
     onyxia: {
