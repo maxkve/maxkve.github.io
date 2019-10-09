@@ -171,6 +171,15 @@ angular.module("epgpApp").service("newsService", function() {
       tags: ["Announcement"],
       summary: "Onyxia falls in a blaze of glory.",
       content: "Onyxia was brought down in swift fashion after some initial struggles with the P3 transition. All in all everything went very smoothly."
+    },
+    {
+      title: "Yesterdays' news: Ragnaros is no more",
+      img: "20191006.jpg",
+      date: "2019-10-06",
+      tags: ["Announcement"],
+      summary: "The Elemental Lord totally died this past weekend.",
+      content:
+        "The puny insects of Standard Procedure smacked the elemental lord around this past Sunday in a zero-wipe session. We've now cleared all bosses of the current raid tier much faster than expected, really looking forward to continue raiding with all our Raiders (and making sure we gear everyone up for the next stage!)."
     }
   ];
 
