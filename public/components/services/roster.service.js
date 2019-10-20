@@ -570,7 +570,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ardy",
         img: "",
-        roles: "Raid Manager, Warrior Class Leader",
+        roles: "Raid Manager, Guild Officer, Warrior Class Leader",
         rank: "raider"
       },
       game: {
