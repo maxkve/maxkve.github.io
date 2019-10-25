@@ -208,21 +208,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Jesper",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Zernox",
-        img: "",
-        class: "warrior",
-        spec: "fury",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Mackan",
         img: "",
         roles: "",
@@ -263,6 +248,21 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "warrior",
         spec: "protection",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Axel",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Pontz",
+        img: "",
+        class: "rogue",
+        spec: "combat",
         level: 60
       }
     },
@@ -508,21 +508,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Coco",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Crazyqq",
-        img: "",
-        class: "warrior",
-        spec: "fury",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Sooibot",
         img: "",
         roles: "",
@@ -667,7 +652,7 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Hjälplös",
         img: "",
         class: "priest",
-        spec: "holy",
+        spec: "shadow",
         level: 60
       }
     },
@@ -733,16 +718,46 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Axel",
+        name: "Moan",
         img: "",
         roles: "",
         rank: "raider"
       },
       game: {
-        name: "Pontz",
+        name: "Moan",
         img: "",
-        class: "rogue",
-        spec: "combat",
+        class: "warrior",
+        spec: "arms",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Orawing",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Orawing",
+        img: "",
+        class: "priest",
+        spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Gasfyr",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Gasfyr",
+        img: "",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     }
