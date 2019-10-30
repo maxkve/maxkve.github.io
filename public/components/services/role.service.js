@@ -17,7 +17,7 @@ angular.module("epgpApp").service("roleService", function() {
     webmaster: {
       title: "Webmaster (WM)",
       img: "desktop-tower-monitor.png",
-      description: "Responsible for managing the website and addon pack."
+      description: "Responsible for managing the website."
     },
     discordmanager: {
       title: "Discord Manager (DM)",
@@ -61,13 +61,13 @@ angular.module("epgpApp").service("roleService", function() {
     classleader: {
       title: "Class Leader (CL)",
       img: "chart-areaspline.png",
-      description: "Responsible for adressing any class questions regarding his/her class, advising in gear and/or talent choices, skill rotations, etc."
+      description: "Responsible for adressing any questions regarding his/her class, advising in gear and/or talent choices, skill rotations, etc."
     },
     guildcrafter: {
       title: "Guild Crafter (GC)",
       img: "hand-saw.png",
       description:
-        "Guild Crafters are prioritized when it comes to recipes from drops. In exchange they are responsible for high-end crafts within their various discipline, free of charge, to any guild member able to provide materials."
+        "Guild Crafters are prioritized when it comes to recipes from drops. In exchange they are responsible for high-end crafts within their various disciplines, free of charge, to any guild member able to provide materials."
     },
     raider: {
       title: "Raider",
@@ -83,7 +83,7 @@ angular.module("epgpApp").service("roleService", function() {
     social: {
       title: "Social",
       img: "social.png",
-      description: "Socials can play the game however they like, and can join for raids when there are spots open (if they want to!)."
+      description: "Socials can play the game however they like, and can join for raids when there are spots open (if they want to)."
     }
   };
 
