@@ -150,7 +150,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Oskar",
         img: "",
-        roles: "Alchemist",
+        roles: "Alchemist, Healing Coordinator",
         rank: "raider"
       },
       game: {
@@ -570,7 +570,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ardy",
         img: "",
-        roles: "Raid Manager, Guild Officer, Warrior Class Leader",
+        roles: "Raid Manager, Guild Officer, Melee Coordinator",
         rank: "raider"
       },
       game: {
