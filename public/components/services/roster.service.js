@@ -619,10 +619,10 @@ angular.module("epgpApp").service("rosterService", function() {
         rank: "raider"
       },
       game: {
-        name: "Dancer",
+        name: "Puttesgf",
         img: "",
-        class: "rogue",
-        spec: "combat",
+        class: "warlock",
+        spec: "destruction",
         level: 60
       }
     },
@@ -758,6 +758,21 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "warrior",
         spec: "fury",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Shadybloke",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Shadybloke",
+        img: "",
+        class: "mage",
+        spec: "frost",
         level: 60
       }
     }
