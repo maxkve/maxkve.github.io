@@ -180,6 +180,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "The Elemental Lord totally died this past weekend.",
       content:
         "The puny insects of Standard Procedure smacked the elemental lord around this past Sunday in a zero-wipe session. We've now cleared all bosses of the current raid tier much faster than expected, really looking forward to continue raiding with all our Raiders (and making sure we gear everyone up for the next stage!)."
+    },
+    {
+      title: "Success rate increased to 200%",
+      img: "20191125.jpg",
+      date: "2019-11-25",
+      tags: ["Announcement"],
+      summary: "What's better than killing Ragnaros? Killing Ragnaros twice.",
+      content:
+        "In the words of the great Gordon Ramsay: 'wow wow wow'. Great night yesterday as we finished split-running both Onyxia and MC, with just a single wipe across both raids. 'Smooth as Bloodbads behind', as one unnamed officer quipped after the raids (although it stands within reason to assume the involved party was someone who's had a close encounter with said behind, but I digress). Now all that's left is to do split-split runs until BWL comes out after new years."
     }
   ];
 
