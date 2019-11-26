@@ -760,6 +760,21 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "frost",
         level: 60
       }
+    },
+    {
+      real: {
+        name: "Bloodbad",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Bloodbad",
+        img: "",
+        class: "paladin",
+        spec: "holy",
+        level: 60
+      }
     }
   ];
 });
