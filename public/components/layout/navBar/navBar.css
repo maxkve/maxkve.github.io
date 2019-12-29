@@ -51,6 +51,20 @@
   height: 70%;
 }
 
+.santa-hat {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  transform: rotateZ(-15deg);
+}
+
+.santa-hat img {
+  height: 30%;
+  margin-top: -10%;
+  margin-left: -60%;
+}
+
 .guild-text {
   margin-left: 10px;
   display: flex;

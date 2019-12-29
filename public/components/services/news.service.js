@@ -189,6 +189,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "What's better than killing Ragnaros? Killing Ragnaros twice.",
       content:
         "In the words of the great Gordon Ramsay: 'wow wow wow'. Great night yesterday as we finished split-running both Onyxia and MC, with just a single wipe across both raids. 'Smooth as Bloodbads behind', as one unnamed officer quipped after the raids (although it stands within reason to assume the involved party was someone who's had a close encounter with said behind, but I digress). Now all that's left is to do split-split runs until BWL comes out after new years."
+    },
+    {
+      title: "Standard Procedure Season's Greetings",
+      img: "christmas.png",
+      date: "2019-12-29",
+      tags: ["Announcement"],
+      summary: "Wishing you all a merry christmas and a happy new year!",
+      content:
+        "Holiday raids have been going well from what I hear, perhaps a bit more relaxed than usual, but with great results nonetheless. Thank you all for a terrific (half) year, looking forward to the next one!"
     }
   ];
 
