@@ -613,21 +613,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Dancer",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Dotsnhoes",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Estacion",
         img: "",
         roles: "",
@@ -772,6 +757,36 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Bloodbad",
         img: "",
         class: "paladin",
+        spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Fyeah",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Fyeah",
+        img: "",
+        class: "mage",
+        spec: "frost",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Coldlight",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Coldlight",
+        img: "",
+        class: "priest",
         spec: "holy",
         level: 60
       }
