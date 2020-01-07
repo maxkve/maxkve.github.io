@@ -47,6 +47,11 @@ angular.module("epgpApp").service("roleService", function() {
       img: "ambulance.png",
       description: "Organizes raid healing and designates healing targets."
     },
+    meleecoordinator: {
+      title: "Melee Coordinator (MC)",
+      img: "bullhorn-outline.png",
+      description: "Organizes spell kicking and other melee-related activities."
+    },
     tank: {
       title: "Tank",
       img: "shield.png",
@@ -57,11 +62,6 @@ angular.module("epgpApp").service("roleService", function() {
       img: "crown.png",
       description:
         "Responsible for upholding the standards expected of all guild members, responding to member questions, concerns and feedback and making sure all members feel welcome."
-    },
-    classleader: {
-      title: "Class Leader (CL)",
-      img: "chart-areaspline.png",
-      description: "Responsible for adressing any questions regarding his/her class, advising in gear and/or talent choices, skill rotations, etc."
     },
     guildcrafter: {
       title: "Guild Crafter (GC)",

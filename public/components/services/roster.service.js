@@ -253,36 +253,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Axel",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Pontz",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Afze",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Afze",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Andreas",
         img: "",
         roles: "",
@@ -790,6 +760,36 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "holy",
         level: 60
       }
-    }
+    } /*,
+    {
+      real: {
+        name: "Selenez",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Selenez",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Florenz",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Florenz",
+        img: "",
+        class: "paladin",
+        spec: "holy",
+        level: 60
+      }
+    }*/
   ];
 });
