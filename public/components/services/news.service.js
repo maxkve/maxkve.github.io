@@ -198,6 +198,15 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Wishing you all a merry christmas and a happy new year!",
       content:
         "Holiday raids have been going well from what I hear, perhaps a bit more relaxed than usual, but with great results nonetheless. Thank you all for a terrific (half) year, looking forward to the next one!"
+    },
+    {
+      title: "Confirmed: Legendary Status",
+      img: "sulfuras.png",
+      date: "2019-01-08",
+      tags: ["Announcement"],
+      summary: "Congratulations to Gasfyr, wielder of Sulfuras!",
+      content:
+        "Long before he could stand on his 2 tiny danish tater tot legs, young Gasfyr had but one goal in mind: wielding the legendary hammer Sulfuras. To the envy of paladins everywhere (and presumably a healthy dose of shamans and warriors too!), today that goal was fulfilled. Congratulations to Gasfyr from us all, well done!"
     }
   ];
 
