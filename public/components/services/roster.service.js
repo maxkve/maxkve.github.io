@@ -101,11 +101,11 @@ angular.module("epgpApp").service("rosterService", function() {
   };
 
   let roster = [
-    {
+    /*{
       real: {
         name: "Max",
         img: "",
-        roles: "Guild Master, Webmaster",
+        roles: "Webmaster",
         rank: "raider"
       },
       game: {
@@ -115,12 +115,12 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "holy",
         level: 60
       }
-    },
+    },*/
     {
       real: {
         name: "Albin",
         img: "",
-        roles: "Assistant Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith",
+        roles: "Guild Master, Main Tank, Assistant Raid Leader, Weaponsmith",
         rank: "raider"
       },
       game: {
@@ -135,7 +135,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Hampus",
         img: "",
-        roles: "Roster Manager, Discord Manager, Guild Officer",
+        roles: "Roster Manager, Discord Manager, Officer",
         rank: "raider"
       },
       game: {
@@ -150,7 +150,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Oskar",
         img: "",
-        roles: "Alchemist, Healing Coordinator",
+        roles: "Officer, Alchemist, Healing Coordinator",
         rank: "raider"
       },
       game: {
@@ -180,7 +180,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Anton",
         img: "",
-        roles: "Raid Leader, Guild Officer, Off-tank, Armorsmith",
+        roles: "Assistant Guild Master, Raid Leader, Officer, Off-tank, Armorsmith",
         rank: "raider"
       },
       game: {
@@ -270,7 +270,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Christian",
         img: "",
-        roles: "Guild Officer",
+        roles: "Officer",
         rank: "raider"
       },
       game: {
@@ -315,7 +315,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Andrion",
         img: "",
-        roles: "Guild Officer, Hunter Class Leader",
+        roles: "Officer, Hunter Class Leader",
         rank: "raider"
       },
       game: {
@@ -540,7 +540,7 @@ angular.module("epgpApp").service("rosterService", function() {
       real: {
         name: "Ardy",
         img: "",
-        roles: "Raid Manager, Guild Officer, Melee Coordinator",
+        roles: "Raid Manager, Officer, Melee Coordinator",
         rank: "raider"
       },
       game: {
@@ -733,21 +733,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Fyeah",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Fyeah",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Coldlight",
         img: "",
         roles: "",
@@ -760,7 +745,7 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "holy",
         level: 60
       }
-    } /*,
+    },
     {
       real: {
         name: "Selenez",
@@ -790,6 +775,6 @@ angular.module("epgpApp").service("rosterService", function() {
         spec: "holy",
         level: 60
       }
-    }*/
+    }
   ];
 });
