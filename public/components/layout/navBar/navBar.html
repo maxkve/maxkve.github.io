@@ -5,7 +5,7 @@
     <!--<div class="santa-hat"><img ng-src="public/assets/hat.png" draggable="false" /></div>-->
     <div class="guild-text">
       <div class="guild__name">Standard Procedure</div>
-      <div title="Standard Procedure is an EU-Alliance guild operating in GMT+1, currently recruiting for World of Warcraft Classic." class="guild__server">
+      <div class="guild__server">
         Noggenfogger-EU
       </div>
     </div>
@@ -27,11 +27,20 @@
         <md-menu-item><md-button ng-click="$ctrl.openLootModal()">Loot</md-button></md-menu-item>
         <md-menu-item><md-button ng-click="$ctrl.openRaidModal()">Raids</md-button></md-menu-item>
         <md-menu-item><md-button ng-click="$ctrl.openRosterModal()">Roster</md-button></md-menu-item>
-        <md-menu-item><md-button ng-disabled="true" href="" target="_blank">Apply</md-button></md-menu-item>
+        <md-menu-item
+          ><md-button href="https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform" target="_blank"
+            >Apply</md-button
+          ></md-menu-item
+        >
       </md-menu-content>
     </md-menu>
   </div>
   <div class="header__apply">
-    <md-button ng-disabled="true" class="md-accent md-raised" href="" target="_blank">Apply</md-button>
+    <md-button
+      class="md-accent md-raised"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform"
+      target="_blank"
+      >Apply</md-button
+    >
   </div>
 </div>

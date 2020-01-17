@@ -193,21 +193,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Viktor",
-        img: "",
-        roles: "Assistant Tailor",
-        rank: "raider"
-      },
-      game: {
-        name: "Rascalgag",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Mackan",
         img: "",
         roles: "",
@@ -293,21 +278,6 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "druid",
         spec: "feral",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Ben",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Aramus",
-        img: "",
-        class: "mage",
-        spec: "frost",
         level: 60
       }
     },
@@ -628,21 +598,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Isythien",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Isythien",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Sarca",
         img: "",
         roles: "",
@@ -727,21 +682,6 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Bloodbad",
         img: "",
         class: "paladin",
-        spec: "holy",
-        level: 60
-      }
-    },
-    {
-      real: {
-        name: "Coldlight",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Coldlight",
-        img: "",
-        class: "priest",
         spec: "holy",
         level: 60
       }
