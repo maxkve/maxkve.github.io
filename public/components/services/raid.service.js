@@ -8,16 +8,16 @@ angular.module("epgpApp").service("raidService", function() {
       killCount: "10 / 10",
       phase: "Phase 1",
       bosses: {
-        lucifron: { name: "Lucifron", killed: true, img: "lucifron.jpg" },
-        magmadar: { name: "Magmadar", killed: true, img: "magmadar.jpg" },
-        gehennas: { name: "Gehennas", killed: true, img: "gehennas.jpg" },
-        garr: { name: "Garr", killed: true, img: "garr.jpg" },
-        shazzrah: { name: "Shazzrah", killed: true, img: "shazzrah.jpg" },
-        barongeddon: { name: "Baron Geddon", killed: true, img: "geddon.jpg" },
-        sulfuronharbinger: { name: "Sulfuron Harbinger", killed: true, img: "sulfuron.jpg" },
-        golemaggtheincinerator: { name: "Golemagg", killed: true, img: "golemagg.jpg" },
-        majordomoexecutus: { name: "Majordomo", killed: true, img: "majordomo.jpg" },
-        ragnaros: { name: "Ragnaros", killed: true, img: "ragnaros.jpg" }
+        lucifron: { name: "Lucifron", killed: true, killDate: "2019-09-30", img: "lucifron.jpg" },
+        magmadar: { name: "Magmadar", killed: true, killDate: "2019-09-30", img: "magmadar.jpg" },
+        gehennas: { name: "Gehennas", killed: true, killDate: "2019-09-30", img: "gehennas.jpg" },
+        garr: { name: "Garr", killed: true, killDate: "2019-09-30", img: "garr.jpg" },
+        shazzrah: { name: "Shazzrah", killed: true, killDate: "2019-09-30", img: "shazzrah.jpg" },
+        barongeddon: { name: "Baron Geddon", killed: true, killDate: "2019-09-30", img: "geddon.jpg" },
+        sulfuronharbinger: { name: "Sulfuron Harbinger", killed: true, killDate: "2019-09-30", img: "sulfuron.jpg" },
+        golemaggtheincinerator: { name: "Golemagg", killed: true, killDate: "2019-09-30", img: "golemagg.jpg" },
+        majordomoexecutus: { name: "Majordomo", killed: true, killDate: "2019-09-30", img: "majordomo.jpg" },
+        ragnaros: { name: "Ragnaros", killed: true, killDate: "2019-10-06", img: "ragnaros.jpg" }
       }
     },
     onyxia: {
@@ -29,6 +29,7 @@ angular.module("epgpApp").service("raidService", function() {
         onyxia: {
           name: "Onyxia",
           killed: true,
+          killDate: "2019-10-02",
           img: "onyxia.jpg"
         }
       }
@@ -42,11 +43,13 @@ angular.module("epgpApp").service("raidService", function() {
         azuregos: {
           name: "Azuregos",
           killed: false,
+          killDate: "",
           img: "azuregos.jpg"
         },
         kazzak: {
           name: "Kazzak",
           killed: false,
+          killDate: "",
           img: "kazzak.jpg"
         }
       }
@@ -57,13 +60,13 @@ angular.module("epgpApp").service("raidService", function() {
       killCount: "0 / 7",
       phase: "Phase 3",
       bosses: {
-        vaelastrasz: { name: "Vaelastrasz", killed: false, img: "vaelastrasz.jpg" },
-        broodlord: { name: "Broodlord Lashlayer", killed: false, img: "broodlord.jpg" },
-        firemaw: { name: "Firemaw", killed: false, img: "firemaw.jpg" },
-        ebonroc: { name: "Ebonroc", killed: false, img: "ebonroc.jpg" },
-        flamegor: { name: "Flamegor", killed: false, img: "flamegor.jpg" },
-        chromaggus: { name: "Chromaggus", killed: false, img: "chromaggus.jpg" },
-        nefarian: { name: "Nefarian", killed: false, img: "nefarian.jpg" }
+        vaelastrasz: { name: "Vaelastrasz", killed: false, killDate: "", img: "vaelastrasz.jpg" },
+        broodlord: { name: "Broodlord Lashlayer", killed: false, killDate: "", img: "broodlord.jpg" },
+        firemaw: { name: "Firemaw", killed: false, killDate: "", img: "firemaw.jpg" },
+        ebonroc: { name: "Ebonroc", killed: false, killDate: "", img: "ebonroc.jpg" },
+        flamegor: { name: "Flamegor", killed: false, killDate: "", img: "flamegor.jpg" },
+        chromaggus: { name: "Chromaggus", killed: false, killDate: "", img: "chromaggus.jpg" },
+        nefarian: { name: "Nefarian", killed: false, killDate: "", img: "nefarian.jpg" }
       }
     }
   };

@@ -85,6 +85,12 @@
   text-indent: 10px;
 }
 
+.raid-boss__subtitle {
+  color: #666;
+  text-indent: 10px;
+  font-size: 1.4vh;
+}
+
 .raid-boss__status {
   display: flex;
   justify-content: flex-end;
@@ -124,7 +130,7 @@
 @media only screen and (min-width: 601px) {
   /* Web */
   .raid-instance {
-    width: calc(25% - 10px);
+    width: 100%;
   }
   .raid-bosses {
   }

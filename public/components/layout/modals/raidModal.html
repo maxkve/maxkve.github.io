@@ -42,7 +42,11 @@
               <div class="raid-boss__img">
                 <img ng-src="/public/assets/bosses/small/{{::boss.img}}" draggable="false" />
               </div>
-              <div class="raid-boss__name">{{ ::boss.name }}</div>
+              <div layout="column" layout-align="center start">
+                <div class="raid-boss__name">{{ ::boss.name }}</div>
+                <div class="raid-boss__subtitle" ng-if="::boss.killDate">{{ ::boss.killDate }}</div>
+                <div class="raid-boss__subtitle" ng-if="::!boss.killDate">No kills</div>
+              </div>
             </div>
             <div class="raid-boss__status" ng-if="::boss.killed">
               <img ng-src="/public/assets/interface/check-mark.svg" />
