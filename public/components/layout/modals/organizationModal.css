@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.role .modal-title {
+  margin-top: 0;
 }
 
 .role__title {

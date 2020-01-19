@@ -59,7 +59,7 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   margin-top: 5px;
   margin-bottom: 5px;
 }
