@@ -160,7 +160,7 @@
     flex-wrap: wrap;
     margin: 10px;
   }
-  .summary__class {
+  .roster-modal .summary__class {
     font-size: 1.6vh;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -201,7 +201,7 @@
     margin-right: 60px;
     margin-top: 20px;
   }
-  .summary__class {
+  .roster-modal .summary__class {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;

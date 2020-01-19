@@ -110,6 +110,13 @@
     margin-top: 30px;
     font-size: 1.6vh;
   }
+  .hero-banner .summary__class {
+    font-size: 1.6vh;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    margin: 4px;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -139,6 +146,12 @@
     position: absolute;
     bottom: 80px;
     font-size: 1.6vh;
+  }
+  .hero-banner .summary__class {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    margin: 4px;
   }
 }
 

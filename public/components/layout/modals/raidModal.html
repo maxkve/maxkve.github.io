@@ -34,21 +34,19 @@
     <div class="modal-title">Raid progress</div>
     <div class="raids">
       <div class="raid-instance noselect" ng-repeat="raid in ::raids">
-        <div class="raid-instance__title">
-          {{::raid.title}} <span style="color:#666;margin-left:2px">{{::raid.killCount}}</span>
-        </div>
-        <div class="raid-instance-web__img">
-          <img ng-src="/public/assets/raids/large/{{::raid.img}}" draggable="false" />
-        </div>
-        <div class="raid-instance-mobile__img">
-          <img ng-src="/public/assets/raids/small/{{::raid.img}}" draggable="false" />
-        </div>
+        <div class="raid-instance__title">{{::raid.title}} <span style="color:#666;margin-left:6px;font-size:1.4vh;">{{::raid.killCount}}</span></div>
+        <div class="raid-instance__subtitle">{{::raid.phase}}</div>
         <div class="raid-bosses">
-          <div class="raid-boss" ng-repeat="boss in ::raid.bosses" ng-class="{'faded-boss': boss.killed}">
-            <div class="raid-boss__img">
-              <img ng-src="/public/assets/bosses/small/{{::boss.img}}" draggable="false" />
+          <div class="raid-boss" ng-repeat="boss in ::raid.bosses">
+            <div layout="row">
+              <div class="raid-boss__img">
+                <img ng-src="/public/assets/bosses/small/{{::boss.img}}" draggable="false" />
+              </div>
+              <div class="raid-boss__name">{{ ::boss.name }}</div>
             </div>
-            <div class="raid-boss__name">{{ ::boss.name }}</div>
+            <div class="raid-boss__status" ng-if="::boss.killed">
+              <img ng-src="/public/assets/interface/check-mark.svg" />
+            </div>
           </div>
         </div>
       </div>
