@@ -4,6 +4,7 @@ angular.module("epgpApp").service("newsService", function() {
   let news = [
     {
       title: "Player Introduction: Combobreaker",
+      author: "Combobreaker",
       img: "vector2.jpg",
       date: "2019-06-01",
       tags: ["Player Introduction"],
@@ -13,6 +14,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Zorn",
+      author: "Combobreaker",
       img: "zorn.jpg",
       date: "2019-06-04",
       tags: ["Player Introduction"],
@@ -22,6 +24,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Zorn appears on Countdown to Classic",
+      author: "Combobreaker",
       img: "countdowntoclassic.jpg",
       date: "2019-07-03",
       tags: ["Announcement"],
@@ -31,6 +34,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Ohhstar",
+      author: "Ohhstar",
       img: "ohhstar.jpg",
       date: "2019-07-21",
       tags: ["Player Introduction"],
@@ -40,6 +44,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Initial recruitment drive finished",
+      author: "Combobreaker",
       img: "recruit.jpg",
       date: "2019-07-21",
       tags: ["Announcement"],
@@ -49,6 +54,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Growgor",
+      author: "Growgor",
       img: "growgor.jpg",
       date: "2019-07-31",
       tags: ["Player Introduction"],
@@ -58,6 +64,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Froeen",
+      author: "Froeen",
       img: "froeen.jpg",
       date: "2019-07-31",
       tags: ["Player Introduction"],
@@ -67,6 +74,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Allistair",
+      author: "Allistair",
       img: "classic.jpg",
       date: "2019-08-01",
       tags: ["Player Introduction"],
@@ -76,6 +84,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Somedaymaybe",
+      author: "Somedaymaybe",
       img: "somedaymaybe.jpg",
       date: "2019-08-01",
       tags: ["Player Introduction"],
@@ -85,6 +94,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Peaches",
+      author: "Peaches",
       img: "classic.jpg",
       date: "2019-08-09",
       tags: ["Player Introduction"],
@@ -94,6 +104,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Ema",
+      author: "Ema",
       img: "classic.jpg",
       date: "2019-08-09",
       tags: ["Player Introduction"],
@@ -103,6 +114,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Benmeister",
+      author: "Benmeister",
       img: "benny.jpg",
       date: "2019-08-10",
       tags: ["Player Introduction"],
@@ -112,6 +124,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Baraccus",
+      author: "Baraccus",
       img: "classic.jpg",
       date: "2019-08-20",
       tags: ["Player Introduction"],
@@ -121,6 +134,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Rascalgag",
+      author: "Rascalgag",
       img: "classic.jpg",
       date: "2019-08-20",
       tags: ["Player Introduction"],
@@ -130,6 +144,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "We've rolled on Noggenfogger!",
+      author: "Combobreaker",
       img: "classic.jpg",
       date: "2019-08-27",
       tags: ["Announcement"],
@@ -139,6 +154,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Recruitment has stopped",
+      author: "Combobreaker",
       img: "recruit.jpg",
       date: "2019-08-27",
       tags: ["Announcement"],
@@ -148,6 +164,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Raid start looms",
+      author: "Combobreaker",
       img: "blackrock.jpg",
       date: "2019-09-19",
       tags: ["Announcement"],
@@ -157,6 +174,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "First raid officially in the books",
+      author: "Ohhstar",
       img: "20190930.jpg",
       date: "2019-09-30",
       tags: ["Announcement"],
@@ -166,6 +184,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Dragon I hardly knew ya",
+      author: "Combobreaker",
       img: "20191002.jpg",
       date: "2019-10-02",
       tags: ["Announcement"],
@@ -174,6 +193,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Yesterdays' news: Ragnaros is no more",
+      author: "Combobreaker",
       img: "20191006.jpg",
       date: "2019-10-06",
       tags: ["Announcement"],
@@ -183,6 +203,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Success rate increased to 200%",
+      author: "Combobreaker",
       img: "20191125.jpg",
       date: "2019-11-25",
       tags: ["Announcement"],
@@ -192,6 +213,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Standard Procedure Season's Greetings",
+      author: "Combobreaker",
       img: "christmas.png",
       date: "2019-12-29",
       tags: ["Announcement"],
@@ -201,13 +223,24 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Confirmed: Legendary Status",
+      author: "Combobreaker",
       img: "sulfuras.png",
       date: "2019-01-08",
       tags: ["Announcement"],
       summary: "Congratulations to Gasfyr, wielder of Sulfuras!",
       content:
         "Long before he could stand on his 2 tiny danish tater tot legs, young Gasfyr had but one goal in mind: wielding the legendary hammer Sulfuras. To the envy of paladins everywhere (and presumably a healthy dose of shamans and warriors too!), today that goal was fulfilled. Congratulations to Gasfyr from us all, well done!"
-    }
+    } /*,
+    {
+      title: "BWL Release Imminent",
+      author: "Zorn",
+      img: "bwl.jpg",
+      date: "2019-01-20",
+      tags: ["Announcement"],
+      summary: "We look forward to clearing it...standardly?",
+      content:
+        "Long before he could stand on his 2 tiny danish tater tot legs, young Gasfyr had but one goal in mind: wielding the legendary hammer Sulfuras. To the envy of paladins everywhere (and presumably a healthy dose of shamans and warriors too!), today that goal was fulfilled. Congratulations to Gasfyr from us all, well done!"
+    }*/
   ];
 
   this.getNewsReadOnly = function() {

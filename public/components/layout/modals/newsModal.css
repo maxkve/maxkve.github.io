@@ -37,7 +37,7 @@
 .news-date {
   font-size: 1.6vh;
   color: #666;
-  text-transform: uppercase;
+  text-transform: none;
   font-family: "Titillium Web", sans-serif;
   margin-bottom: 10px;
 }

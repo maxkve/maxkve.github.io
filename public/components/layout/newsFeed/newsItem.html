@@ -5,7 +5,7 @@
     </div>
     <div class="news-item__text">
       <div class="text__title">{{ ::$ctrl.newsItem.title }}</div>
-      <div class="text__date">{{ ::$ctrl.newsItem.date }}</div>
+      <div class="text__date">{{ ::$ctrl.newsItem.date }} by {{ ::$ctrl.newsItem.author }}</div>
       <div class="text__summary">{{ ::$ctrl.newsItem.summary }}</div>
       <div class="text__tags">
         <div class="tag" ng-repeat="tag in ::$ctrl.newsItem.tags">{{ tag }}</div>

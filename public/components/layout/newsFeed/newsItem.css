@@ -51,7 +51,7 @@
 }
 
 .text__date {
-  text-transform: uppercase;
+  text-transform: none;
   color: #666;
 }
 

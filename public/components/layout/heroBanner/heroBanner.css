@@ -31,6 +31,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   font-weight: normal;
+  padding-right: 12px;
 }
 
 .hero-banner__recruit .summary__class {
