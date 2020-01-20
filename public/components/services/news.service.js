@@ -14,7 +14,7 @@ angular.module("epgpApp").service("newsService", function() {
     },
     {
       title: "Player Introduction: Zorn",
-      author: "Combobreaker",
+      author: "Zorn",
       img: "zorn.jpg",
       date: "2019-06-04",
       tags: ["Player Introduction"],
