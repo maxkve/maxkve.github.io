@@ -183,7 +183,7 @@ angular.module("epgpApp").service("newsService", function() {
         "What an amazing run, everyone made such an effort. We were a total of 30 people in the raid and 7 of those people were lvl 55-59, we managed to kill 9/10 Bosses up to Majordomo because time was against us, but next time we will be coming for the Ragnaros kill.<br><br>We had very few wipes during the course of the raid, the bosses and the trash went down smoothly and easily even though we had some AoE taunts from DPS and a little Druid that blew up the whole raid (no names mentioned).<br><br>Extra thanks to those who ran to Azshara to collect water so we could spawn all the bosses!<br><br>On the last boss that we killed, Majordomo, we were 29 people because one person had to go and save lives IRL.<br><br>We had one initial wipe on Majordomo before he died (with just a few deaths on our side)."
     },
     {
-      title: "Dragon I hardly knew ya",
+      title: "Dragon I hardly knew ye",
       author: "Combobreaker",
       img: "20191002.jpg",
       date: "2019-10-02",
@@ -230,17 +230,17 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "Congratulations to Gasfyr, wielder of Sulfuras!",
       content:
         "Long before he could stand on his 2 tiny danish tater tot legs, young Gasfyr had but one goal in mind: wielding the legendary hammer Sulfuras. To the envy of paladins everywhere (and presumably a healthy dose of shamans and warriors too!), today that goal was fulfilled. Congratulations to Gasfyr from us all, well done!"
-    } /*,
+    },
     {
-      title: "BWL Release Imminent",
+      title: "BWL is just around the corner",
       author: "Zorn",
       img: "bwl.jpg",
       date: "2019-01-20",
       tags: ["Announcement"],
-      summary: "We look forward to clearing it...standardly?",
+      summary: "What does the lord of Blackrock Mountain have in store for us?",
       content:
-        "Long before he could stand on his 2 tiny danish tater tot legs, young Gasfyr had but one goal in mind: wielding the legendary hammer Sulfuras. To the envy of paladins everywhere (and presumably a healthy dose of shamans and warriors too!), today that goal was fulfilled. Congratulations to Gasfyr from us all, well done!"
-    }*/
+        "As the release of phase 3 grows ever closer we prepare ourselves as best we can to take on the forces of Blackwing Lair. On the 13th of February we will storm through the portal and face dragons and drakes alike. Let the games...begin!"
+    }
   ];
 
   this.getNewsReadOnly = function() {
