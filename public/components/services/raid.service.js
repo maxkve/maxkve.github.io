@@ -57,16 +57,17 @@ angular.module("epgpApp").service("raidService", function() {
     blackwinglair: {
       title: "Blackwing Lair",
       img: "moltencore3.jpg",
-      killCount: "0 / 7",
+      killCount: "8 / 8",
       phase: "Phase 3",
       bosses: {
-        vaelastrasz: { name: "Vaelastrasz", killed: false, killDate: "", img: "vaelastrasz.jpg" },
-        broodlord: { name: "Broodlord Lashlayer", killed: false, killDate: "", img: "broodlord.jpg" },
-        firemaw: { name: "Firemaw", killed: false, killDate: "", img: "firemaw.jpg" },
-        ebonroc: { name: "Ebonroc", killed: false, killDate: "", img: "ebonroc.jpg" },
-        flamegor: { name: "Flamegor", killed: false, killDate: "", img: "flamegor.jpg" },
-        chromaggus: { name: "Chromaggus", killed: false, killDate: "", img: "chromaggus.jpg" },
-        nefarian: { name: "Nefarian", killed: false, killDate: "", img: "nefarian.jpg" }
+        razorgore: { name: "Razorgore", killed: true, killDate: "2020-02-13", img: "razorgore.jpg" },
+        vaelastrasz: { name: "Vaelastrasz", killed: true, killDate: "2020-02-13", img: "vaelastrasz.jpg" },
+        broodlord: { name: "Broodlord Lashlayer", killed: true, killDate: "2020-02-13", img: "broodlord.jpg" },
+        firemaw: { name: "Firemaw", killed: true, killDate: "2020-02-13", img: "firemaw.jpg" },
+        ebonroc: { name: "Ebonroc", killed: true, killDate: "2020-02-13", img: "ebonroc.jpg" },
+        flamegor: { name: "Flamegor", killed: true, killDate: "2020-02-13", img: "flamegor.jpg" },
+        chromaggus: { name: "Chromaggus", killed: true, killDate: "2020-02-13", img: "chromaggus.jpg" },
+        nefarian: { name: "Nefarian", killed: true, killDate: "2020-02-13", img: "nefarian.jpg" }
       }
     }
   };
