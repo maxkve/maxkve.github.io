@@ -240,6 +240,16 @@ angular.module("epgpApp").service("newsService", function() {
       summary: "What does the lord of Blackrock Mountain have in store for us?",
       content:
         "As the release of phase 3 grows ever closer we prepare ourselves as best we can to take on the forces of Blackwing Lair. On the 13th of February we will storm through the portal and face dragons and drakes alike. Let the games...begin!"
+    },
+    {
+      title: "The Lord of Blackrock is no more",
+      author: "Ohhstar",
+      img: "20200214.jpg",
+      date: "2019-02-14",
+      tags: ["Announcement"],
+      summary: "BWL 8/8 on our first night",
+      content:
+        "The 13th of February we entered his halls, well prepared and extremely hyped. A few initial bumps in the road showed us that the instance isn’t a complete pushover, but we quickly got back on track. The bosses fell over like dominos and not even Nefarian could hold us back! Thx for keeping the throne warm for us!<br><br>BWL 8/8 second alliance, fourth on the server - going strong!"
     }
   ];
 
