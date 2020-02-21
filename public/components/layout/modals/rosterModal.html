@@ -5,7 +5,7 @@
     <div class="modal-header-mobile__background"><img ng-src="/public/assets/headers/medium/dragon.jpg" draggable="false" /></div>
   </div>
   <div class="roster-summary noselect">
-    <div class="summary__class">{{::raiderCount}} raiders</div>
+    <div class="summary__class">{{::raiderCount}} Raiders</div>
     <div class="summary__class druid-text">
       <div class="summary__class-img"><img ng-src="/public/assets/classes/druid.png" draggable="false" /></div>
       {{::druidCount}}
@@ -66,7 +66,7 @@
         <div class="member__rank-icon noselect ">
           <!--
           <img ng-src="/public/assets/ranks/{{::member.real.rank}}.png" draggable="false" />
-					<md-tooltip md-direction="top">{{::member.real.rank}}</md-tooltip>
+					<md-tooltip md-direction="top">{{::member.real.rank | uppercase }}</md-tooltip>
 					-->
         </div>
       </div>

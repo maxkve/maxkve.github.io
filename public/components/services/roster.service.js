@@ -193,21 +193,6 @@ angular.module("epgpApp").service("rosterService", function() {
     },
     {
       real: {
-        name: "Mackan",
-        img: "",
-        roles: "",
-        rank: "raider"
-      },
-      game: {
-        name: "Mageic",
-        img: "",
-        class: "mage",
-        spec: "frost",
-        level: 60
-      }
-    },
-    {
-      real: {
         name: "Jens",
         img: "",
         roles: "",
@@ -622,7 +607,7 @@ angular.module("epgpApp").service("rosterService", function() {
         name: "Moan",
         img: "",
         class: "warrior",
-        spec: "arms",
+        spec: "fury",
         level: 60
       }
     },
@@ -713,6 +698,81 @@ angular.module("epgpApp").service("rosterService", function() {
         img: "",
         class: "paladin",
         spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Bigglefroo",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Bigglefroo",
+        img: "",
+        class: "warlock",
+        spec: "destruction",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Lafiel",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Lafiel",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Cryptern",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Cryptern",
+        img: "",
+        class: "paladin",
+        spec: "holy",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Crazymary",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Crazymary",
+        img: "",
+        class: "mage",
+        spec: "frost",
+        level: 60
+      }
+    },
+    {
+      real: {
+        name: "Ninthe",
+        img: "",
+        roles: "",
+        rank: "raider"
+      },
+      game: {
+        name: "Ninthe",
+        img: "",
+        class: "warrior",
+        spec: "fury",
         level: 60
       }
     }
