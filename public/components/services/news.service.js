@@ -225,7 +225,7 @@ angular.module("epgpApp").service("newsService", function () {
       title: "Confirmed: Legendary Status",
       author: "Combobreaker",
       img: "sulfuras.png",
-      date: "2019-01-08",
+      date: "2020-01-08",
       tags: ["Announcement"],
       summary: "Congratulations to Gasfyr, wielder of Sulfuras!",
       content:
@@ -235,7 +235,7 @@ angular.module("epgpApp").service("newsService", function () {
       title: "BWL is just around the corner",
       author: "Zorn",
       img: "bwl.jpg",
-      date: "2019-01-20",
+      date: "2020-01-20",
       tags: ["Announcement"],
       summary: "What does the lord of Blackrock Mountain have in store for us?",
       content:
@@ -245,7 +245,7 @@ angular.module("epgpApp").service("newsService", function () {
       title: "The Lord of Blackrock is no more",
       author: "Ohhstar",
       img: "20200214.jpg",
-      date: "2019-02-14",
+      date: "2020-02-14",
       tags: ["Announcement"],
       summary: "BWL 8/8 on our first night",
       content:
