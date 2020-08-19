@@ -261,6 +261,16 @@ angular.module("epgpApp").service("newsService", function () {
       content:
         "Congratulations to our main tank Wezzi who finally received Thunderfury this weekend, emerging as the coolest Thunderfury-wielding member of his immediate family. No threat meter is safe going forward.",
     },
+    {
+      title: "Neighborhood Misfits Commit Deicide",
+      author: "Combobreaker",
+      img: "20200819.jpg",
+      date: "2020-08-19",
+      tags: ["Announcement"],
+      summary: "Just another day at the office",
+      content:
+        "Another day, another God slain - it's all in the name over here at Standard Procedure. The boys and girls made short work of yet another deity this past week. 'What's next?' you ask? Why, I don't know? Maybe we'll kill YOUR God! Haha, just kidding. We wouldn't.<br><br>We also want to specially congratulate Shemmari on becoming one of the servers first Scarab Lords!",
+    },
   ];
 
   this.getNewsReadOnly = function () {
