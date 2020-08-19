@@ -247,7 +247,7 @@ angular.module("epgpApp").service("newsService", function () {
       img: "20200214.jpg",
       date: "2020-02-14",
       tags: ["Announcement"],
-      summary: "BWL 8/8 on our first night",
+      summary: "BWL 8/8 on our first night.",
       content:
         "The 13th of February we entered his halls, well prepared and extremely hyped. A few initial bumps in the road showed us that the instance isn’t a complete pushover, but we quickly got back on track. The bosses fell over like dominos and not even Nefarian could hold us back! Thx for keeping the throne warm for us!<br><br>BWL 8/8 second alliance, fourth on the server - going strong!",
     },
@@ -267,7 +267,7 @@ angular.module("epgpApp").service("newsService", function () {
       img: "20200819.jpg",
       date: "2020-08-19",
       tags: ["Announcement"],
-      summary: "Just another day at the office",
+      summary: "Just another day at the office.",
       content:
         "Another day, another God slain - it's all in the name over here at Standard Procedure. The boys and girls made short work of yet another deity this past week. 'What's next?' you ask? Why, I don't know? Maybe we'll kill YOUR God! Haha, just kidding. We wouldn't.<br><br>We also want to specially congratulate Shemmari on becoming one of the servers first Scarab Lords!",
     },
