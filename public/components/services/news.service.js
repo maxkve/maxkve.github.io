@@ -271,6 +271,16 @@ angular.module("epgpApp").service("newsService", function () {
       content:
         "Another day, another God slain - it's all in the name over here at Standard Procedure. The boys and girls made short work of yet another deity this past week. 'What's next?' you ask? Why, I don't know? Maybe we'll kill YOUR God! Haha, just kidding. We wouldn't.<br><br>We also want to specially congratulate Shemmari on becoming one of the servers first Scarab Lords!",
     },
+    {
+      title: "Now Recruiting for Wednesday and Sunday Raids!",
+      author: "Ohhstar",
+      img: "20200920.jpg",
+      date: "2020-09-20",
+      tags: ["Announcement"],
+      summary: "Are you a mage, warlock, priest, or just awesome?",
+      content:
+        "We are now recruting for our Wednesday and Sunday raids. We are mainly looking for 1 or 2 mages and a warlock or a priest, but any excellent application will be considered. Apply using our Google form and we'll be in touch!<br><br><a href='https://docs.google.com/forms/d/e/1FAIpQLSfqn8qNK1cxgCPWJ7cuB092Kj_JDqVgDYpMMHR8Bjy825pW0w/viewform' target='_blank'>Click here to apply!</a>",
+    },
   ];
 
   this.getNewsReadOnly = function () {

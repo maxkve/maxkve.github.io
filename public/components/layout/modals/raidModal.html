@@ -24,9 +24,9 @@
     <div class="modal-title">Raid times (in realm time)</div>
     <div class="raid-times__schedule">
       <ul>
-        <li>Wednesdays 18.30-22.00</li>
-        <li>Sundays 18.30-22.00</li>
-        <li>Tuesdays (extra) 18.30-22.00</li>
+        <li>Wednesdays 19.30-22.00 (BWL + binding run)</li>
+        <li>Sundays 18.30-22.00 (AQ40)</li>
+        <li>Tuesdays (extra)</li>
       </ul>
     </div>
   </div>
@@ -34,7 +34,7 @@
     <div class="modal-title">Raid progress</div>
     <div class="raids">
       <div class="raid-instance noselect" ng-repeat="raid in ::raids">
-        <div class="raid-instance__title">{{::raid.title}} <span style="color:#666;margin-left:6px;font-size:1.4vh;">{{::raid.killCount}}</span></div>
+        <div class="raid-instance__title">{{::raid.title}} <span style="color: #666; margin-left: 6px; font-size: 1.4vh">{{::raid.killCount}}</span></div>
         <div class="raid-instance__subtitle">{{::raid.phase}}</div>
         <div class="raid-bosses">
           <div class="raid-boss" ng-repeat="boss in ::raid.bosses">

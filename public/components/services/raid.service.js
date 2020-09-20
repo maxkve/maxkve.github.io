@@ -49,14 +49,17 @@ angular.module("epgpApp").service("raidService", function () {
     },
     ahnqiraj: {
       title: "Ahn'Qiraj",
-      killCount: "6 / 6",
+      killCount: "9 / 9",
       phase: "Phase 5",
       bosses: {
         skeram: { name: "The Prophet Skeram", killed: true, killDate: "2020-08-17", img: "skeram.jpg" },
+        bugtrio: { name: "Bug Trio", killed: true, killDate: "2020-08-17", img: "bugtrio.jpg" },
         sartura: { name: "Battleguard Sartura", killed: true, killDate: "2020-08-17", img: "sartura.jpg" },
         fankriss: { name: "Fankriss the Unyielding", killed: true, killDate: "2020-08-17", img: "fankriss.jpg" },
+        viscidus: { name: "Viscidus", killed: true, killDate: "2020-08-17", img: "viscidus.jpg" },
         huhuran: { name: "Princess Huhuran", killed: true, killDate: "2020-08-17", img: "huhuran.jpg" },
         emperors: { name: "Twin Emperors", killed: true, killDate: "2020-08-17", img: "emperors.jpg" },
+        ouro: { name: "Ouro", killed: true, killDate: "2020-08-17", img: "ouro.jpg" },
         cthun: { name: "C'Thun", killed: true, killDate: "2020-08-17", img: "cthun.jpg" },
       },
     },

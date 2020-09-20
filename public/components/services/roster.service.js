@@ -172,7 +172,7 @@ angular.module("epgpApp").service("rosterService", function () {
         name: "Ohhstar",
         img: "",
         class: "mage",
-        spec: "frost",
+        spec: "fire",
         level: 60,
       },
     },
@@ -193,13 +193,13 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Jens",
+        name: "Öst",
         img: "",
         roles: "",
         rank: "raider",
       },
       game: {
-        name: "Sleypner",
+        name: "Rascalgag",
         img: "",
         class: "warlock",
         spec: "destruction",
@@ -244,10 +244,10 @@ angular.module("epgpApp").service("rosterService", function () {
         rank: "raider",
       },
       game: {
-        name: "Chresjan",
+        name: "Ánnas",
         img: "",
-        class: "paladin",
-        spec: "holy",
+        class: "rogue",
+        spec: "combat",
         level: 60,
       },
     },
@@ -319,22 +319,7 @@ angular.module("epgpApp").service("rosterService", function () {
         rank: "raider",
       },
       game: {
-        name: "Ceejay",
-        img: "",
-        class: "druid",
-        spec: "restoration",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Emil",
-        img: "",
-        roles: "Assistant Enchanter",
-        rank: "raider",
-      },
-      game: {
-        name: "Frø",
+        name: "Ols",
         img: "",
         class: "rogue",
         spec: "combat",
@@ -383,21 +368,6 @@ angular.module("epgpApp").service("rosterService", function () {
         img: "",
         class: "rogue",
         spec: "combat",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Gareth",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Nandaiya",
-        img: "",
-        class: "druid",
-        spec: "restoration",
         level: 60,
       },
     },
@@ -457,7 +427,7 @@ angular.module("epgpApp").service("rosterService", function () {
         name: "Pookie",
         img: "",
         class: "mage",
-        spec: "frost",
+        spec: "fire",
         level: 60,
       },
     },
@@ -469,25 +439,10 @@ angular.module("epgpApp").service("rosterService", function () {
         rank: "raider",
       },
       game: {
-        name: "Biaxident",
+        name: "Biax",
         img: "",
         class: "hunter",
         spec: "marksmanship",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Engineer",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Engineer",
-        img: "",
-        class: "warrior",
-        spec: "fury",
         level: 60,
       },
     },
@@ -538,21 +493,6 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Arlinn",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Arlinn",
-        img: "",
-        class: "druid",
-        spec: "restoration",
-        level: 60,
-      },
-    },
-    {
-      real: {
         name: "Sarca",
         img: "",
         roles: "",
@@ -578,21 +518,6 @@ angular.module("epgpApp").service("rosterService", function () {
         img: "",
         class: "warrior",
         spec: "fury",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Orawing",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Orawing",
-        img: "",
-        class: "priest",
-        spec: "holy",
         level: 60,
       },
     },
@@ -622,7 +547,22 @@ angular.module("epgpApp").service("rosterService", function () {
         name: "Shadybloke",
         img: "",
         class: "mage",
-        spec: "frost",
+        spec: "fire",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Orawing",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Orawind",
+        img: "",
+        class: "druid",
+        spec: "restoration",
         level: 60,
       },
     },
@@ -635,6 +575,21 @@ angular.module("epgpApp").service("rosterService", function () {
       },
       game: {
         name: "Bloodbad",
+        img: "",
+        class: "paladin",
+        spec: "holy",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Florenz",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Florenz",
         img: "",
         class: "paladin",
         spec: "holy",
@@ -688,21 +643,6 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Cryptern",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Cryptern",
-        img: "",
-        class: "paladin",
-        spec: "holy",
-        level: 60,
-      },
-    },
-    {
-      real: {
         name: "Crazymary",
         img: "",
         roles: "",
@@ -712,7 +652,7 @@ angular.module("epgpApp").service("rosterService", function () {
         name: "Crazymary",
         img: "",
         class: "mage",
-        spec: "frost",
+        spec: "fire",
         level: 60,
       },
     },
@@ -743,6 +683,66 @@ angular.module("epgpApp").service("rosterService", function () {
         img: "",
         class: "druid",
         spec: "restoration",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Jots",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Jots",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Retri",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Retri",
+        img: "",
+        class: "paladin",
+        spec: "retribution",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Noguhh",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Noguhh",
+        img: "",
+        class: "warlock",
+        spec: "destruction",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Synith",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Synith",
+        img: "",
+        class: "warrior",
+        spec: "fury",
         level: 60,
       },
     },
