@@ -165,7 +165,7 @@ angular.module("epgpApp").service("rosterService", function () {
       real: {
         name: "Kajsa",
         img: "",
-        roles: "Loot Manager, Enchanter, Tailor",
+        roles: "Loot Manager, Officer, Enchanter, Tailor",
         rank: "raider",
       },
       game: {
