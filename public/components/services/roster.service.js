@@ -358,36 +358,6 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Shemmari",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Shemmari",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Nicolaj",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Growgor",
-        img: "",
-        class: "rogue",
-        spec: "combat",
-        level: 60,
-      },
-    },
-    {
-      real: {
         name: "Replacement",
         img: "",
         roles: "",
@@ -418,21 +388,6 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Pookie",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Pookie",
-        img: "",
-        class: "mage",
-        spec: "fire",
-        level: 60,
-      },
-    },
-    {
-      real: {
         name: "Gunnar",
         img: "",
         roles: "",
@@ -456,8 +411,8 @@ angular.module("epgpApp").service("rosterService", function () {
       game: {
         name: "Ardy",
         img: "",
-        class: "warrior",
-        spec: "fury",
+        class: "paladin",
+        spec: "holy",
         level: 60,
       },
     },
@@ -531,8 +486,8 @@ angular.module("epgpApp").service("rosterService", function () {
       game: {
         name: "Gasfyr",
         img: "",
-        class: "warrior",
-        spec: "fury",
+        class: "paladin",
+        spec: "holy",
         level: 60,
       },
     },
@@ -688,51 +643,6 @@ angular.module("epgpApp").service("rosterService", function () {
     },
     {
       real: {
-        name: "Jots",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Jots",
-        img: "",
-        class: "hunter",
-        spec: "marksmanship",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Retri",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Retri",
-        img: "",
-        class: "paladin",
-        spec: "retribution",
-        level: 60,
-      },
-    },
-    {
-      real: {
-        name: "Noguhh",
-        img: "",
-        roles: "",
-        rank: "raider",
-      },
-      game: {
-        name: "Noguhh",
-        img: "",
-        class: "warlock",
-        spec: "destruction",
-        level: 60,
-      },
-    },
-    {
-      real: {
         name: "Synith",
         img: "",
         roles: "",
@@ -743,6 +653,201 @@ angular.module("epgpApp").service("rosterService", function () {
         img: "",
         class: "warrior",
         spec: "fury",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Taaron",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Taaron",
+        img: "",
+        class: "warlock",
+        spec: "destruction",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Lilc",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Lilc",
+        img: "",
+        class: "mage",
+        spec: "fire",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Neiabaraja",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Neiabaraja",
+        img: "",
+        class: "mage",
+        spec: "fire",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Obamium",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Obamium",
+        img: "",
+        class: "mage",
+        spec: "fire",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Imthewife",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Imthewife",
+        img: "",
+        class: "priest",
+        spec: "shadow",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Warbalz",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Warbalz",
+        img: "",
+        class: "priest",
+        spec: "holy",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Brbwifeaggro",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Brbwifeaggro",
+        img: "",
+        class: "paladin",
+        spec: "holy",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Dellandro",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Dellandro",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Smartytank",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Smartytank",
+        img: "",
+        class: "warrior",
+        spec: "fury",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Cage",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Cage",
+        img: "",
+        class: "rogue",
+        spec: "combat",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Megasavant",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Megasavant",
+        img: "",
+        class: "rogue",
+        spec: "combat",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Sadkek",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Sadkek",
+        img: "",
+        class: "rogue",
+        spec: "combat",
+        level: 60,
+      },
+    },
+    {
+      real: {
+        name: "Ludee",
+        img: "",
+        roles: "",
+        rank: "raider",
+      },
+      game: {
+        name: "Ludee",
+        img: "",
+        class: "hunter",
+        spec: "marksmanship",
         level: 60,
       },
     },
